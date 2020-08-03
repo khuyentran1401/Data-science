@@ -1,5 +1,5 @@
 # Data science on Medium
-Collection of  codes used in my [data science articles](https://medium.com/@khuyentran1476) on Medium
+Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476)
 
 # Contents
 1. [Data Science Tools](#data-science-tools)

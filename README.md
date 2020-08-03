@@ -30,16 +30,16 @@ Collection of  codes used in my [data science articles](https://medium.com/@khuy
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 |How to Efficiently Fine-Tune your Machine Learning Models | [link](https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
-| How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Seperate_XOR.ipynb) |
+| How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Sentiment Analysis of LinkedIn Messages      | [link]() | [link](/linkedin_analysis) |
-| Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733)      |   [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
+| Sentiment Analysis of LinkedIn Messages      | [link]() | [link](./nlp/linkedin_analysis) |
+| Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
 | How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](./nlp/tweets_tokenize.ipynb) |
- | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec) |
+ | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
  | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb)
 
@@ -57,7 +57,7 @@ Collection of  codes used in my [data science articles](https://medium.com/@khuy
 # Mathematical Programming
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./invest_stock) |
+| How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 
 
@@ -78,7 +78,7 @@ Collection of  codes used in my [data science articles](https://medium.com/@khuy
 | Boost Your Efficiency With Specialized Dictionary Implementations in Python | [link](https://medium.com/better-programming/boost-your-efficiency-with-specialized-dictionary-implementations-7799ec97d14f) | [link](./python/dictionary.ipynb) |
 | Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](./python/dictionary_ifelse.ipynb) |
 | How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](./python/zip.ipynb) |
-| Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link]('./python/four_numpy_methods.ipynb)
+| Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |
@@ -91,8 +91,7 @@ Collection of  codes used in my [data science articles](https://medium.com/@khuy
 | ------------- |:-------------:| :-----:|
 | Convex Hull: An Innovative Approach to Gift-Wrap your Data | [link](https://towardsdatascience.com/convex-hull-an-innovative-approach-to-gift-wrap-your-data-899992881efc) | [link](https://github.com/khuyentran1401/Computational-Geometry/blob/master/Graham%20Scan.ipynb) |
 | How to Visualize Social Network With Graph Theory | [link](https://towardsdatascience.com/how-to-visualize-social-network-with-graph-theory-4b2dc0c8a99f) | [link](https://github.com/khuyentran1401/Game-of-Thrones-And-Graph) |
-| How to Search Data with KDTree
-| [link](https://towardsdatascience.com/how-to-search-data-with-kdtree-aad5c82ebd99) | [link](https://github.com/khuyentran1401/kdtree-implementation) |
+| How to Search Data with KDTree | [link](https://towardsdatascience.com/how-to-search-data-with-kdtree-aad5c82ebd99) | [link](https://github.com/khuyentran1401/kdtree-implementation) |
 | How to Find the Nearest Hospital with a Voronoi Diagram | [link](https://towardsdatascience.com/how-to-find-the-nearest-hospital-with-voronoi-diagram-63bd6d0b7b75) | [link](https://github.com/khuyentran1401/Voronoi-diagram/)
 
 # Statistics

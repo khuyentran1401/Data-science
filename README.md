@@ -1,4 +1,4 @@
-# Data science Topics
+# Data Science Topics
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476)
 
 # Contents

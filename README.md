@@ -36,7 +36,7 @@ Collection of  codes used in my [data science articles](https://medium.com/@khuy
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Sentiment Analysis of LinkedIn Messages      | [link]() | [link](./nlp/linkedin_analysis) |
+| Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](./nlp/linkedin_analysis) |
 | Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
 | How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](./nlp/tweets_tokenize.ipynb) |
  | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |

@@ -1,6 +1,26 @@
 # Data Science Topics
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476)
 
+# Create environment for this repo with Anaconda
+
+Use the terminal or an Anaconda Prompt for the following steps:
+
+* Create the environment from the environment.yml file: 
+
+```
+conda env create -f environment.yml
+```
+
+* Activate the new environment: 
+```
+conda activate myenv
+```
+
+* Verify that the new environment was installed correctly:
+```
+conda env list
+```
+
 # Contents
 1. [Data Science Tools](#data-science-tools)
 1. [Machine Learning](#machine-learning)

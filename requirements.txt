@@ -257,7 +257,6 @@ dacite==1.5.1
 datapane==0.7.1
 decorator==4.4.2
 defusedxml==0.6.0
-en-core-web-sm==2.3.1
 entrypoints==0.3
 Faker==4.1.1
 flit-core==2.3.0

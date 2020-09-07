@@ -30,6 +30,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
 | Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
 | How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
+| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
+| 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 
 # Machine Learning
 | Title        | Medium article           | Repository  |

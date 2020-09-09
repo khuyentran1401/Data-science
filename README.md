@@ -66,6 +66,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
+| How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 
 
 # Scraping
@@ -92,7 +93,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
-| How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 # Data Structure
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

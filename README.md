@@ -27,7 +27,11 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](./data_science_tools/Hyperdash.ipynb) |
 | How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
 | Introduction to Datapane: A Python Library to Build Interactive Reports | [link](https://towardsdatascience.com/introduction-to-datapane-a-python-library-to-build-interactive-reports-4593fd3cb9c8) | 
-| How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb)
+| How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
+| Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
+| How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
+| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
+| 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 
 # Machine Learning
 | Title        | Medium article           | Repository  |
@@ -62,6 +66,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
+| How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 
 
 # Scraping
@@ -88,7 +93,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
-| How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 # Data Structure
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -114,7 +118,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
-
+| 5 Reasons why you should Switch from Jupyter Notebook to Scripts | [link](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95) |
 # Learning Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

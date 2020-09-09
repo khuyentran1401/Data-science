@@ -31,7 +31,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
 | How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
-| 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
+| How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 
 # Machine Learning
 | Title        | Medium article           | Repository  |
@@ -39,7 +39,7 @@ Collection of useful data science topics along with code and articles in my [dat
 |How to Efficiently Fine-Tune your Machine Learning Models | [link](https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
-| Introduction to Yellowbrick: A Python Library to Explain the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
+| 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
@@ -60,6 +60,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](./visualization/dropdown/dropdown.ipynb) |
 | I Scraped more than 1k Top Machine Learning Github Profiles and this is what I Found | [link](https://towardsdatascience.com/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474) | [link](./visualization/github)
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
+| Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
   
 
 # Mathematical Programming
@@ -115,7 +116,6 @@ Collection of useful data science topics along with code and articles in my [dat
 # Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 | Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |

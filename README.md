@@ -126,6 +126,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Learn Data Science when Life does not Give You a Break | [link](https://towardsdatascience.com/how-to-learn-data-science-when-life-does-not-give-you-a-break-a26a6ea328fd) |
 | How to Accelerate your Data Science Career by Putting yourself in the Right Environment | [link](https://towardsdatascience.com/how-to-accelerate-your-data-science-career-by-putting-yourself-in-the-right-environment-8316f42a476c) |
 | To become a Better Data Scientist, you need to Think like a Programmer | [link](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
+| How not to be Overwhelmed with Data Science | [link](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
 # Book Review
 | Title        | Medium article           | Repository  |

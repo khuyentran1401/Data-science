@@ -33,7 +33,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 | Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
-
+|Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
 # Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

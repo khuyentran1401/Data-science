@@ -93,6 +93,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](./python/dictionary_ifelse.ipynb) |
 | How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](./python/zip.ipynb) |
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
+| 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |

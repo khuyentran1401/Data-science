@@ -34,6 +34,9 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 | Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
+|Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
+| Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
+
 # Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -90,6 +93,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](./python/dictionary_ifelse.ipynb) |
 | How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](./python/zip.ipynb) |
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
+| 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |
@@ -121,6 +125,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | 5 Reasons why you should Switch from Jupyter Notebook to Scripts | [link](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95) |
+| 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification)
 # Learning Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

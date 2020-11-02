@@ -44,6 +44,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
+| Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
+
 
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
@@ -53,7 +55,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](./nlp/tweets_tokenize.ipynb) |
  | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
- | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb)
+ | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
+[Top 9 Keyboard Shortcuts in VSCode for Data Scientists] | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe)
 
 
 # Visualization

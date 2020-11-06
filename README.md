@@ -56,7 +56,7 @@ Collection of useful data science topics along with code and articles in my [dat
  | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
  | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
-[Top 9 Keyboard Shortcuts in VSCode for Data Scientists] | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe)
+Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe)
 
 
 # Visualization

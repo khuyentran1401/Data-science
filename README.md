@@ -8,6 +8,7 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Data Science Tools](#data-science-tools)
 1. [Machine Learning](#machine-learning)
 1. [Natural Language Processing](#natural-language-processing)
+1. [Time Series](#time-series)
 1. [Visualization](#visualization)
 1. [Mathematical Programming](#mathematical-programming)
 1. [Scraping](#scraping)

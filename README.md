@@ -58,6 +58,7 @@ Collection of useful data science topics along with code and articles in my [dat
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
  | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
+ | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  
 # Time Series
 | Title        | Medium article           | Repository  |

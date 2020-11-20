@@ -8,6 +8,7 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Data Science Tools](#data-science-tools)
 1. [Machine Learning](#machine-learning)
 1. [Natural Language Processing](#natural-language-processing)
+1. [Time Series](#time-series)
 1. [Visualization](#visualization)
 1. [Mathematical Programming](#mathematical-programming)
 1. [Scraping](#scraping)
@@ -57,6 +58,12 @@ Collection of useful data science topics along with code and articles in my [dat
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
  | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
+ | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
+ 
+# Time Series
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| 3 Ways to Extract Features from Dates with Python | [link](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 
 
 # Visualization
@@ -115,6 +122,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) |
+
 
 # Applications
 | Title        | Medium article           | Repository  |

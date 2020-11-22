@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 dp*
 .jovianrc
+mallet-2.0.8
+.benchmarks
 
 # VSCode workspace
 *-workspace

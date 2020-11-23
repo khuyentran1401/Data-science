@@ -104,14 +104,12 @@ Collection of useful data science topics along with code and articles in my [dat
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 
-![alt text](logos/parabola.png) 
 # Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
 
-![alt text](logos/hierarchy-structure.png)
 # Data Structure
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

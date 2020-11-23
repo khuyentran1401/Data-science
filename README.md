@@ -163,7 +163,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | 5 Reasons why you should Switch from Jupyter Notebook to Scripts | [link](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95) |
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
-| Top 9 Keyboar Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
+| Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 
 
 

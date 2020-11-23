@@ -20,7 +20,10 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Productive Tips](#productive-tips)
 1. [Learning Tips](#learning-tips)
 1. [Book Review](#book-review)
-# ![alt text](logos/settings.png) Data Science Tools
+
+![alt text](logos/settings.png) 
+# Data Science Tools 
+
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](./data_science_tools/faker.ipynb) |
@@ -39,7 +42,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 
-# ![alt text](logos/neural.png) Machine Learning
+![alt text](logos/neural.png)
+# Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 |How to Efficiently Fine-Tune your Machine Learning Models | [link](https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
@@ -48,8 +52,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 
-
-# ![alt text](logos/languages.png) Natural Language Processing
+![alt text](logos/languages.png)
+# Natural Language Processing
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](./nlp/linkedin_analysis) |
@@ -61,13 +65,15 @@ Collection of useful data science topics along with code and articles in my [dat
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  
-# ![alt text](logos/chronometer.png) Time Series
+![alt text](logos/chronometer.png)
+# Time Series
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | 3 Ways to Extract Features from Dates with Python | [link](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 
 
-# ![alt text](logos/bar-chart.png) Visualization
+![alt text](logos/bar-chart.png) 
+# Visualization
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](./visualization/medium_articles) |
@@ -77,22 +83,22 @@ Collection of useful data science topics along with code and articles in my [dat
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
 | Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
   
-
-# ![alt text](logos/calculator.png) Mathematical Programming
+![alt text](logos/calculator.png)
+# Mathematical Programming
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 
-
-# ![alt text](logos/scraping.png) Scraping
+![alt text](logos/scraping.png)
+# Scraping
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Web Scrape Movie Database with Beautiful Soup      | [link](https://medium.com/analytics-vidhya/detailed-tutorials-for-beginners-web-scrap-movie-database-from-multiple-pages-with-beautiful-soup-5836828d23) | [link](https://github.com/khuyentran1401/Web-scrape-Ghibli-Movie-Database/tree/master) |
 
-
-# ![alt text](logos/python.png) Python
+![alt text](logos/python.png)
+# Python
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Numpy Tricks for your Data Science Projects      | [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](./python/Numpy_tricks.ipynb) |
@@ -106,12 +112,15 @@ Collection of useful data science topics along with code and articles in my [dat
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 
-# ![alt text](logos/parabola.png) Linear Algebra
+![alt text](logos/parabola.png) 
+# Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
-# ![alt text](logos/hierarchy-structure.png) Data Structure
+
+![alt text](logos/hierarchy-structure.png)
+# Data Structure
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Convex Hull: An Innovative Approach to Gift-Wrap your Data | [link](https://towardsdatascience.com/convex-hull-an-innovative-approach-to-gift-wrap-your-data-899992881efc) | [link](https://github.com/khuyentran1401/Computational-Geometry/blob/master/Graham%20Scan.ipynb) |
@@ -119,18 +128,20 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Search Data with KDTree | [link](https://towardsdatascience.com/how-to-search-data-with-kdtree-aad5c82ebd99) | [link](https://github.com/khuyentran1401/kdtree-implementation) |
 | How to Find the Nearest Hospital with a Voronoi Diagram | [link](https://towardsdatascience.com/how-to-find-the-nearest-hospital-with-voronoi-diagram-63bd6d0b7b75) | [link](https://github.com/khuyentran1401/Voronoi-diagram/)
 
-# ![alt text](logos/analytics.png) Statistics
+![alt text](logos/analytics.png)
+# Statistics
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) |
 
-
-# ![alt text](logos/mobile-app.png) Applications
+![alt text](logos/mobile-app.png)
+# Applications
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 
-# ![alt text](logos/box.png) Productive Tips
+![alt text](logos/box.png)
+# Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
@@ -140,7 +151,8 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification)
 Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe)
 
-# ![alt text](logos/book.png) Learning Tips
+![alt text](logos/book.png)
+# Learning Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Learn Data Science when Life does not Give You a Break | [link](https://towardsdatascience.com/how-to-learn-data-science-when-life-does-not-give-you-a-break-a26a6ea328fd) |
@@ -148,7 +160,8 @@ Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsd
 | To become a Better Data Scientist, you need to Think like a Programmer | [link](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
 | How not to be Overwhelmed with Data Science | [link](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
-# ![alt text](logos/open-book.png) Book Review
+![alt text](logos/open-book.png)
+# Book Review
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |

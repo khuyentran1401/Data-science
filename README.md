@@ -140,7 +140,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 
-![alt text](logos/box.png)
 # Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

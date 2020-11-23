@@ -21,7 +21,6 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Learning Tips](#learning-tips)
 1. [Book Review](#book-review)
 
-![alt text](logos/settings.png) 
 # Data Science Tools 
 
 | Title        | Medium article           | Repository  |
@@ -52,7 +51,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 
-![alt text](logos/languages.png)
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -83,7 +81,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
 | Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
   
-![alt text](logos/calculator.png)
 # Mathematical Programming
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -91,13 +88,11 @@ Collection of useful data science topics along with code and articles in my [dat
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 
-![alt text](logos/scraping.png)
 # Scraping
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Web Scrape Movie Database with Beautiful Soup      | [link](https://medium.com/analytics-vidhya/detailed-tutorials-for-beginners-web-scrap-movie-database-from-multiple-pages-with-beautiful-soup-5836828d23) | [link](https://github.com/khuyentran1401/Web-scrape-Ghibli-Movie-Database/tree/master) |
 
-![alt text](logos/python.png)
 # Python
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -128,18 +123,15 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Search Data with KDTree | [link](https://towardsdatascience.com/how-to-search-data-with-kdtree-aad5c82ebd99) | [link](https://github.com/khuyentran1401/kdtree-implementation) |
 | How to Find the Nearest Hospital with a Voronoi Diagram | [link](https://towardsdatascience.com/how-to-find-the-nearest-hospital-with-voronoi-diagram-63bd6d0b7b75) | [link](https://github.com/khuyentran1401/Voronoi-diagram/)
 
-![alt text](logos/analytics.png)
 # Statistics
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) |
 
-![alt text](logos/mobile-app.png)
 # Applications
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
-
 
 # Learning Tips
 | Title        | Medium article           | Repository  |
@@ -149,7 +141,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | To become a Better Data Scientist, you need to Think like a Programmer | [link](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
 | How not to be Overwhelmed with Data Science | [link](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
-![alt text](logos/open-book.png)
 # Book Review
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

@@ -41,7 +41,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 
-![alt text](logos/neural.png)
 # Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -63,14 +62,12 @@ Collection of useful data science topics along with code and articles in my [dat
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  
-![alt text](logos/chronometer.png)
 # Time Series
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | 3 Ways to Extract Features from Dates with Python | [link](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 
 
-![alt text](logos/bar-chart.png) 
 # Visualization
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

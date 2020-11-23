@@ -160,6 +160,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | ------------- |:-------------:| :-----:|
 | Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
+| How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 
 
 

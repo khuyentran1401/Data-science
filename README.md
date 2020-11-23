@@ -151,7 +151,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification)
 Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe)
 
-![alt text](logos/book.png)
 # Learning Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

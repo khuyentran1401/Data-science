@@ -17,9 +17,10 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Data Structure](#data-structure)
 1. [Statistics](#statistics)
 1. [Applications](#applications)
-1. [Productive Tips](#productive-tips)
 1. [Learning Tips](#learning-tips)
+1. [Productive Tips](#productive-tips)
 1. [Book Review](#book-review)
+1. [Data Science Portfolio](#data-science-portfolio)
 
 # Data Science Tools 
 

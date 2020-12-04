@@ -156,7 +156,7 @@ Collection of useful data science topics along with code and articles in my [dat
 # Data Science Portfolio
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [link](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693 | 
+| How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [link](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693)| 
 
 
 

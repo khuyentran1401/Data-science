@@ -137,11 +137,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | To become a Better Data Scientist, you need to Think like a Programmer | [link](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
 | How not to be Overwhelmed with Data Science | [link](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
-# Book Review
-| Title        | Medium article           | Repository  |
-| ------------- |:-------------:| :-----:|
-| Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
-
 # Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -152,6 +147,16 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
 | Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 
+
+# Book Review
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
+
+# Data Science Portfolio
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [link](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693 | 
 
 
 

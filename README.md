@@ -17,9 +17,10 @@ Collection of useful data science topics along with code and articles in my [dat
 1. [Data Structure](#data-structure)
 1. [Statistics](#statistics)
 1. [Applications](#applications)
-1. [Productive Tips](#productive-tips)
 1. [Learning Tips](#learning-tips)
+1. [Productive Tips](#productive-tips)
 1. [Book Review](#book-review)
+1. [Data Science Portfolio](#data-science-portfolio)
 
 # Data Science Tools 
 
@@ -103,6 +104,7 @@ Collection of useful data science topics along with code and articles in my [dat
 | How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](./python/zip.ipynb) |
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
+| How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |
@@ -136,11 +138,6 @@ Collection of useful data science topics along with code and articles in my [dat
 | To become a Better Data Scientist, you need to Think like a Programmer | [link](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
 | How not to be Overwhelmed with Data Science | [link](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
-# Book Review
-| Title        | Medium article           | Repository  |
-| ------------- |:-------------:| :-----:|
-| Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
-
 # Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -151,6 +148,17 @@ Collection of useful data science topics along with code and articles in my [dat
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
 | Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 
+
+# Book Review
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
+
+# Data Science Portfolio
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [link](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693)| 
+| Build an Impressive Github Profile in 3 Steps | [link](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
 
 
 

@@ -8,6 +8,4 @@ How about your messages? Are they mostly positive and about the topics that are 
 
 As an active user on LinkedIn with more than 500 connections, I was curious about the statistics of people in my network as well as the messages I received over the last 2 years.
 
-What is good about analyzing LinkedIn data? Well, if you are optimizing your LinkedIn profile for job opportunities, why not use available data as your tool?
-
 In [this article](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84), I combine visualization and natural language processing to analyze my network and messages.

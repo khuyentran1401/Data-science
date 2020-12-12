@@ -1,4 +1,7 @@
-# Motivation
+# Sentiment Analysis of LinkedIn Messages
+
+<center><img src="https://github.com/khuyentran1401/Data-science/blob/master/img/linkedin_connection.png?raw=true"</center>
+
 If you are a LinkedIn user, have you ever wondered about the segments of people in your network? If you are working to expand your connections in the data science world, do most of the people in your network work in a data science-related field?
 
 How about your messages? Are they mostly positive and about the topics that are related to your interests?

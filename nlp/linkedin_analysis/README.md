@@ -10,4 +10,4 @@ As an active user on LinkedIn with more than 500 connections, I was curious abou
 
 What is good about analyzing LinkedIn data? Well, if you are optimizing your LinkedIn profile for job opportunities, why not use available data as your tool?
 
-In [this article](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84), I will combine visualization and natural language processing to analyze my network and messages. After this article, you should be able to analyze your own LinkedIn data and gain insights from it!
+In [this article](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84), I combine visualization and natural language processing to analyze my network and messages.

@@ -1,10 +1,12 @@
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/) 
 
 
 
 
 # [Data Science Topics](https://github.com/khuyentran1401/Data-science)
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476)
+
+If you prefer shorter versions of these blogs, subscribe to [Data Science Simplified](https://mathdatasimplified.com/) to receive bite-sized data science tips in your mailbox daily.
 
 # Contents
 1. [Data Science Tools](#data-science-tools)

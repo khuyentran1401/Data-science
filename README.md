@@ -1,10 +1,12 @@
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/) 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/) 
+
+[![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/)  [![RSS Reader](https://img.shields.io/badge/RSS%20Feed%20-Add%20to%20your%20RSS%20Reader-yellowgreend?logo=feedly)](https://medium.com/feed/@khuyentran1476) 
 
 
 
 
 # [Data Science Topics](https://github.com/khuyentran1401/Data-science)
-Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476)
+Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476). If you are using an RSS feeds reader, add [this link](https://medium.com/feed/@khuyentran1476) to your reader to get the notifications on my latest articles.
 
 If you prefer shorter versions of these blogs, subscribe to [Data Science Simplified](https://mathdatasimplified.com/) to receive bite-sized data science tips in your mailbox daily.
 

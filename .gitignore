@@ -6,6 +6,7 @@ dp*
 .jovianrc
 mallet-2.0.8
 .benchmarks
+wandb
 
 # VSCode workspace
 *-workspace

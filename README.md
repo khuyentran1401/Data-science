@@ -109,12 +109,8 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
+| Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 
-# Terminal
-| Title        | Medium article           | Repository  |
-| ------------- |:-------------:| :-----:|
-| Prettify your Terminal Text With Termcolor and Pyfiglet
-      | [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 # Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

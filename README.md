@@ -82,6 +82,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | I Scraped more than 1k Top Machine Learning Github Profiles and this is what I Found | [link](https://towardsdatascience.com/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474) | [link](./visualization/github)
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
 | Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
+| Visualize Gender-Specific Tweets with Scattertext | [link](https://medium.com/towards-artificial-intelligence/visualize-gender-specific-tweets-with-scattertext-5167e4600025) [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/scattertext)
   
 # Mathematical Programming
 | Title        | Medium article           | Repository  |

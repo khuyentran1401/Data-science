@@ -25,7 +25,7 @@ Jinja2==2.11.2
 jsonschema==3.2.0
 jupyter-core==4.6.3
 kiwisolver==1.2.0
-lxml==4.5.2
+lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.3.0
 mistune==0.8.4
@@ -94,7 +94,7 @@ joblib==0.16.0
 jsonschema==3.2.0
 jupyter-core==4.6.3
 kiwisolver==1.2.0
-lxml==4.5.2
+lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.3.0
 mistune==0.8.4
@@ -174,7 +174,7 @@ jsonschema==3.2.0
 jupyter-core==4.6.3
 kiwisolver==1.2.0
 langdetect==1.0.7
-lxml==4.5.2
+lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.3.0
 mip==1.4.2
@@ -282,7 +282,7 @@ jupyter-core==4.6.3
 kiwisolver==1.2.0
 langdetect==1.0.7
 llvmlite==0.33.0
-lxml==4.5.2
+lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.3.0
 mip==1.4.2

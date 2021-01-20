@@ -7,6 +7,9 @@ dp*
 mallet-2.0.8
 .benchmarks
 wandb
+*.pkl
+*.zip
+
 
 # VSCode workspace
 *-workspace

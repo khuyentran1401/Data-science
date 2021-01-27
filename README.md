@@ -113,6 +113,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 | Stop Using Print to Debug in Python. Use Icecream Instead | [link](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
+| Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |

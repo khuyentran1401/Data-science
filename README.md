@@ -10,6 +10,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 1. [Data Science Tools](#data-science-tools)
 1. [Machine Learning](#machine-learning)
 1. [Natural Language Processing](#natural-language-processing)
+1. [Computer Vision](#computer-vision)
 1. [Time Series](#time-series)
 1. [Visualization](#visualization)
 1. [Mathematical Programming](#mathematical-programming)
@@ -67,6 +68,11 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
+ 
+# Computer Vision
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Create an App to Classify Dogs Using fastai and Streamlit | [link](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [link](https://github.com/khuyentran1401/dog_classifier)
  
 # Time Series
 | Title        | Medium article           | Repository  |

@@ -10,6 +10,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 1. [Data Science Tools](#data-science-tools)
 1. [Machine Learning](#machine-learning)
 1. [Natural Language Processing](#natural-language-processing)
+1. [Computer Vision](#computer-vision)
 1. [Time Series](#time-series)
 1. [Visualization](#visualization)
 1. [Mathematical Programming](#mathematical-programming)
@@ -68,6 +69,11 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
  
+# Computer Vision
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Create an App to Classify Dogs Using fastai and Streamlit | [link](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [link](https://github.com/khuyentran1401/dog_classifier)
+ 
 # Time Series
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -84,6 +90,8 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
 | Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
 | Visualize Gender-Specific Tweets with Scattertext | [link](https://medium.com/towards-artificial-intelligence/visualize-gender-specific-tweets-with-scattertext-5167e4600025) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/scattertext)
+| Visualize Your Team’s Projects Using Python Gantt Chart | [link](https://towardsdatascience.com/visualize-your-teams-projects-using-python-gantt-chart-5a1c1c98ea35) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/gantt_chart/gantt_chart.ipynb)
+
   
 # Mathematical Programming
 | Title        | Medium article           | Repository  |

@@ -9,7 +9,8 @@ mallet-2.0.8
 wandb
 *.pkl
 *.zip
-
+*.gif
+*.jpg
 
 # VSCode workspace
 *-workspace

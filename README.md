@@ -15,6 +15,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 1. [Mathematical Programming](#mathematical-programming)
 1. [Scraping](#scraping)
 1. [Python](#python)
+1. [Terminal](#terminal)
 1. [Linear Algebra](#linear-algebra)
 1. [Data Structure](#data-structure)
 1. [Statistics](#statistics)
@@ -43,7 +44,6 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 |Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
-| Understand CSV Files from your Terminal with XSV | [link](https://towardsdatascience.com/understand-your-csv-files-from-your-terminal-with-xsv-65255ae67293) 
 
 # Machine Learning
 | Title        | Medium article           | Repository  |
@@ -111,10 +111,14 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
-| Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 | Stop Using Print to Debug in Python. Use Icecream Instead | [link](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 
+# Terminal
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| Understand CSV Files from your Terminal with XSV | [link](https://towardsdatascience.com/understand-your-csv-files-from-your-terminal-with-xsv-65255ae67293) 
+| Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 # Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|

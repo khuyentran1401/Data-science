@@ -1,6 +1,4 @@
 from rich.console import Console
-from time import sleep
-
 from rich.progress import track
 from time import sleep
 

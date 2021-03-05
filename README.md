@@ -105,6 +105,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Web Scrape Movie Database with Beautiful Soup      | [link](https://medium.com/analytics-vidhya/detailed-tutorials-for-beginners-web-scrap-movie-database-from-multiple-pages-with-beautiful-soup-5836828d23) | [link](https://github.com/khuyentran1401/Web-scrape-Ghibli-Movie-Database/tree/master) |
+| top-github-scraper: Scrape Top Github Users and Repositories Based On a Keyword in One Line of Code | [link](https://khuyentran1476.medium.com/top-github-scraper-scrape-top-github-users-and-repositories-based-on-a-keyword-in-one-line-of-code-d48b29954aac) | [link](https://github.com/khuyentran1401/Data-science/blob/master/scraping/scrape_top_github.ipynb)
 
 # Python
 | Title        | Medium article           | Repository  |

@@ -12,6 +12,8 @@ wandb
 *.gif
 *.jpg
 
+scraping/ghibli.ipynb
+
 # VSCode workspace
 *-workspace
 

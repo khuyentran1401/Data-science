@@ -51,7 +51,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-|How to Efficiently Fine-Tune your Machine Learning Models | [link](https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
+|How to Efficiently Fine-Tune your Machine Learning Models | <a href="https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1" target=__blank>link</a>| [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 

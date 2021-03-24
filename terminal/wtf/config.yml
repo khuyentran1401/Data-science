@@ -1,0 +1,128 @@
+wtf:
+  colors:
+    border:
+      focusable: darkslateblue
+      focused: orange
+      normal: gray
+  grid:
+    columns: [32, 32, 32, 32, 90]
+    rows: [10, 10, 10, 4, 4, 90]
+  refreshInterval: 1
+  mods:
+    nvidia-smi:
+      args: []
+      cmd: "nvidia-smi"
+      enabled: true
+      type: "cmdrunner"
+      position:
+        top: 0
+        left: 1
+        height: 1
+        width: 2
+      refreshInterval: 100
+    feedreader:
+      enabled: true
+      feeds:
+      - https://medium.com/feed/@khuyentran1476
+      - https://medium.com/feed/topic/data-science
+      - http://feeds.feedburner.com/DataScienceSimplified
+      feedLimit: 10
+      position:
+        top: 1
+        left: 1
+        width: 2
+        height: 1
+      updateInterval: 14400
+    todo:
+      checkedIcon: "X"
+      colors:
+        checked: gray
+        highlight:
+          fore: "black"
+          back: "orange"
+      enabled: true
+      filename: "todo.yml"
+      position:
+        top: 2
+        left: 1
+        height: 1
+        width: 1
+      refreshInterval: 3600
+    power:
+      enabled: true
+      position:
+        top: 2
+        left: 2
+        height: 1
+        width: 1
+      refreshInterval: 15
+      title: "⚡️"
+    gcal:
+      colors:
+        title: "red"
+        eventTime: "lightblue"
+        description: "yellow"
+        highlights:
+        - ['1on1|1\/11', 'green']
+        - ['apple|google|aws', 'blue']
+        - ['interview|meet', 'magenta']
+        - ['lunch', 'yellow']
+        past: "gray"
+      calendarReadLevel: "reader"
+      conflictIcon: "🚨"
+      currentIcon: "💥"
+      displayResponseStatus: true
+      email: "khuyentran1476@gmail.com"
+      enabled: true
+      eventCount: 15
+      hourFormat: "12"
+      multiCalendar: true
+      position:
+        top: 0
+        left: 0
+        height: 5
+        width: 1
+      refreshInterval: 300
+      secretFile: "~/.config/wtf/credentials.json"
+      showDeclined: true
+      showEndTime: false
+      timezone: "America/Chicago"
+      withLocation: true
+    git:
+      commitCount: 5
+      commitFormat: "[forestgreen]%h [grey]%cd [white]%s [grey]%an[white]"
+      dateFormat: "%H:%M %d %b %y"
+      enabled: true
+      position:
+        top: 3
+        left: 1
+        height: 2
+        width: 2
+      refreshInterval: 8
+      repositories:
+      - "/home/user/Data-science"
+    docker:
+      type: docker
+      enabled: true
+      labelColor: lightblue
+      position:
+        top: 5
+        left: 0
+        height: 2
+        width: 2
+      refreshInterval: 1
+    resourceusage:
+      cpuCombined: false
+      enabled: true
+      position:
+        top: 5
+        left: 2
+        height: 2
+        width: 1
+      refreshInterval: 1
+      showCPU: true
+      showMem: true
+      showSwp: true
+
+
+    

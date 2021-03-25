@@ -132,12 +132,12 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 | Stop Using Print to Debug in Python. Use Icecream Instead | [link](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
 | Rich: Generate Rich and Beautiful Text in the Terminal with Python | [link](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e#82f6-71c3ea605859-reply) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/rich)
+| Create a Beautiful Dashboard in your Terminal with Wtfutil | [link](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684#a02c-a765cf58b4fd-reply) | [link](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)
 # Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
-| Create a Beautiful Dashboard in your Terminal with Wtfutil | [link](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684#a02c-a765cf58b4fd-reply) | [link](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)
 
 # Data Structure
 | Title        | Medium article           | Repository  |

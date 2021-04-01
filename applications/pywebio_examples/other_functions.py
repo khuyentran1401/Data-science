@@ -34,12 +34,3 @@ def content_to_pandas(content: list):
 
 if __name__=='__main__':
     start_server(app, port=37791, debug=True)
-
-from pywebio.input import *
-from pywebio.output import *
-
-input("What's your name?")
-select("Select food", ['Orange', 'Apple'])
-checkbox("Are your okay?", options=["I'm okay."])
-radio("What do you like to do?", options=['Eat', 'Sleep', 'Study'])
-

@@ -22,12 +22,9 @@ def create_profile(df: pd.DataFrame):
         put_html(html)
 
 def content_to_pandas(content: list):
-    # Open the file for writing
     with open("tmp.csv", "w") as csv_file:
-        # Create the writer object with tab delimiter
         writer = csv.writer(csv_file, delimiter = '\t')
         for line in content:
-            # Writerow() needs a list of data to be written, so split at all empty spaces in the line 
             writer.writerow(re.split('\s+',line))
     return pd.read_csv("tmp.csv")
     

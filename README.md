@@ -47,6 +47,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
+| Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
 
 # Machine Learning
 | Title        | Medium article           | Repository  |

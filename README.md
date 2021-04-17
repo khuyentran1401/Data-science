@@ -47,6 +47,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
+| Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
 
 # Machine Learning
 | Title        | Medium article           | Repository  |
@@ -93,6 +94,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
 | Visualize Gender-Specific Tweets with Scattertext | [link](https://medium.com/towards-artificial-intelligence/visualize-gender-specific-tweets-with-scattertext-5167e4600025) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/scattertext)
 | Visualize Your Team’s Projects Using Python Gantt Chart | [link](https://towardsdatascience.com/visualize-your-teams-projects-using-python-gantt-chart-5a1c1c98ea35) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/gantt_chart/gantt_chart.ipynb)
+| How to Create Mathematical Animations like 3Blue1Brown Using Python |[link](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
 
   
 # Mathematical Programming
@@ -158,6 +160,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | ------------- |:-------------:| :-----:|
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
+| PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
 
 # Learning Tips
 | Title        | Medium article           | Repository  |

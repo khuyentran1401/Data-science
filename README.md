@@ -127,6 +127,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
+| 3 Tools to Monitor and Optimize your Linux System | [link](https://towardsdatascience.com/3-tools-to-monitor-and-optimize-your-linux-system-c8a46c18d692#3e4d-30c6afc3073a-reply) 
 
 # Terminal
 | Title        | Medium article           | Repository  |

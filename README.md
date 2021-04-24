@@ -58,7 +58,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
-| human-learn: Create a Human Learning Model using Drawings | [link](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [link](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
+| human-learn: Create a Human Learning Model by Drawing | [link](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [link](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
 
 # Natural Language Processing
 | Title        | Medium article           | Repository  |

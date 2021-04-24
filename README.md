@@ -95,6 +95,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Visualize Gender-Specific Tweets with Scattertext | [link](https://medium.com/towards-artificial-intelligence/visualize-gender-specific-tweets-with-scattertext-5167e4600025) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/scattertext)
 | Visualize Your Team’s Projects Using Python Gantt Chart | [link](https://towardsdatascience.com/visualize-your-teams-projects-using-python-gantt-chart-5a1c1c98ea35) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/gantt_chart/gantt_chart.ipynb)
 | How to Create Mathematical Animations like 3Blue1Brown Using Python |[link](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
+| How to Create Bindings and Conditions Between Multiple Plots Using Altair | [link](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair_advanced.ipynb)
 
   
 # Mathematical Programming
@@ -127,6 +128,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
 
+
 # Terminal
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -135,11 +137,14 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Stop Using Print to Debug in Python. Use Icecream Instead | [link](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
 | Rich: Generate Rich and Beautiful Text in the Terminal with Python | [link](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e#82f6-71c3ea605859-reply) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/rich)
 | Create a Beautiful Dashboard in your Terminal with Wtfutil | [link](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684#a02c-a765cf58b4fd-reply) | [link](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)
+| 3 Tools to Monitor and Optimize your Linux System | [link](https://towardsdatascience.com/3-tools-to-monitor-and-optimize-your-linux-system-c8a46c18d692#3e4d-30c6afc3073a-reply) 
+
 # Linear Algebra
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
+
 
 # Data Structure
 | Title        | Medium article           | Repository  |

@@ -58,6 +58,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
+| human-learn: Create a Human Learning Model by Drawing | [link](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [link](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
 
 # Natural Language Processing
 | Title        | Medium article           | Repository  |
@@ -87,7 +88,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](./visualization/medium_articles) |
-| How to Create Interactive Plots with Altair | [link](https://towardsdatascience.com/how-to-create-interactive-and-elegant-plot-with-altair-8dd87a890f2a) | [link](./visualization/altair.ipynb) |
+| How to Create Interactive Plots with Altair | [link](https://towardsdatascience.com/how-to-create-interactive-and-elegant-plot-with-altair-8dd87a890f2a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair.ipynb) |
 | How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](./visualization/dropdown/dropdown.ipynb) |
 | I Scraped more than 1k Top Machine Learning Github Profiles and this is what I Found | [link](https://towardsdatascience.com/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474) | [link](./visualization/github)
 | Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)

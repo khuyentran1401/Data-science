@@ -11,7 +11,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 1. [Machine Learning](#machine-learning)
 1. [Natural Language Processing](#natural-language-processing)
 1. [Computer Vision](#computer-vision)
-1. [Time Series](#time-series)
+1. [Feature Engineering](#feature-engineering)
 1. [Visualization](#visualization)
 1. [Mathematical Programming](#mathematical-programming)
 1. [Scraping](#scraping)
@@ -84,7 +84,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | ------------- |:-------------:| :-----:|
 | How to Create an App to Classify Dogs Using fastai and Streamlit | [link](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [link](https://github.com/khuyentran1401/dog_classifier)
  
-# Time Series
+# Feature Engineering
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | 3 Ways to Extract Features from Dates with Python | [link](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)

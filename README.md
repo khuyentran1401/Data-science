@@ -26,32 +26,38 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 1. [Book Review](#book-review)
 1. [Data Science Portfolio](#data-science-portfolio)
 
-# Data Science Tools 
+# Data 
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](./data_science_tools/faker.ipynb) |
-| How to Embed Interactive Charts on your Medium Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](./data_science_tools/embed_charts.ipynb) |
-| How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](./data_science_tools/Hyperdash.ipynb) |
-| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
+| Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
+|Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
+| Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
 | Introduction to Datapane: A Python Library to Build Interactive Reports | [link](https://towardsdatascience.com/introduction-to-datapane-a-python-library-to-build-interactive-reports-4593fd3cb9c8) | 
 | Datapane’s New Features: Create a Beautiful Dashboard in Python in a Few Lines of Code | [link](https://towardsdatascience.com/datapanes-new-features-create-a-beautiful-dashboard-in-python-in-a-few-lines-of-code-a3c44523292b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Datapane_new_features)
+
+
+# Toolings
+
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
+| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
 | Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
-| How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
+| Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9)
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
-| Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
-|Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
-| Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9) 
-| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
+| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest) 
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
-| Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
+
+
 
 # Machine Learning
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
+| How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](./data_science_tools/Hyperdash.ipynb) |
 |How to Efficiently Fine-Tune your Machine Learning Models | <a href="https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1" target="_blank">link</a>| [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
@@ -87,6 +93,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Visualization
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
+| How to Embed Interactive Charts on your Medium Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](./data_science_tools/embed_charts.ipynb) |
 | What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](./visualization/medium_articles) |
 | How to Create Interactive Plots with Altair | [link](https://towardsdatascience.com/how-to-create-interactive-and-elegant-plot-with-altair-8dd87a890f2a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair.ipynb) |
 | How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](./visualization/dropdown/dropdown.ipynb) |
@@ -133,12 +140,14 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Terminal
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
+| How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
 | Understand CSV Files from your Terminal with XSV | [link](https://towardsdatascience.com/understand-your-csv-files-from-your-terminal-with-xsv-65255ae67293) 
 | Prettify your Terminal Text With Termcolor and Pyfiglet| [link](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
 | Stop Using Print to Debug in Python. Use Icecream Instead | [link](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
 | Rich: Generate Rich and Beautiful Text in the Terminal with Python | [link](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e#82f6-71c3ea605859-reply) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/rich)
 | Create a Beautiful Dashboard in your Terminal with Wtfutil | [link](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684#a02c-a765cf58b4fd-reply) | [link](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)
 | 3 Tools to Monitor and Optimize your Linux System | [link](https://towardsdatascience.com/3-tools-to-monitor-and-optimize-your-linux-system-c8a46c18d692#3e4d-30c6afc3073a-reply) 
+
 
 # Linear Algebra
 | Title        | Medium article           | Repository  |

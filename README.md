@@ -7,7 +7,7 @@ Collection of useful data science topics along with code and articles in my [dat
 If you prefer shorter versions of these blogs, subscribe to [Data Science Simplified](https://mathdatasimplified.com/) to receive bite-sized data science tips in your mailbox daily.
 
 # Contents
-1. [Data Science Tools](#data)
+1. [Data](#data)
 2. [Toolings](#toolings)
 3. [Machine Learning](#machine-learning)
 4. [Natural Language Processing](#natural-language-processing)

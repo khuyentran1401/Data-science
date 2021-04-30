@@ -7,24 +7,25 @@ Collection of useful data science topics along with code and articles in my [dat
 If you prefer shorter versions of these blogs, subscribe to [Data Science Simplified](https://mathdatasimplified.com/) to receive bite-sized data science tips in your mailbox daily.
 
 # Contents
-1. [Data Science Tools](#data-science-tools)
-1. [Machine Learning](#machine-learning)
-1. [Natural Language Processing](#natural-language-processing)
-1. [Computer Vision](#computer-vision)
-1. [Feature Engineering](#feature-engineering)
-1. [Visualization](#visualization)
-1. [Mathematical Programming](#mathematical-programming)
-1. [Scraping](#scraping)
-1. [Python](#python)
-1. [Terminal](#terminal)
-1. [Linear Algebra](#linear-algebra)
-1. [Data Structure](#data-structure)
-1. [Statistics](#statistics)
-1. [Applications](#applications)
-1. [Learning Tips](#learning-tips)
-1. [Productive Tips](#productive-tips)
-1. [Book Review](#book-review)
-1. [Data Science Portfolio](#data-science-portfolio)
+1. [Data](#data)
+2. [Toolings](#toolings)
+3. [Machine Learning](#machine-learning)
+4. [Natural Language Processing](#natural-language-processing)
+5. [Computer Vision](#computer-vision)
+6. [Feature Engineering](#feature-engineering)
+7. [Visualization](#visualization)
+8. [Mathematical Programming](#mathematical-programming)
+9. [Scraping](#scraping)
+10. [Python](#python)
+11. [Terminal](#terminal)
+12. [Linear Algebra](#linear-algebra)
+13. [Data Structure](#data-structure)
+14. [Statistics](#statistics)
+15. [Applications](#applications)
+16. [Learning Tips](#learning-tips)
+17. [Productive Tips](#productive-tips)
+18. [Book Review](#book-review)
+19. [Data Science Portfolio](#data-science-portfolio)
 
 # Data 
 
@@ -135,6 +136,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
+| 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
 
 
 # Terminal

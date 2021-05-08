@@ -45,7 +45,6 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
-| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
@@ -199,6 +198,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # VSCode
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
+| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
 | Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
 | Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9)
 | Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |

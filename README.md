@@ -54,7 +54,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
 | 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
 | 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
-
+| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 
 
 # Machine Learning
@@ -127,7 +127,6 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Numpy Tricks for your Data Science Projects      | [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](./python/Numpy_tricks.ipynb) |
-| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 | Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](./python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [link](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [link](./python/lambda.ipynb) |
 | Python Tricks for Keeping Track of Your Data | [link](https://towardsdatascience.com/python-tricks-for-keeping-track-of-your-data-aef3dc817a4e) | [link](./python/keep_track.ipynb) |

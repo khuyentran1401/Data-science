@@ -24,8 +24,9 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 15. [Applications](#applications)
 16. [Learning Tips](#learning-tips)
 17. [Productive Tips](#productive-tips)
-18. [Book Review](#book-review)
-19. [Data Science Portfolio](#data-science-portfolio)
+18. [VSCode](#vscode)
+19. [Book Review](#book-review)
+20. [Data Science Portfolio](#data-science-portfolio)
 
 # Data 
 
@@ -44,15 +45,14 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
-| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
-| Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
-| Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9)
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest) 
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
-
+| 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
+| 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
+| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 
 
 # Machine Learning
@@ -124,8 +124,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Python
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Numpy Tricks for your Data Science Projects      | [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](./python/Numpy_tricks.ipynb) |
-| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
+| Numpy Tricks for your Data Science Projects| [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](./python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](./python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [link](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [link](./python/lambda.ipynb) |
 | Python Tricks for Keeping Track of Your Data | [link](https://towardsdatascience.com/python-tricks-for-keeping-track-of-your-data-aef3dc817a4e) | [link](./python/keep_track.ipynb) |
@@ -137,8 +136,6 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
-| 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
-| 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
 
 
 # Terminal
@@ -192,14 +189,20 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Productive Tips
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | 5 Reasons why you should Switch from Jupyter Notebook to Scripts | [link](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95) |
 | 3 Ways to Get Notified with Python | [link](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
-| Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 | 7 Reasons Why you Should Start Documenting your Code | [link](https://towardsdatascience.com/7-reasons-why-you-should-start-documenting-your-code-48c2096de6a7)
 
+# VSCode
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
+| Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
+| Incorporate the Best Practices for Python with These Top 4 VSCode Extensions | [link](https://towardsdatascience.com/incorporate-the-best-practices-for-python-with-these-top-4-vscode-extensions-3101177c23a9)
+| Boost Your Efficiency with Customized Code Snippets on VSCode | [link](https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7) |
+| Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [link](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 
 # Book Review
 | Title        | Medium article           | Repository  |

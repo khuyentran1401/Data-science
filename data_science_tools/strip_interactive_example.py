@@ -3,14 +3,12 @@ import numpy as np
 
 code = """
 >>> import numpy as np
+>>> # Create array
 >>> print(np.array([1,2,3]))
 [1 2 3]
 >>> print(np.array([4,5,6]))
 [4 5 6]
 """
-
-def say_hello():
-    print("hello")
 
 print(get_clean_code(code))
 run_interactive(code)

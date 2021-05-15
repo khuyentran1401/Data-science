@@ -53,6 +53,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
 | 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
 | Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
+| How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 
 
 # Machine Learning

@@ -20,6 +20,8 @@ def customer(env, food, num_food_order, restaurant):
 
         # If there is enough food left, customer orders food
         restaurant.available[food] -= num_food_order
+        # The time it takes to prepare food
+        yield env.timeout(10*num_food_order)
 
         # If there is no food left after customer orders, trigger run out event
         if restaurant.available[food] == 0:

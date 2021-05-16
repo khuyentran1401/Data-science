@@ -178,6 +178,8 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
+| Simulate Real-life Events in Python Using SimPy | [link](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
+
 
 # Learning Tips
 | Title        | Medium article           | Repository  |

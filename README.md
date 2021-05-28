@@ -107,6 +107,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Visualize Your Team’s Projects Using Python Gantt Chart | [link](https://towardsdatascience.com/visualize-your-teams-projects-using-python-gantt-chart-5a1c1c98ea35) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/gantt_chart/gantt_chart.ipynb)
 | How to Create Mathematical Animations like 3Blue1Brown Using Python |[link](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
 | How to Create Bindings and Conditions Between Multiple Plots Using Altair | [link](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair_advanced.ipynb)
+| How to Sketch your Data Science Ideas With Excalidraw | [link](https://towardsdatascience.com/how-to-sketch-your-data-science-ideas-with-excalidraw-a993d049f55c) |
 
   
 # Mathematical Programming
@@ -169,7 +170,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 # Statistics
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) |
+| Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) | [link](https://github.com/khuyentran1401/same-stats-different-graphs)
 |Introduction to One-Way ANOVA: A Test to Compare the Means between More than Two Groups | [link]( https://towardsdatascience.com/introduction-to-one-way-anova-a-test-to-compare-the-means-between-more-than-two-groups-a656cb53b19c)| [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/ANOVA_examples.ipynb)
 
 # Applications
@@ -178,6 +179,8 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
+| Simulate Real-life Events in Python Using SimPy | [link](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
+
 
 # Learning Tips
 | Title        | Medium article           | Repository  |

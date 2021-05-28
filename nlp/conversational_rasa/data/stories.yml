@@ -1,0 +1,49 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: answer_question_about_health
+  - action: utter_doing_well
+- story: get_restaurant_menu
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_how_can_i_help
+  - intent: ask_menu_today
+  - action: action_show_menu
+- story: Story from Conversation ID 847ddfd5069d44499173e1a0b6ab671c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: answer_question_about_health
+  - action: utter_doing_well
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: ask_bot_ability
+  - action: utter_ability

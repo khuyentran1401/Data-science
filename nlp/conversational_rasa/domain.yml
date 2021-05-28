@@ -1,0 +1,55 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- answer_question_about_health:
+    use_entities: true
+- ask_menu_today:
+    use_entities: true
+- ask_bot_ability:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_doing_well:
+  - text: I am doing well! Thank you.
+  utter_how_can_i_help:
+  - text: How can I help you today?
+  utter_ability:
+  - text: I can listen and talk to you. Please be patient with me if I don't understand you yet.
+  - text: I can listen to your need and find the way to help you
+actions:
+- action_show_menu
+- utter_ability
+forms: {}
+e2e_actions: []

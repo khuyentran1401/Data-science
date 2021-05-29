@@ -80,6 +80,7 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
+ | Build a Robust Conversational Assistant with Rasa | [link](https://towardsdatascience.com/build-a-conversational-assistant-with-rasa-b410a809572d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/conversational_rasa)
  
 # Computer Vision
 | Title        | Medium article           | Repository  |

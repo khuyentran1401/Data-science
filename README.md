@@ -152,6 +152,8 @@ If you prefer shorter versions of these blogs, subscribe to [Data Science Simpli
 | Create a Beautiful Dashboard in your Terminal with Wtfutil | [link](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684#a02c-a765cf58b4fd-reply) | [link](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)
 | 3 Tools to Monitor and Optimize your Linux System | [link](https://towardsdatascience.com/3-tools-to-monitor-and-optimize-your-linux-system-c8a46c18d692#3e4d-30c6afc3073a-reply) 
 | Ptpython: A Better Python REPL | [link](https://towardsdatascience.com/ptpython-a-better-python-repl-6e21df1eb648) | [link](https://gist.github.com/khuyentran1401/b5325ff1f3bfe1e36bf9131a0b8cd388)
+| fd: a Simple but Powerful Tool to Find and Execute Files on the Command Line | [link](https://towardsdatascience.com/fd-a-simple-but-powerful-tool-to-find-and-execute-files-on-the-command-line-602f9af235ad)
+ 
 
 
 # Linear Algebra

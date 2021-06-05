@@ -117,6 +117,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
+| How to Solve a Staff Scheduling Problem with Python | [link](https://towardsdatascience.com/how-to-solve-a-staff-scheduling-problem-with-python-63ae50435ba4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/schedule_workers)
 
 # Scraping
 | Title        | Medium article           | Repository  |

@@ -44,7 +44,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](./data_science_tools/blob_datapane.ipynb) |
+| How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/blob_datapane.ipynb) |
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
@@ -60,9 +60,9 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](./data_science_tools/Hyperdash.ipynb) |
+| How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Hyperdash.ipynb) |
 |How to Efficiently Fine-Tune your Machine Learning Models | <a href="https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1" target="_blank">link</a>| [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
-| How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](./machine-learning/SVM_Separate_XOR.ipynb) |
+| How to Learn Non-linear Dataset with Support Vector Machines | [link](https://towardsdatascience.com/how-to-learn-non-linear-separable-dataset-with-support-vector-machines-a7da21c6d987) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/SVM_Separate_XOR.ipynb) |
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
@@ -73,11 +73,11 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](./nlp/linkedin_analysis) |
+| Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
 | Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
-| How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](./nlp/tweets_tokenize.ipynb) |
+| How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/tweets_tokenize.ipynb) |
  | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |
- | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](./nlp/PyTorch.ipynb) |
+ | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/PyTorch.ipynb) |
  | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
@@ -103,13 +103,13 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Embed Interactive Charts on your Medium Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](./data_science_tools/embed_charts.ipynb) |
-| What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](./visualization/medium_articles) |
+| How to Embed Interactive Charts on your Medium Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/embed_charts.ipynb) |
+| What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/medium_articles) |
 | How to Create Interactive Plots with Altair | [link](https://towardsdatascience.com/how-to-create-interactive-and-elegant-plot-with-altair-8dd87a890f2a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair.ipynb) |
-| How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](./visualization/dropdown/dropdown.ipynb) |
-| I Scraped more than 1k Top Machine Learning Github Profiles and this is what I Found | [link](https://towardsdatascience.com/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474) | [link](./visualization/github)
-| Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](./visualization/top_visualization.ipynb)
-| Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](./data_science_tools/Yellowbrick.ipynb)
+| How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/dropdown/dropdown.ipynb) |
+| I Scraped more than 1k Top Machine Learning Github Profiles and this is what I Found | [link](https://towardsdatascience.com/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/github)
+| Top 6 Python Libraries for Visualization: Which one to Use? | [link](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/top_visualization.ipynb)
+| Introduction to Yellowbrick: A Python Library to Visualize the Prediction of your Machine Learning Model | [link](https://towardsdatascience.com/introduction-to-yellowbrick-a-python-library-to-explain-the-prediction-of-your-machine-learning-d63ecee10ecc) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Yellowbrick.ipynb)
 | Visualize Gender-Specific Tweets with Scattertext | [link](https://medium.com/towards-artificial-intelligence/visualize-gender-specific-tweets-with-scattertext-5167e4600025) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/scattertext)
 | Visualize Your Team’s Projects Using Python Gantt Chart | [link](https://towardsdatascience.com/visualize-your-teams-projects-using-python-gantt-chart-5a1c1c98ea35) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/gantt_chart/gantt_chart.ipynb)
 | How to Create Mathematical Animations like 3Blue1Brown Using Python |[link](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
@@ -121,7 +121,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](./mathematical_programming/invest_stock/stock_invest.ipynb) |
+| How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 | How to Solve a Staff Scheduling Problem with Python | [link](https://towardsdatascience.com/how-to-solve-a-staff-scheduling-problem-with-python-63ae50435ba4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/schedule_workers)
@@ -138,14 +138,14 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Numpy Tricks for your Data Science Projects| [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](./python/Numpy_tricks.ipynb) |
+| Numpy Tricks for your Data Science Projects| [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](./python/Time.ipynb) |
-| How to Use Lambda for Efficient Python Code | [link](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [link](./python/lambda.ipynb) |
-| Python Tricks for Keeping Track of Your Data | [link](https://towardsdatascience.com/python-tricks-for-keeping-track-of-your-data-aef3dc817a4e) | [link](./python/keep_track.ipynb) |
+| How to Use Lambda for Efficient Python Code | [link](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/lambda.ipynb) |
+| Python Tricks for Keeping Track of Your Data | [link](https://towardsdatascience.com/python-tricks-for-keeping-track-of-your-data-aef3dc817a4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/keep_track.ipynb) |
 | Boost Your Efficiency With Specialized Dictionary Implementations in Python | [link](https://medium.com/better-programming/boost-your-efficiency-with-specialized-dictionary-implementations-7799ec97d14f) | [link](./python/dictionary.ipynb) |
-| Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](./python/dictionary_ifelse.ipynb) |
-| How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](./python/zip.ipynb) |
-| Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](./python/four_numpy_methods.ipynb)
+| Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/dictionary_ifelse.ipynb) |
+| How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/zip.ipynb) |
+| Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [link](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)

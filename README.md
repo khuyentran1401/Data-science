@@ -32,7 +32,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](./data_science_tools/faker.ipynb) |
+| How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/faker.ipynb) |
 | Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 |Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
@@ -54,6 +54,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
 | Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
+| Typer: Build Powerful CLIs in One Line of Code using Python | [link](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
 
 
 # Machine Learning
@@ -76,9 +77,9 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
 | Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
 | How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/tweets_tokenize.ipynb) |
- | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](./nlp/word2vec.ipynb) |
+ | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](https://github.com/khuyentran1401/Data-science/blob/master//nlp/word2vec.ipynb) |
  | What is PyTorch | [link](https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/PyTorch.ipynb) |
- | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](./nlp/convolutional_neural_network.ipynb) |
+ | Convolutional Neural Network in Natural Language Processing | [link](https://towardsdatascience.com/convolutional-neural-network-in-natural-language-processing-96d67f91275c) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/convolutional_neural_network.ipynb) |
  | Supercharge your Python String with TextBlob | [link](https://towardsdatascience.com/supercharge-your-python-string-with-textblob-2d9c08a8da05) | [link](https://github.com/khuyentran1401/Data-science/blob/master/nlp/textblob.ipynb)
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
@@ -139,10 +140,10 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Numpy Tricks for your Data Science Projects| [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
-| Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](./python/Time.ipynb) |
+| Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](https://github.com/khuyentran1401/Data-science/blob/master//python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [link](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/lambda.ipynb) |
 | Python Tricks for Keeping Track of Your Data | [link](https://towardsdatascience.com/python-tricks-for-keeping-track-of-your-data-aef3dc817a4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/keep_track.ipynb) |
-| Boost Your Efficiency With Specialized Dictionary Implementations in Python | [link](https://medium.com/better-programming/boost-your-efficiency-with-specialized-dictionary-implementations-7799ec97d14f) | [link](./python/dictionary.ipynb) |
+| Boost Your Efficiency With Specialized Dictionary Implementations in Python | [link](https://medium.com/better-programming/boost-your-efficiency-with-specialized-dictionary-implementations-7799ec97d14f) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/dictionary.ipynb) |
 | Dictionary as an Alternative to If-Else | [link](https://towardsdatascience.com/dictionary-as-an-alternative-to-if-else-76fe57a1e4af) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/dictionary_ifelse.ipynb) |
 | How to Use Zip to Manipulate a List of Tuples | [link](https://levelup.gitconnected.com/how-to-use-zip-to-manipulate-a-list-of-tuples-6ba6e00c02cd) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/zip.ipynb) |
 | Get the Most out of Your Array With These Four Numpy Methods | [link](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/four_numpy_methods.ipynb)

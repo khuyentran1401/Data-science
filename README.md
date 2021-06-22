@@ -127,6 +127,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 | How to Solve a Staff Scheduling Problem with Python | [link](https://towardsdatascience.com/how-to-solve-a-staff-scheduling-problem-with-python-63ae50435ba4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/schedule_workers)
+| How to Find Best Locations for your Restaurants with Python | [link](https://towardsdatascience.com/how-to-find-best-locations-for-your-restaurants-with-python-b2fadc91c4dd) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/locations_of_stores)
 
 # Scraping
 
@@ -201,6 +202,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
+| PyWebIO 1.3.0: Add Tabs, Pin Input, and Update an Input Based on Another Input | [link](https://towardsdatascience.com/pywebio-1-3-0-add-tabs-pin-input-and-update-an-input-based-on-another-input-e81a139fefcb) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_1_3_0)
 | Simulate Real-life Events in Python Using SimPy | [link](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
 
 

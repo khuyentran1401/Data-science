@@ -1,0 +1,489 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user/Data-science
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 70
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 15
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: 
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.5
+  
+  # The spacing between letters
+  letterSpacing: 1
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 813
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 69
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1705
+    content: "\e[1m\e[31mg\e[0m\e[39m"
+  - delay: 142
+    content: "\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m"
+  - delay: 203
+    content: "\b\b\e[0m\e[32mg\e[0m\e[32me\e[32mm\e[39m"
+  - delay: 145
+    content: "\b\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mm\e[1m\e[31me\e[0m\e[39m"
+  - delay: 622
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mm\e[39m\e[0m\e[39m \b"
+  - delay: 227
+    content: "\b\b\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m\e[39m \b"
+  - delay: 209
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 287
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 117
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mt\e[0m\e[32mm\e[32me\e[39m"
+  - delay: 364
+    content: ' '
+  - delay: 790
+    content: "\e[4md\e[24m"
+  - delay: 142
+    content: "\b\e[24mdt"
+  - delay: 876
+    content: ' '
+  - delay: 687
+    content: '5'
+  - delay: 410
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 301
+    content: "\r\nInformed date: \e[33m(Sat) 2021-05-29\e[39m\r\nCalculated Date: \e[33m(Thu) 2021-06-03\e[39m\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 61
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1097
+    content: "\e[1m\e[31mg\e[0m\e[39m\e[90metme dt 5\e[39m\e[9D"
+  - delay: 140
+    content: "\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m"
+  - delay: 161
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 408
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 181
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mt\e[0m\e[32mm\e[32me\e[39m"
+  - delay: 283
+    content: "\e[39m "
+  - delay: 262
+    content: "\e[39m\e[4mr\e[24m\e[39m \e[39m \e[39m \b\b\b"
+  - delay: 216
+    content: "\b\e[4mr\e[4me\e[24m"
+  - delay: 431
+    content: "\b\b\e[24mr\e[24mep"
+  - delay: 160
+    content: o
+  - delay: 429
+    content: "\e[?1l\e>"
+  - delay: 5
+    content: "\e[?2004l\r\r\n"
+  - delay: 403
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 63
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 2735
+    content: "\e[1m\e[31mg\e[0m\e[39m\e[90metme repo\e[39m\e[9D"
+  - delay: 167
+    content: "\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m"
+  - delay: 182
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 404
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 138
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mt\e[0m\e[32mm\e[32me\e[39m"
+  - delay: 159
+    content: "\e[39m "
+  - delay: 299
+    content: "\e[39mu\e[39m \e[39m \e[39m \b\b\b"
+  - delay: 157
+    content: p
+  - delay: 311
+    content: l
+  - delay: 210
+    content: o
+  - delay: 210
+    content: a
+  - delay: 282
+    content: d
+  - delay: 270
+    content: ' '
+  - delay: 554
+    content: "\e[4m~\e[24m"
+  - delay: 700
+    content: "\b\e[4m~\e[4m/\e[24m"
+  - delay: 281
+    content: "\b\e[4m/\e[4mD\e[24m"
+  - delay: 235
+    content: "\b\e[4mD\e[4ma\e[24m"
+  - delay: 322
+    content: "\b\e[4ma\e[4mta-science\e[1m\e[4m/\e[0m\e[24m"
+  - delay: 817
+    content: "\b\e[0m\e[4m/\e[4mR\e[24m"
+  - delay: 189
+    content: "\e[16D\e[24m~\e[24m/\e[24mD\e[24ma\e[24mt\e[24ma\e[24m-\e[24ms\e[24mc\e[24mi\e[24me\e[24mn\e[24mc\e[24me\e[24m/\e[24mRe"
+  - delay: 281
+    content: "\e[30D\e[39mg\e[39me\e[39mt\e[39mm\e[39me\e[25C\a"
+  - delay: 724
+    content: "\e[30D\e[32mg\e[32me\e[32mt\e[32mm\e[32me\e[39m\e[8C\e[4m~\e[4m/\e[4mD\e[4ma\e[4mt\e[4ma\e[4m-\e[4ms\e[4mc\e[4mi\e[4me\e[4mn\e[4mc\e[4me\e[4m/\e[4mR\e[24m \b"
+  - delay: 333
+    content: "\b\e[4mR\e[4mE\e[24m"
+  - delay: 530
+    content: "\b\e[4mE\e[4mADME.md\e[24m\e[1m \e[0m"
+  - delay: 2001
+    content: "\b\e[0m -"
+  - delay: 701
+    content: e
+  - delay: 157
+    content: ' '
+  - delay: 418
+    content: '1'
+  - delay: 716
+    content: w
+  - delay: 818
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 265
+    content: "\e[?25l\e[2K\e[1G\e[33m⠋\e[39m Uploading your file, can take a few seconds"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Uploading your file, can take a few seconds"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Uploading your file, can take a few seconds"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Uploading your file, can take a few seconds"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Uploading your file, can take a few seconds"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Uploading your file, can take a few seconds"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Uploading your file, can take a few seconds"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Uploading your file, can take a few seconds"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Uploading your file, can take a few seconds"
+  - delay: 29
+    content: "\e[2K\e[1G\e[?25h\e[32mhttps://file.io/yJNptFAeNHkf\e[39m\r\nThis file expires in \e[33mundefined\e[39m\r\n\e[?25h\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 61
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 2151
+    content: "\e[1m\e[31mg\e[0m\e[39m\e[90metme upload ~/Data-science/README.md -e 1w\e[39m\e[42D"
+  - delay: 137
+    content: "\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m"
+  - delay: 151
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 729
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 227
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mt\e[0m\e[32mm\e[32me\e[39m"
+  - delay: 571
+    content: "\e[39m "
+  - delay: 147
+    content: "\e[39m\e[4md\e[24m\e[90mt\e[90m \e[90m5\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[36D"
+  - delay: 139
+    content: "\b\e[24md\e[39me\e[39m \e[39m \b\b"
+  - delay: 222
+    content: f
+  - delay: 151
+    content: i
+  - delay: 147
+    content: 'n'
+  - delay: 118
+    content: i
+  - delay: 112
+    content: t
+  - delay: 236
+    content: i
+  - delay: 188
+    content: o
+  - delay: 157
+    content: 'n'
+  - delay: 216
+    content: ' '
+  - delay: 698
+    content: "\e[4md\e[24m"
+  - delay: 146
+    content: "\b\e[24mdi"
+  - delay: 129
+    content: f
+  - delay: 131
+    content: f
+  - delay: 660
+    content: i
+  - delay: 201
+    content: c
+  - delay: 249
+    content: u
+  - delay: 244
+    content: l
+  - delay: 183
+    content: t
+  - delay: 485
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 865
+    content: "------------------------\r\n\e[33m1\e[39m. \e[33m[adjective]\e[39m Hard to do, understand, or deal with\r\n\e[34mExample: \e[39m A difficult question\r\n"
+  - delay: 16
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 106
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1193
+    content: "\e[1m\e[31mg\e[0m\e[39m\e[90metme definition difficult\e[39m\e[25D"
+  - delay: 224
+    content: "\b\e[1m\e[31mg\e[1m\e[31me\e[0m\e[39m"
+  - delay: 104
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31me\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 366
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 145
+    content: "\b\b\b\b\e[0m\e[32mg\e[0m\e[32me\e[0m\e[32mt\e[0m\e[32mm\e[32me\e[39m"
+  - delay: 227
+    content: "\e[39m "
+  - delay: 833
+    content: "\e[39m\e[4mf\e[24m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[19D"
+  - delay: 275
+    content: "\b\e[24mfo"
+  - delay: 177
+    content: r
+  - delay: 400
+    content: e
+  - delay: 248
+    content: c
+  - delay: 159
+    content: a
+  - delay: 183
+    content: s
+  - delay: 111
+    content: t
+  - delay: 617
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 251
+    content: "\e[?25l\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 79
+    content: "\e[2K\e[1G\e[33m⠴\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠦\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠧\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠇\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠏\e[39m Loading forecast"
+  - delay: 81
+    content: "\e[2K\e[1G\e[33m⠋\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠙\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠹\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠸\e[39m Loading forecast"
+  - delay: 80
+    content: "\e[2K\e[1G\e[33m⠼\e[39m Loading forecast"
+  - delay: 18
+    content: "\e[2K\e[1G\e[?25h\r\nCollinsville, United States\r\n\r\n\e[33mSun May 30 2021  |  12 h\e[39m\r\n☀️  Clear | Clear sky\r\nTemperature \e[34m8.61 °C\e[39m\r\nMin. \e[34m8.61 °C\e[39m | Max. \e[34m8.61 °C\e[39m\r\n\r\n\r\n\e[33mMon May 31 2021  |  12 h\e[39m\r\n☁️  Clouds | Overcast clouds\r\nTemperature \e[34m11.38 °C\e[39m\r\nMin. \e[34m11.38 °C\e[39m | Max. \e[34m11.38 °C\e[39m\r\n\r\n\r\n\e[33mTue Jun 01 2021  |  12 h\e[39m\r\n☁️  Clouds | Overcast clouds\r\nTemperature \e[34m13.66 °C\e[39m\r\nMin. \e[34m13.66 °C\e[39m | Max. \e[34m13.66 °C\e[39m\r\n\r\n\r\n\e[33mWed Jun 02 2021  |  12 h\e[39m\r\n\U0001F326️  Rain | Light rain\r\nTemperature \e[34m15.7 °C\e[39m\r\nMin. \e[34m15.7 °C\e[39m | Max. \e[34m15.7 °C\e[39m\r\n\r\n\r\n\e[33mThu Jun 03 2021  |  12 h\e[39m\r\n☁️  Clouds | Overcast clouds\r\nTemperature \e[34m16.88 °C\e[39m\r\nMin. \e[34m16.88 °C\e[39m | Max. \e[34m16.88 °C\e[39m\r\n\r\n\e[?25h"
+  - delay: 12
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                     \r \r"
+  - delay: 190
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1m\e[0m\e[1m\e[36mData-science\e[0m\e[36m\e[39m\e[1m \e[0m\e[1mon \e[0m\e[1m\e[37m\e[1m\e[37m\e[0m\e[37m\e[1m\e[37m\e[35m master\e[0m\e[35m\e[39m\e[1m\e[0m\e[1m\e[0m\e[1m\e[31m [!?]\e[0m\e[31m\e[39m\e[1m\e[0m\e[0m\e[39m\e[1m \e[0m\e[1mtook \e[0m\e[1m\e[33m5s\e[0m\e[33m\e[39m\e[1m \e[0m\r\n\e[1m\e[0m\e[1m\e[32m➜ \e[0m\e[32m\e[39m\e[1m\e[0m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1054
+    content: "\e[?2004l\r\r\n"

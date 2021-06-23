@@ -2,3 +2,10 @@
 *.html
 Data
 *_datapane.ipynb
+dp-cache
+.ipynb_checkpoints
+*.html
+.log
+github_stargazers
+.config
+pyvis_datapane.ipynb

@@ -168,7 +168,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | 3 Tools to Monitor and Optimize your Linux System | [link](https://towardsdatascience.com/3-tools-to-monitor-and-optimize-your-linux-system-c8a46c18d692#3e4d-30c6afc3073a-reply) 
 | Ptpython: A Better Python REPL | [link](https://towardsdatascience.com/ptpython-a-better-python-repl-6e21df1eb648) | [link](https://gist.github.com/khuyentran1401/b5325ff1f3bfe1e36bf9131a0b8cd388)
 | fd: a Simple but Powerful Tool to Find and Execute Files on the Command Line | [link](https://towardsdatascience.com/fd-a-simple-but-powerful-tool-to-find-and-execute-files-on-the-command-line-602f9af235ad)
- 
+| Speed Up your Command-Line Navigation with These 3 Tools | [link](https://towardsdatascience.com/speed-up-your-command-line-navigation-with-these-3-tools-f90105c9aa2b) 
 
 # Linear Algebra
 

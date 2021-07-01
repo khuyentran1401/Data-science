@@ -169,6 +169,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Ptpython: A Better Python REPL | [link](https://towardsdatascience.com/ptpython-a-better-python-repl-6e21df1eb648) | [link](https://gist.github.com/khuyentran1401/b5325ff1f3bfe1e36bf9131a0b8cd388)
 | fd: a Simple but Powerful Tool to Find and Execute Files on the Command Line | [link](https://towardsdatascience.com/fd-a-simple-but-powerful-tool-to-find-and-execute-files-on-the-command-line-602f9af235ad)
 | Speed Up your Command-Line Navigation with These 3 Tools | [link](https://towardsdatascience.com/speed-up-your-command-line-navigation-with-these-3-tools-f90105c9aa2b) 
+| Python and Data Science Snippets on the Command Line | [link](https://towardsdatascience.com/python-and-data-science-snippets-on-the-command-line-2673d5d9e55d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/python_snippet_tutorial)
 
 # Linear Algebra
 

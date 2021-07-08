@@ -129,6 +129,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Find a Good Match with Python | [link](https://towardsdatascience.com/how-to-match-two-people-with-python-7583b51ff3f9) | [link](https://github.com/khuyentran1401/linear-programming-with-PuLP)
 | How to Solve a Staff Scheduling Problem with Python | [link](https://towardsdatascience.com/how-to-solve-a-staff-scheduling-problem-with-python-63ae50435ba4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/schedule_workers)
 | How to Find Best Locations for your Restaurants with Python | [link](https://towardsdatascience.com/how-to-find-best-locations-for-your-restaurants-with-python-b2fadc91c4dd) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/locations_of_stores)
+| How to Schedule Flights in Python | [link](https://towardsdatascience.com/how-to-schedule-flights-in-python-3357b200db9e) | [link](https://github.com/khuyentran1401/Data-science/blob/master/mathematical_programming/schedule_flight_crew/flight_crew_schedule.ipynb)
 
 # Scraping
 

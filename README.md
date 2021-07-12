@@ -56,6 +56,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 | Typer: Build Powerful CLIs in One Line of Code using Python | [link](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
 | SymPy: Symbolic Computation in Python | [link](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/sympy_example.ipynb)
+| Pydash: A Kitchen Sink of Missing Python Utilities | [link](https://towardsdatascience.com/pydash-a-bucket-of-missing-python-utilities-5d10365be4fc) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/pydash.ipynb)
 
 
 # Machine Learning

@@ -12,21 +12,22 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 3. [Machine Learning](#machine-learning)
 4. [Natural Language Processing](#natural-language-processing)
 5. [Computer Vision](#computer-vision)
-6. [Feature Engineering](#feature-engineering)
-7. [Visualization](#visualization)
-8. [Mathematical Programming](#mathematical-programming)
-9. [Scraping](#scraping)
-10. [Python](#python)
-11. [Terminal](#terminal)
-12. [Linear Algebra](#linear-algebra)
-13. [Data Structure](#data-structure)
-14. [Statistics](#statistics)
-15. [Applications](#applications)
-16. [Learning Tips](#learning-tips)
-17. [Productive Tips](#productive-tips)
-18. [VSCode](#vscode)
-19. [Book Review](#book-review)
-20. [Data Science Portfolio](#data-science-portfolio)
+6. [Time Series](#time-series)
+7. [Feature Engineering](#feature-engineering)
+8. [Visualization](#visualization)
+9. [Mathematical Programming](#mathematical-programming)
+10. [Scraping](#scraping)
+11. [Python](#python)
+12. [Terminal](#terminal)
+13. [Linear Algebra](#linear-algebra)
+14. [Data Structure](#data-structure)
+15. [Statistics](#statistics)
+16. [Applications](#applications)
+17. [Learning Tips](#learning-tips)
+18. [Productive Tips](#productive-tips)
+19. [VSCode](#vscode)
+20. [Book Review](#book-review)
+21. [Data Science Portfolio](#data-science-portfolio)
 
 # Data 
 
@@ -93,6 +94,12 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an App to Classify Dogs Using fastai and Streamlit | [link](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [link](https://github.com/khuyentran1401/dog_classifier)
+
+# Time Series
+
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| Kats: a Generalizable Framework to Analyze Time Series Data in Python | [link](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
  
 # Feature Engineering
 

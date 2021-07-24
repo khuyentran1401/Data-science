@@ -7,29 +7,32 @@ Collection of useful data science topics along with code and articles in my [dat
 If you want to received updates of these blogs in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/). 
 
 # Contents
-1. [Data](#data)
-2. [Toolings](#toolings)
-3. [Machine Learning](#machine-learning)
-4. [Natural Language Processing](#natural-language-processing)
-5. [Computer Vision](#computer-vision)
-6. [Time Series](#time-series)
-7. [Feature Engineering](#feature-engineering)
-8. [Visualization](#visualization)
-9. [Mathematical Programming](#mathematical-programming)
-10. [Scraping](#scraping)
-11. [Python](#python)
-12. [Terminal](#terminal)
-13. [Linear Algebra](#linear-algebra)
-14. [Data Structure](#data-structure)
-15. [Statistics](#statistics)
-16. [Applications](#applications)
-17. [Learning Tips](#learning-tips)
-18. [Productive Tips](#productive-tips)
-19. [VSCode](#vscode)
-20. [Book Review](#book-review)
-21. [Data Science Portfolio](#data-science-portfolio)
+1. [Data Science Tools](#data-science-tools)
+2. [Productive Tools](#productive-tools)
+3. [Tools for Deployment](#tools-for-deployment)
+4. [Speed-up Tools](#speed-up-tools)
+5. [Math Tools](#math-tools)
+6. [Machine Learning](#machine-learning)
+7. [Natural Language Processing](#natural-language-processing)
+8. [Computer Vision](#computer-vision)
+9. [Time Series](#time-series)
+10. [Feature Engineering](#feature-engineering)
+11. [Visualization](#visualization)
+12. [Mathematical Programming](#mathematical-programming)
+13. [Scraping](#scraping)
+14. [Python](#python)
+15. [Terminal](#terminal)
+16. [Linear Algebra](#linear-algebra)
+17. [Data Structure](#data-structure)
+18. [Statistics](#statistics)
+19. [Applications](#applications)
+20. [Learning Tips](#learning-tips)
+21. [Productive Tips](#productive-tips)
+22. [VSCode](#vscode)
+23. [Book Review](#book-review)
+24. [Data Science Portfolio](#data-science-portfolio)
 
-# Data 
+# Data Science Tools 
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -39,25 +42,40 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
 | Introduction to Datapane: A Python Library to Build Interactive Reports | [link](https://towardsdatascience.com/introduction-to-datapane-a-python-library-to-build-interactive-reports-4593fd3cb9c8) | 
 | Datapane’s New Features: Create a Beautiful Dashboard in Python in a Few Lines of Code | [link](https://towardsdatascience.com/datapanes-new-features-create-a-beautiful-dashboard-in-python-in-a-few-lines-of-code-a3c44523292b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Datapane_new_features)
+| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
+|Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
+| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
+| Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 
-
-# Toolings
+# Productive Tools
 
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/blob_datapane.ipynb) |
-| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
-|Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
-| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest) 
-| How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
 | 3 Tools to Track and Visualize the Execution of your Python Code | [link](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools)
 | 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
-| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
-| Typer: Build Powerful CLIs in One Line of Code using Python | [link](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
-| SymPy: Symbolic Computation in Python | [link](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/sympy_example.ipynb)
 | Pydash: A Kitchen Sink of Missing Python Utilities | [link](https://towardsdatascience.com/pydash-a-bucket-of-missing-python-utilities-5d10365be4fc) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/pydash.ipynb)
+
+# Tools for Deployment
+
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
+| Typer: Build Powerful CLIs in One Line of Code using Python | [link](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
+
+
+# Speed-up Tools
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
+
+
+# Math Tools
+| Title        | Medium article           | Repository  |
+| ------------- |:-------------:| :-----:|
+| SymPy: Symbolic Computation in Python | [link](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/sympy_example.ipynb)
 
 
 # Machine Learning
@@ -70,7 +88,6 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
-| Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | human-learn: Create a Human Learning Model by Drawing | [link](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [link](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
 
 # Natural Language Processing

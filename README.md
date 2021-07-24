@@ -67,12 +67,14 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 
 # Speed-up Tools
+
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 
 
 # Math Tools
+
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | SymPy: Symbolic Computation in Python | [link](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/sympy_example.ipynb)

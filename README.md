@@ -57,6 +57,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | 2 Tools to Automatically Reload when Python Files Change | [link](https://towardsdatascience.com/2-tools-to-automatically-reload-when-python-files-change-90bb28139087) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/reload_examples)
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 | Pydash: A Kitchen Sink of Missing Python Utilities | [link](https://towardsdatascience.com/pydash-a-bucket-of-missing-python-utilities-5d10365be4fc) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/pydash.ipynb)
+| 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [link](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples)
 
 # Tools for Deployment
 

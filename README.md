@@ -108,6 +108,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
  | Build a Robust Conversational Assistant with Rasa | [link](https://towardsdatascience.com/build-a-conversational-assistant-with-rasa-b410a809572d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/conversational_rasa)
+ | I Analyzed 2k Data Scientist and Data Engineer Jobs and This is What I Found | [link](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/diffbot_examples)
 
 
 # Computer Vision

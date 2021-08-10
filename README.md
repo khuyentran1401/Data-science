@@ -108,6 +108,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
  | pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know | [link](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pyLDAvis)
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
  | Build a Robust Conversational Assistant with Rasa | [link](https://towardsdatascience.com/build-a-conversational-assistant-with-rasa-b410a809572d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/conversational_rasa)
+ | I Analyzed 2k Data Scientist and Data Engineer Jobs and This is What I Found | [link](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/diffbot_examples)
 
 
 # Computer Vision
@@ -121,6 +122,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Kats: a Generalizable Framework to Analyze Time Series Data in Python | [link](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
+| How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [link](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
  
 # Feature Engineering
 
@@ -158,6 +160,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Solve a Staff Scheduling Problem with Python | [link](https://towardsdatascience.com/how-to-solve-a-staff-scheduling-problem-with-python-63ae50435ba4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/schedule_workers)
 | How to Find Best Locations for your Restaurants with Python | [link](https://towardsdatascience.com/how-to-find-best-locations-for-your-restaurants-with-python-b2fadc91c4dd) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/locations_of_stores)
 | How to Schedule Flights in Python | [link](https://towardsdatascience.com/how-to-schedule-flights-in-python-3357b200db9e) | [link](https://github.com/khuyentran1401/Data-science/blob/master/mathematical_programming/schedule_flight_crew/flight_crew_schedule.ipynb)
+| How to Solve a Production Planning and Inventory Problem in Python | [link](https://towardsdatascience.com/how-to-solve-a-production-planning-and-inventory-problem-in-python-45c546f4bcf0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/mathematical_programming/production_and_inventory.ipynb)
 
 # Scraping
 

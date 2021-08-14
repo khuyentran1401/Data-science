@@ -122,6 +122,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Title        | Medium article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Kats: a Generalizable Framework to Analyze Time Series Data in Python | [link](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
+| How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [link](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
  
 # Feature Engineering
 

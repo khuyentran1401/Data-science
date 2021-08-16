@@ -4,7 +4,7 @@
 # [Data Science Topics](https://github.com/khuyentran1401/Data-science)
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476). 
 
-If you want to received updates of these blogs in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/). 
+If you want to received updates of these blogs in your mailbox, you can subscribe to [my Medium newsletter](https://khuyentran1476.medium.com/subscribe). 
 
 # Contents
 1. [Data Science Tools](#data-science-tools)

@@ -149,6 +149,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Create Bindings and Conditions Between Multiple Plots Using Altair | [link](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair_advanced.ipynb)
 | How to Sketch your Data Science Ideas With Excalidraw | [link](https://towardsdatascience.com/how-to-sketch-your-data-science-ideas-with-excalidraw-a993d049f55c) |
 | Pyvis: Visualize Interactive Network Graphs in Python | [link](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/pyvis_examples/pyvis.ipynb)
+| Build and Analyze Knowledge Graphs with Diffbot | [link](https://towardsdatascience.com/build-and-analyze-knowledge-graphs-with-diffbot-2af83065ade0) 
 
   
 # Mathematical Programming

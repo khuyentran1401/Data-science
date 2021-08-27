@@ -2,3 +2,4 @@ xsv_example
 datasette_examples
 *.png
 *.jpg
+*-datapane*

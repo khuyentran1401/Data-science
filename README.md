@@ -150,6 +150,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Sketch your Data Science Ideas With Excalidraw | [link](https://towardsdatascience.com/how-to-sketch-your-data-science-ideas-with-excalidraw-a993d049f55c) |
 | Pyvis: Visualize Interactive Network Graphs in Python | [link](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/pyvis_examples/pyvis.ipynb)
 | Build and Analyze Knowledge Graphs with Diffbot | [link](https://towardsdatascience.com/build-and-analyze-knowledge-graphs-with-diffbot-2af83065ade0) 
+| Observe The Friend Paradox in Facebook Data Using Python | [link](https://towardsdatascience.com/observe-the-friend-paradox-in-facebook-data-using-python-314c23fd49e4#44e7-514613b6bd18) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/friend_paradox/facebook_network.ipynb)
 
   
 # Mathematical Programming

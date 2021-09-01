@@ -4,7 +4,7 @@
 # [Data Science Topics](https://github.com/khuyentran1401/Data-science)
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476). 
 
-If you want to received updates of these blogs in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/). 
+If you want to received updates of these blogs in your mailbox, you can subscribe to [my Medium newsletter](https://khuyentran1476.medium.com/subscribe). To received bite-sized Python and daily data science tips in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/).
 
 # Contents
 1. [Data Science Tools](#data-science-tools)
@@ -93,6 +93,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Introduction to IBM Federated Learning: A Collaborative Approach to Train ML Models on Private Data | [link](https://towardsdatascience.com/introduction-to-ibm-federated-learning-a-collaborative-approach-to-train-ml-models-on-private-data-2b4221c3839) | [link](https://github.com/IBM/federated-learning-lib)
 | 3 Steps to Improve your Efficiency when Hypertuning ML Models | [link](https://towardsdatascience.com/3-steps-to-improve-your-efficiency-when-hypertuning-ml-models-5a579d57065e) 
 | human-learn: Create a Human Learning Model by Drawing | [link](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [link](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
+| Patsy: Build Powerful Features with Arbitrary Python Code | [link](https://towardsdatascience.com/patsy-build-powerful-features-with-arbitrary-python-code-bb4bb98db67a#3be4-4bcff97738cd) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/patsy_example.ipynb)
 
 # Natural Language Processing
 
@@ -148,6 +149,8 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Create Bindings and Conditions Between Multiple Plots Using Altair | [link](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair_advanced.ipynb)
 | How to Sketch your Data Science Ideas With Excalidraw | [link](https://towardsdatascience.com/how-to-sketch-your-data-science-ideas-with-excalidraw-a993d049f55c) |
 | Pyvis: Visualize Interactive Network Graphs in Python | [link](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/pyvis_examples/pyvis.ipynb)
+| Build and Analyze Knowledge Graphs with Diffbot | [link](https://towardsdatascience.com/build-and-analyze-knowledge-graphs-with-diffbot-2af83065ade0) 
+| Observe The Friend Paradox in Facebook Data Using Python | [link](https://towardsdatascience.com/observe-the-friend-paradox-in-facebook-data-using-python-314c23fd49e4#44e7-514613b6bd18) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/friend_paradox/facebook_network.ipynb)
 
   
 # Mathematical Programming
@@ -286,7 +289,10 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Build an Impressive Github Profile in 3 Steps | [link](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
 
 
+# Supporters
+Special thanks to these supporters for supporting this project!
 
+[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny)
 
 
 

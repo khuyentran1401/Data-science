@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td><img src="https://img1.github.io/tmp/4.jpg" height="80" width="82"></td>
-    <td><a class="github-button" href="https://github.com/khuyentran1401/Data-science/stargazers" data-icon="octicon-star"><img src="https://img.shields.io/github/stars/khuyentran1401/Data-science.svg?style=social"></a></td>
+    <td><a class="github-button" href="https://github.com/khuyentran1401/Data-science" data-icon="octicon-star"><img src="https://img.shields.io/github/stars/khuyentran1401/Data-science.svg?style=social"></a></td>
     <td><img src="https://img1.github.io/tmp/6.jpg" height="82" width="82"></td>
   </tr>
    <tr>

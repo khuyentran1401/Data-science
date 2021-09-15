@@ -292,7 +292,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 # Supporters
 Special thanks to these supporters for supporting this project!
 
-[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny)
+[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://github.com/sagar-r-sonawane)
 
 
 

@@ -1,5 +1,22 @@
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/)  [![RSS Reader](https://img.shields.io/badge/RSS%20Feed%20-Add%20to%20your%20RSS%20Reader-yellowgreend?logo=feedly)](https://medium.com/feed/@khuyentran1476) 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-red?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/) 
 
+<table border="0" width="10%">
+  <tr>
+    <td><img src="https://img1.github.io/tmp/1.jpg" height="80" width="82"></td>
+    <td><img src="https://img1.github.io/tmp/2.jpg" height="80" width="82"></td>
+    <td><img src="https://img1.github.io/tmp/3.jpg" height="80" width="82"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img1.github.io/tmp/4.jpg" height="80" width="82"></td>
+    <td><a class="github-button" href="https://github.com/khuyentran1401/Data-science" data-icon="octicon-star"><img src="https://img.shields.io/github/stars/khuyentran1401/Data-science.svg?style=social"></a></td>
+    <td><img src="https://img1.github.io/tmp/6.jpg" height="82" width="82"></td>
+  </tr>
+   <tr>
+    <td><img src="https://img1.github.io/tmp/7.jpg" height="82" width="82"></td>
+    <td><img src="https://img1.github.io/tmp/8.jpg" height="82" width="82"></td>
+    <td><img src="https://img1.github.io/tmp/9.jpg" height="82" width="82"></td>
+  </tr>
+</table>
 
 # [Data Science Topics](https://github.com/khuyentran1401/Data-science)
 Collection of useful data science topics along with code and articles in my [data science blog](https://medium.com/@khuyentran1476). 
@@ -46,6 +63,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
+| Kedro — A Python Framework for Reproducible Data Science Project | [link](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [link](https://github.com/khuyentran1401/kedro_demo)
 
 # Productive Tools
 
@@ -241,6 +259,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
 | PyWebIO 1.3.0: Add Tabs, Pin Input, and Update an Input Based on Another Input | [link](https://towardsdatascience.com/pywebio-1-3-0-add-tabs-pin-input-and-update-an-input-based-on-another-input-e81a139fefcb) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_1_3_0)
 | Simulate Real-life Events in Python Using SimPy | [link](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
+| Create an App to Deal with Boredom Using PyWebIO | [link](https://towardsdatascience.com/create-an-app-to-deal-with-boredom-using-pywebio-d17f3acd1613) | [link](https://build.pyweb.io/get/khuyentran1401/bored_app)
 
 
 # Learning Tips

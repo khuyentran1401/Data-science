@@ -63,6 +63,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
+| Kedro — A Python Framework for Reproducible Data Science Project | [link](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [link](https://github.com/khuyentran1401/kedro_demo)
 
 # Productive Tools
 
@@ -258,6 +259,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [link](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
 | PyWebIO 1.3.0: Add Tabs, Pin Input, and Update an Input Based on Another Input | [link](https://towardsdatascience.com/pywebio-1-3-0-add-tabs-pin-input-and-update-an-input-based-on-another-input-e81a139fefcb) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_1_3_0)
 | Simulate Real-life Events in Python Using SimPy | [link](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [link](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
+| Create an App to Deal with Boredom Using PyWebIO | [link](https://towardsdatascience.com/create-an-app-to-deal-with-boredom-using-pywebio-d17f3acd1613) | [link](https://build.pyweb.io/get/khuyentran1401/bored_app)
 
 
 # Learning Tips
@@ -309,7 +311,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 # Supporters
 Special thanks to these supporters for supporting this project!
 
-[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny)
+[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://www.linkedin.com/in/sagar-ravindra-sonawane/)
 
 
 

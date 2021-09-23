@@ -3,3 +3,4 @@ datasette_examples
 *.png
 *.jpg
 *-datapane*
+*.csv

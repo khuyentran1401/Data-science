@@ -9,3 +9,5 @@ github_stargazers
 *-datapane.ipynb
 *.txt
 *.html
+*.csv
+*.json 

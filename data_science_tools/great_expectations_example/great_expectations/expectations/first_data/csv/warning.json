@@ -36,8 +36,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
+<<<<<<< HEAD
         "max_value": 40,
         "min_value": 30
+=======
+        "max_value": 32.6,
+        "min_value": 32.6
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -46,8 +51,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
+<<<<<<< HEAD
         "max_value": 100,
         "min_value": 85
+=======
+        "max_value": 91.37,
+        "min_value": 91.37
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -56,8 +66,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
+<<<<<<< HEAD
         "max_value": 70,
         "min_value": 55
+=======
+        "max_value": 65.26704918032787,
+        "min_value": 65.26704918032787
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -160,8 +175,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
+<<<<<<< HEAD
         "max_value": 12,
         "min_value": 10
+=======
+        "max_value": 19,
+        "min_value": 19
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -170,8 +190,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
+<<<<<<< HEAD
         "max_value": 70,
         "min_value": 57
+=======
+        "max_value": 61,
+        "min_value": 61
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -180,8 +205,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
+<<<<<<< HEAD
         "max_value": 40,
         "min_value": 30
+=======
+        "max_value": 36.05081967213115,
+        "min_value": 36.05081967213115
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -342,8 +372,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
+<<<<<<< HEAD
         "max_value": 15000,
         "min_value": 12000
+=======
+        "max_value": 14548.06,
+        "min_value": 14548.06
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -352,8 +387,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
+<<<<<<< HEAD
         "max_value": 80000,
         "min_value": 70000
+=======
+        "max_value": 79484.8,
+        "min_value": 79484.8
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -362,8 +402,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
+<<<<<<< HEAD
         "max_value": 65000,
         "min_value": 55000
+=======
+        "max_value": 55365.62095081966,
+        "min_value": 55365.62095081966
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -466,8 +511,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
+<<<<<<< HEAD
         "max_value": 110,
         "min_value": 95
+=======
+        "max_value": 105.0,
+        "min_value": 105.0
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -476,8 +526,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
+<<<<<<< HEAD
         "max_value": 270,
         "min_value": 250
+=======
+        "max_value": 269.96,
+        "min_value": 269.96
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -486,8 +541,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
+<<<<<<< HEAD
         "max_value": 185,
         "min_value": 170
+=======
+        "max_value": 179.4397868852459,
+        "min_value": 179.4397868852459
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -638,8 +698,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "City",
+<<<<<<< HEAD
         "max_value": 0.98,
         "min_value": 0.9
+=======
+        "max_value": 0.9819672131147541,
+        "min_value": 0.9819672131147541
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -690,8 +755,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Male",
+<<<<<<< HEAD
         "max_value": 0.55,
         "min_value": 0.45
+=======
+        "max_value": 0.4852459016393443,
+        "min_value": 0.4852459016393443
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -911,8 +981,13 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Clicked on Ad",
+<<<<<<< HEAD
         "max_value": 0.55,
         "min_value": 0.45
+=======
+        "max_value": 0.4918032786885246,
+        "min_value": 0.4918032786885246
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -1038,7 +1113,11 @@
           "datasource_name": "first_data",
           "limit": 1000
         },
+<<<<<<< HEAD
         "citation_date": "2021-10-07T18:26:54.131729Z",
+=======
+        "citation_date": "2021-10-07T18:35:23.047852Z",
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
         "comment": "Created suite added via CLI"
       }
     ],

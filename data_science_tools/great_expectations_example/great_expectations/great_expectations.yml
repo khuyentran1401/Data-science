@@ -15,15 +15,25 @@ config_version: 3.0
 # add a new datasource. Read more at https://docs.greatexpectations.io/en/latest/reference/core_concepts/datasource.html
 datasources:
   first_data:
+<<<<<<< HEAD
     module_name: great_expectations.datasource
     data_connectors:
       default_inferred_data_connector_name:
         base_directory: ../data
         module_name: great_expectations.datasource.data_connector
+=======
+    data_connectors:
+      default_inferred_data_connector_name:
+        base_directory: ../data
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
         default_regex:
           group_names:
             - data_asset_name
           pattern: (.*)
+<<<<<<< HEAD
+=======
+        module_name: great_expectations.datasource.data_connector
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
         class_name: InferredAssetFilesystemDataConnector
       default_runtime_data_connector_name:
         batch_identifiers:
@@ -31,9 +41,16 @@ datasources:
         module_name: great_expectations.datasource.data_connector
         class_name: RuntimeDataConnector
     execution_engine:
+<<<<<<< HEAD
       module_name: great_expectations.execution_engine
       class_name: PandasExecutionEngine
     class_name: Datasource
+=======
+      class_name: PandasExecutionEngine
+      module_name: great_expectations.execution_engine
+    class_name: Datasource
+    module_name: great_expectations.datasource
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
 
 # This config file supports variable substitution which enables: 1) keeping
 # secrets out of source control & 2) environment-based configuration changes
@@ -113,7 +130,14 @@ data_docs_sites:
 
 anonymous_usage_statistics:
   enabled: true
+<<<<<<< HEAD
   data_context_id: f363cba9-1ffe-4c45-a0fb-085f8e5091f1
 concurrency:
   enabled: false
 notebooks:
+=======
+  data_context_id: fbdc1c18-e37e-4287-89cb-6e6f63fb6663
+notebooks:
+concurrency:
+  enabled: false
+>>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6

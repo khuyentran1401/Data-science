@@ -3,24 +3,24 @@
   "meta": {
     "active_batch_definition": {
       "batch_identifiers": {},
-      "data_asset_name": "first_data.csv",
+      "data_asset_name": "second_data.csv",
       "data_connector_name": "default_inferred_data_connector_name",
       "datasource_name": "first_data"
     },
     "batch_markers": {
-      "ge_load_time": "20211007T201732.630073Z",
-      "pandas_data_fingerprint": "07ecc047862b79412680dbca23ce05c1"
+      "ge_load_time": "20211007T205654.012338Z",
+      "pandas_data_fingerprint": "34f955f55943a2875d6f38519a348f01"
     },
     "batch_spec": {
-      "path": "/work/Data-science/data_science_tools/great_expectations_example/great_expectations/../data/first_data.csv"
+      "path": "/home/khuyen/Data-science/data_science_tools/great_expectations_example/great_expectations/../data/second_data.csv"
     },
     "expectation_suite_name": "first_data.csv.warning",
-    "great_expectations_version": "0.13.37",
+    "great_expectations_version": "0.13.36",
     "run_id": {
-      "run_name": null,
-      "run_time": "2021-10-07T20:17:32.585423+00:00"
+      "run_name": "20211007-155653-my-run-name-template",
+      "run_time": "2021-10-07T15:56:53.943372+00:00"
     },
-    "validation_time": "20211007T201732.675539Z"
+    "validation_time": "20211007T205654.053276Z"
   },
   "results": [
     {
@@ -33,7 +33,7 @@
         "expectation_type": "expect_table_columns_to_match_ordered_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column_list": [
             "Unnamed: 0",
             "Daily Time Spent on Site",
@@ -78,7 +78,7 @@
         "expectation_type": "expect_table_row_count_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "max_value": 610,
           "min_value": 610
         },
@@ -86,9 +86,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 610
+        "observed_value": 390
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -100,7 +100,7 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "max_value": 40,
           "min_value": 30
@@ -123,7 +123,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "max_value": 100,
           "min_value": 85
@@ -132,7 +132,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 91.37
+        "observed_value": 91.43
       },
       "success": true
     },
@@ -146,7 +146,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "max_value": 70,
           "min_value": 55
@@ -155,7 +155,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 65.26704918032787
+        "observed_value": 64.5828205128205
       },
       "success": true
     },
@@ -169,7 +169,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "max_value": 68.33,
           "min_value": 68.33
@@ -178,9 +178,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 68.33
+        "observed_value": 67.85
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -193,7 +193,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "quantile_ranges": {
             "quantiles": [
@@ -233,11 +233,11 @@
       "result": {
         "details": {
           "success_details": [
-            true,
-            true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false,
+            false,
+            false
           ]
         },
         "observed_value": {
@@ -249,15 +249,15 @@
             0.95
           ],
           "values": [
-            37.47,
-            51.5,
-            68.25,
-            78.51,
-            87.09
+            37.87,
+            50.87,
+            67.76,
+            78.54,
+            85.03
           ]
         }
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -269,14 +269,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -295,7 +295,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "max_value": 0.9344262295081968,
           "min_value": 0.9344262295081968
@@ -304,9 +304,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.9344262295081968
+        "observed_value": 0.9564102564102565
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -318,7 +318,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Time Spent on Site",
           "type_list": [
             "FLOAT",
@@ -357,10 +357,10 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
-          "max_value": 12,
-          "min_value": 10
+          "max_value": 23,
+          "min_value": 15
         },
         "meta": {}
       },
@@ -368,7 +368,7 @@
       "result": {
         "observed_value": 19
       },
-      "success": false
+      "success": true
     },
     {
       "exception_info": {
@@ -380,7 +380,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "max_value": 70,
           "min_value": 57
@@ -389,7 +389,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 61
+        "observed_value": 60
       },
       "success": true
     },
@@ -403,7 +403,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "max_value": 40,
           "min_value": 30
@@ -412,7 +412,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 36.05081967213115
+        "observed_value": 35.94358974358974
       },
       "success": true
     },
@@ -426,7 +426,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "max_value": 35.0,
           "min_value": 35.0
@@ -450,7 +450,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "quantile_ranges": {
             "quantiles": [
@@ -490,10 +490,10 @@
       "result": {
         "details": {
           "success_details": [
+            false,
+            false,
             true,
-            true,
-            true,
-            true,
+            false,
             true
           ]
         },
@@ -506,15 +506,15 @@
             0.95
           ],
           "values": [
-            23,
-            29,
+            24,
+            30,
             35,
-            42,
+            41,
             52
           ]
         }
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -526,7 +526,7 @@
         "expectation_type": "expect_column_values_to_be_in_set",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "value_set": [
             19,
@@ -578,7 +578,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -601,14 +601,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -627,7 +627,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "max_value": 0.07049180327868852,
           "min_value": 0.07049180327868852
@@ -636,9 +636,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.07049180327868852
+        "observed_value": 0.10256410256410256
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -650,7 +650,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Age",
           "type_list": [
             "INTEGER",
@@ -694,7 +694,7 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "max_value": 15000,
           "min_value": 12000
@@ -703,7 +703,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 14548.06
+        "observed_value": 13996.5
       },
       "success": true
     },
@@ -717,7 +717,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "max_value": 80000,
           "min_value": 70000
@@ -726,7 +726,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 79484.8
+        "observed_value": 79332.33
       },
       "success": true
     },
@@ -740,7 +740,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "max_value": 65000,
           "min_value": 55000
@@ -749,9 +749,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 55365.62095081966
+        "observed_value": 54428.13153846154
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -763,7 +763,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "max_value": 57532.6,
           "min_value": 57532.6
@@ -772,9 +772,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 57532.6
+        "observed_value": 56706.55
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -787,7 +787,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "quantile_ranges": {
             "quantiles": [
@@ -827,11 +827,11 @@
       "result": {
         "details": {
           "success_details": [
-            true,
-            true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false,
+            false,
+            false
           ]
         },
         "observed_value": {
@@ -843,15 +843,15 @@
             0.95
           ],
           "values": [
-            30487.48,
-            47682.28,
-            57519.64,
-            65044.59,
-            73538.09
+            26023.99,
+            46239.14,
+            56683.32,
+            65756.36,
+            73474.82
           ]
         }
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -863,14 +863,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -889,7 +889,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "max_value": 1.0,
           "min_value": 1.0
@@ -912,7 +912,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Area Income",
           "type_list": [
             "FLOAT",
@@ -951,7 +951,7 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "max_value": 110,
           "min_value": 95
@@ -960,7 +960,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 105.0
+        "observed_value": 104.78
       },
       "success": true
     },
@@ -974,7 +974,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "max_value": 270,
           "min_value": 250
@@ -983,7 +983,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 269.96
+        "observed_value": 267.01
       },
       "success": true
     },
@@ -997,7 +997,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "max_value": 185,
           "min_value": 170
@@ -1006,7 +1006,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 179.4397868852459
+        "observed_value": 180.87648717948719
       },
       "success": true
     },
@@ -1020,7 +1020,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "max_value": 183.035,
           "min_value": 183.035
@@ -1029,9 +1029,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 183.035
+        "observed_value": 183.16
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1044,7 +1044,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "quantile_ranges": {
             "quantiles": [
@@ -1084,11 +1084,11 @@
       "result": {
         "details": {
           "success_details": [
-            true,
-            true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false,
+            false,
+            false
           ]
         },
         "observed_value": {
@@ -1100,15 +1100,15 @@
             0.95
           ],
           "values": [
-            113.75,
-            137.2,
-            182.65,
-            217.68,
-            245.89
+            112.19,
+            141.13,
+            182.84,
+            219.55,
+            248.19
           ]
         }
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1120,14 +1120,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1146,7 +1146,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "max_value": 0.9704918032786886,
           "min_value": 0.9704918032786886
@@ -1155,9 +1155,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.9704918032786886
+        "observed_value": 0.9948717948717949
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1169,7 +1169,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Daily Internet Usage",
           "type_list": [
             "FLOAT",
@@ -1208,14 +1208,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Ad Topic Line"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1234,7 +1234,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Ad Topic Line",
           "max_value": 1.0,
           "min_value": 1.0
@@ -1257,7 +1257,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Ad Topic Line",
           "type_list": [
             "CHAR",
@@ -1278,7 +1278,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -1301,14 +1301,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "City"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1327,18 +1327,18 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "City",
-          "max_value": 0.98,
+          "max_value": 0.999,
           "min_value": 0.9
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "observed_value": 0.9819672131147541
+        "observed_value": 0.9897435897435898
       },
-      "success": false
+      "success": true
     },
     {
       "exception_info": {
@@ -1350,7 +1350,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "City",
           "type_list": [
             "CHAR",
@@ -1371,7 +1371,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -1394,7 +1394,7 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "max_value": 0,
           "min_value": 0
@@ -1417,7 +1417,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "max_value": 1,
           "min_value": 1
@@ -1440,7 +1440,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "max_value": 0.55,
           "min_value": 0.45
@@ -1449,7 +1449,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.4852459016393443
+        "observed_value": 0.47435897435897434
       },
       "success": true
     },
@@ -1463,7 +1463,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "max_value": 0.0,
           "min_value": 0.0
@@ -1487,7 +1487,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "quantile_ranges": {
             "quantiles": [
@@ -1563,7 +1563,7 @@
         "expectation_type": "expect_column_values_to_be_in_set",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "value_set": [
             0,
@@ -1574,7 +1574,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -1597,14 +1597,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1623,7 +1623,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "max_value": 0.003278688524590164,
           "min_value": 0.003278688524590164
@@ -1632,9 +1632,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.003278688524590164
+        "observed_value": 0.005128205128205128
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1646,7 +1646,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Male",
           "type_list": [
             "INTEGER",
@@ -1690,14 +1690,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Country"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1716,7 +1716,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Country",
           "max_value": 0.3655737704918033,
           "min_value": 0.3655737704918033
@@ -1725,9 +1725,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.3655737704918033
+        "observed_value": 0.47435897435897434
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1739,7 +1739,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Country",
           "type_list": [
             "CHAR",
@@ -1760,7 +1760,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -1783,14 +1783,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Timestamp"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -1809,7 +1809,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Timestamp",
           "max_value": 1.0,
           "min_value": 1.0
@@ -1832,7 +1832,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Timestamp",
           "type_list": [
             "CHAR",
@@ -1853,7 +1853,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -1876,7 +1876,7 @@
         "expectation_type": "expect_column_min_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "max_value": 0,
           "min_value": 0
@@ -1899,7 +1899,7 @@
         "expectation_type": "expect_column_max_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "max_value": 1,
           "min_value": 1
@@ -1922,7 +1922,7 @@
         "expectation_type": "expect_column_mean_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "max_value": 0.55,
           "min_value": 0.45
@@ -1931,7 +1931,7 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.4918032786885246
+        "observed_value": 0.5128205128205128
       },
       "success": true
     },
@@ -1945,7 +1945,7 @@
         "expectation_type": "expect_column_median_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "max_value": 0.0,
           "min_value": 0.0
@@ -1954,9 +1954,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.0
+        "observed_value": 1.0
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1969,7 +1969,7 @@
         "ge_cloud_id": null,
         "kwargs": {
           "allow_relative_error": "lower",
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "quantile_ranges": {
             "quantiles": [
@@ -2011,7 +2011,7 @@
           "success_details": [
             true,
             true,
-            true,
+            false,
             true,
             true
           ]
@@ -2027,13 +2027,13 @@
           "values": [
             0,
             0,
-            0,
+            1,
             1,
             1
           ]
         }
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -2045,7 +2045,7 @@
         "expectation_type": "expect_column_values_to_be_in_set",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "value_set": [
             0,
@@ -2056,7 +2056,7 @@
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "missing_count": 0,
         "missing_percent": 0.0,
         "partial_unexpected_counts": [],
@@ -2079,14 +2079,14 @@
         "expectation_type": "expect_column_values_to_not_be_null",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad"
         },
         "meta": {}
       },
       "meta": {},
       "result": {
-        "element_count": 610,
+        "element_count": 390,
         "partial_unexpected_counts": [],
         "partial_unexpected_index_list": null,
         "partial_unexpected_list": [],
@@ -2105,7 +2105,7 @@
         "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "max_value": 0.003278688524590164,
           "min_value": 0.003278688524590164
@@ -2114,9 +2114,9 @@
       },
       "meta": {},
       "result": {
-        "observed_value": 0.003278688524590164
+        "observed_value": 0.005128205128205128
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -2128,7 +2128,7 @@
         "expectation_type": "expect_column_values_to_be_in_type_list",
         "ge_cloud_id": null,
         "kwargs": {
-          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "batch_id": "deada945c28415fb7b0cfd6f663b7dc3",
           "column": "Clicked on Ad",
           "type_list": [
             "INTEGER",
@@ -2165,7 +2165,7 @@
   ],
   "statistics": {
     "evaluated_expectations": 65,
-    "success_percent": 96.92307692307692,
+    "success_percent": 73.84615384615385,
     "successful_expectations": null,
     "unsuccessful_expectations": null
   },

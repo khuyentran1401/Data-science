@@ -23,26 +23,12 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_table_row_count_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "max_value": 610,
-        "min_value": 610
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_min_to_be_between",
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
-<<<<<<< HEAD
         "max_value": 40,
         "min_value": 30
-=======
-        "max_value": 32.6,
-        "min_value": 32.6
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -51,13 +37,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
-<<<<<<< HEAD
         "max_value": 100,
         "min_value": 85
-=======
-        "max_value": 91.37,
-        "min_value": 91.37
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -66,63 +47,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site",
-<<<<<<< HEAD
         "max_value": 70,
         "min_value": 55
-=======
-        "max_value": 65.26704918032787,
-        "min_value": 65.26704918032787
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Daily Time Spent on Site",
-        "max_value": 68.33,
-        "min_value": 68.33
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Daily Time Spent on Site",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              37.47,
-              37.47
-            ],
-            [
-              51.5,
-              51.5
-            ],
-            [
-              68.25,
-              68.25
-            ],
-            [
-              78.51,
-              78.51
-            ],
-            [
-              87.09,
-              87.09
-            ]
-          ]
-        }
       },
       "meta": {}
     },
@@ -131,16 +57,6 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Time Spent on Site"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Daily Time Spent on Site",
-        "max_value": 0.9344262295081968,
-        "min_value": 0.9344262295081968
       },
       "meta": {}
     },
@@ -175,13 +91,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
-<<<<<<< HEAD
-        "max_value": 12,
-        "min_value": 10
-=======
-        "max_value": 19,
-        "min_value": 19
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
+        "max_value": 23,
+        "min_value": 15
       },
       "meta": {}
     },
@@ -190,13 +101,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
-<<<<<<< HEAD
         "max_value": 70,
         "min_value": 57
-=======
-        "max_value": 61,
-        "min_value": 61
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -205,116 +111,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age",
-<<<<<<< HEAD
         "max_value": 40,
         "min_value": 30
-=======
-        "max_value": 36.05081967213115,
-        "min_value": 36.05081967213115
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Age",
-        "max_value": 35.0,
-        "min_value": 35.0
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Age",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              23,
-              23
-            ],
-            [
-              29,
-              29
-            ],
-            [
-              35,
-              35
-            ],
-            [
-              42,
-              42
-            ],
-            [
-              52,
-              52
-            ]
-          ]
-        }
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_values_to_be_in_set",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Age",
-        "value_set": [
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40,
-          41,
-          42,
-          43,
-          44,
-          45,
-          46,
-          47,
-          48,
-          49,
-          50,
-          51,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58,
-          59,
-          60,
-          61
-        ]
       },
       "meta": {}
     },
@@ -323,16 +121,6 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Age"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Age",
-        "max_value": 0.07049180327868852,
-        "min_value": 0.07049180327868852
       },
       "meta": {}
     },
@@ -372,13 +160,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
-<<<<<<< HEAD
         "max_value": 15000,
         "min_value": 12000
-=======
-        "max_value": 14548.06,
-        "min_value": 14548.06
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -387,13 +170,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
-<<<<<<< HEAD
         "max_value": 80000,
         "min_value": 70000
-=======
-        "max_value": 79484.8,
-        "min_value": 79484.8
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -402,63 +180,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income",
-<<<<<<< HEAD
         "max_value": 65000,
-        "min_value": 55000
-=======
-        "max_value": 55365.62095081966,
-        "min_value": 55365.62095081966
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Area Income",
-        "max_value": 57532.6,
-        "min_value": 57532.6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Area Income",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              30487.48,
-              30487.48
-            ],
-            [
-              47682.28,
-              47682.28
-            ],
-            [
-              57519.64,
-              57519.64
-            ],
-            [
-              65044.59,
-              65044.59
-            ],
-            [
-              73538.09,
-              73538.09
-            ]
-          ]
-        }
+        "min_value": 54000
       },
       "meta": {}
     },
@@ -467,16 +190,6 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Area Income"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Area Income",
-        "max_value": 1.0,
-        "min_value": 1.0
       },
       "meta": {}
     },
@@ -511,13 +224,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
-<<<<<<< HEAD
         "max_value": 110,
         "min_value": 95
-=======
-        "max_value": 105.0,
-        "min_value": 105.0
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -526,13 +234,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
-<<<<<<< HEAD
         "max_value": 270,
         "min_value": 250
-=======
-        "max_value": 269.96,
-        "min_value": 269.96
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -541,63 +244,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage",
-<<<<<<< HEAD
         "max_value": 185,
         "min_value": 170
-=======
-        "max_value": 179.4397868852459,
-        "min_value": 179.4397868852459
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Daily Internet Usage",
-        "max_value": 183.035,
-        "min_value": 183.035
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Daily Internet Usage",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              113.75,
-              113.75
-            ],
-            [
-              137.2,
-              137.2
-            ],
-            [
-              182.65,
-              182.65
-            ],
-            [
-              217.68,
-              217.68
-            ],
-            [
-              245.89,
-              245.89
-            ]
-          ]
-        }
       },
       "meta": {}
     },
@@ -606,16 +254,6 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Daily Internet Usage"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Daily Internet Usage",
-        "max_value": 0.9704918032786886,
-        "min_value": 0.9704918032786886
       },
       "meta": {}
     },
@@ -654,16 +292,6 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Ad Topic Line",
-        "max_value": 1.0,
-        "min_value": 1.0
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "ge_cloud_id": null,
       "kwargs": {
@@ -698,13 +326,8 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "City",
-<<<<<<< HEAD
-        "max_value": 0.98,
+        "max_value": 0.999,
         "min_value": 0.9
-=======
-        "max_value": 0.9819672131147541,
-        "min_value": 0.9819672131147541
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
       },
       "meta": {}
     },
@@ -731,91 +354,6 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_min_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Male",
-        "max_value": 0,
-        "min_value": 0
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_max_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Male",
-        "max_value": 1,
-        "min_value": 1
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_mean_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Male",
-<<<<<<< HEAD
-        "max_value": 0.55,
-        "min_value": 0.45
-=======
-        "max_value": 0.4852459016393443,
-        "min_value": 0.4852459016393443
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Male",
-        "max_value": 0.0,
-        "min_value": 0.0
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Male",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              0
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ]
-        }
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_values_to_be_in_set",
       "ge_cloud_id": null,
       "kwargs": {
@@ -828,20 +366,20 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_values_to_not_be_null",
+      "expectation_type": "expect_column_mean_to_be_between",
       "ge_cloud_id": null,
       "kwargs": {
-        "column": "Male"
+        "column": "Male",
+        "max_value": 0.55,
+        "min_value": 0.45
       },
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "expectation_type": "expect_column_values_to_not_be_null",
       "ge_cloud_id": null,
       "kwargs": {
-        "column": "Male",
-        "max_value": 0.003278688524590164,
-        "min_value": 0.003278688524590164
+        "column": "Male"
       },
       "meta": {}
     },
@@ -885,16 +423,6 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Country",
-        "max_value": 0.3655737704918033,
-        "min_value": 0.3655737704918033
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "ge_cloud_id": null,
       "kwargs": {
@@ -925,16 +453,6 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Timestamp",
-        "max_value": 1.0,
-        "min_value": 1.0
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "ge_cloud_id": null,
       "kwargs": {
@@ -957,87 +475,12 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_min_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Clicked on Ad",
-        "max_value": 0,
-        "min_value": 0
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_max_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Clicked on Ad",
-        "max_value": 1,
-        "min_value": 1
-      },
-      "meta": {}
-    },
-    {
       "expectation_type": "expect_column_mean_to_be_between",
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Clicked on Ad",
-<<<<<<< HEAD
         "max_value": 0.55,
         "min_value": 0.45
-=======
-        "max_value": 0.4918032786885246,
-        "min_value": 0.4918032786885246
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_median_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Clicked on Ad",
-        "max_value": 0.0,
-        "min_value": 0.0
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "allow_relative_error": "lower",
-        "column": "Clicked on Ad",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              0
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ]
-        }
       },
       "meta": {}
     },
@@ -1058,16 +501,6 @@
       "ge_cloud_id": null,
       "kwargs": {
         "column": "Clicked on Ad"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "ge_cloud_id": null,
-      "kwargs": {
-        "column": "Clicked on Ad",
-        "max_value": 0.003278688524590164,
-        "min_value": 0.003278688524590164
       },
       "meta": {}
     },
@@ -1105,22 +538,6 @@
   ],
   "ge_cloud_id": null,
   "meta": {
-    "citations": [
-      {
-        "batch_request": {
-          "data_asset_name": "first_data.csv",
-          "data_connector_name": "default_inferred_data_connector_name",
-          "datasource_name": "first_data",
-          "limit": 1000
-        },
-<<<<<<< HEAD
-        "citation_date": "2021-10-07T18:26:54.131729Z",
-=======
-        "citation_date": "2021-10-07T18:35:23.047852Z",
->>>>>>> d7dca468a243d4adf5c62b5b69f7bc1f22b26ba6
-        "comment": "Created suite added via CLI"
-      }
-    ],
     "great_expectations_version": "0.13.36"
   }
 }

@@ -8,7 +8,7 @@
       "datasource_name": "first_data"
     },
     "batch_markers": {
-      "ge_load_time": "20211007T183747.145037Z",
+      "ge_load_time": "20211007T205312.895916Z",
       "pandas_data_fingerprint": "07ecc047862b79412680dbca23ce05c1"
     },
     "batch_spec": {
@@ -18,9 +18,9 @@
     "great_expectations_version": "0.13.36",
     "run_id": {
       "run_name": null,
-      "run_time": "2021-10-07T13:37:47.104373+00:00"
+      "run_time": "2021-10-07T15:53:12.863343+00:00"
     },
-    "validation_time": "20211007T183747.164857Z"
+    "validation_time": "20211007T205312.916851Z"
   },
   "results": [
     {
@@ -102,8 +102,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Time Spent on Site",
-          "max_value": 32.6,
-          "min_value": 32.6
+          "max_value": 40,
+          "min_value": 30
         },
         "meta": {}
       },
@@ -125,8 +125,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Time Spent on Site",
-          "max_value": 91.37,
-          "min_value": 91.37
+          "max_value": 100,
+          "min_value": 85
         },
         "meta": {}
       },
@@ -148,8 +148,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Time Spent on Site",
-          "max_value": 65.26704918032787,
-          "min_value": 65.26704918032787
+          "max_value": 70,
+          "min_value": 55
         },
         "meta": {}
       },
@@ -359,8 +359,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Age",
-          "max_value": 19,
-          "min_value": 19
+          "max_value": 12,
+          "min_value": 10
         },
         "meta": {}
       },
@@ -368,7 +368,7 @@
       "result": {
         "observed_value": 19
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -382,8 +382,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Age",
-          "max_value": 61,
-          "min_value": 61
+          "max_value": 70,
+          "min_value": 57
         },
         "meta": {}
       },
@@ -405,8 +405,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Age",
-          "max_value": 36.05081967213115,
-          "min_value": 36.05081967213115
+          "max_value": 40,
+          "min_value": 30
         },
         "meta": {}
       },
@@ -696,8 +696,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Area Income",
-          "max_value": 14548.06,
-          "min_value": 14548.06
+          "max_value": 15000,
+          "min_value": 12000
         },
         "meta": {}
       },
@@ -719,8 +719,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Area Income",
-          "max_value": 79484.8,
-          "min_value": 79484.8
+          "max_value": 80000,
+          "min_value": 70000
         },
         "meta": {}
       },
@@ -742,8 +742,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Area Income",
-          "max_value": 55365.62095081966,
-          "min_value": 55365.62095081966
+          "max_value": 65000,
+          "min_value": 55000
         },
         "meta": {}
       },
@@ -953,8 +953,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Internet Usage",
-          "max_value": 105.0,
-          "min_value": 105.0
+          "max_value": 110,
+          "min_value": 95
         },
         "meta": {}
       },
@@ -976,8 +976,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Internet Usage",
-          "max_value": 269.96,
-          "min_value": 269.96
+          "max_value": 270,
+          "min_value": 250
         },
         "meta": {}
       },
@@ -999,8 +999,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Daily Internet Usage",
-          "max_value": 179.4397868852459,
-          "min_value": 179.4397868852459
+          "max_value": 185,
+          "min_value": 170
         },
         "meta": {}
       },
@@ -1329,8 +1329,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "City",
-          "max_value": 0.9819672131147541,
-          "min_value": 0.9819672131147541
+          "max_value": 0.98,
+          "min_value": 0.9
         },
         "meta": {}
       },
@@ -1338,7 +1338,7 @@
       "result": {
         "observed_value": 0.9819672131147541
       },
-      "success": true
+      "success": false
     },
     {
       "exception_info": {
@@ -1442,8 +1442,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Male",
-          "max_value": 0.4852459016393443,
-          "min_value": 0.4852459016393443
+          "max_value": 0.55,
+          "min_value": 0.45
         },
         "meta": {}
       },
@@ -1924,8 +1924,8 @@
         "kwargs": {
           "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
           "column": "Clicked on Ad",
-          "max_value": 0.4918032786885246,
-          "min_value": 0.4918032786885246
+          "max_value": 0.55,
+          "min_value": 0.45
         },
         "meta": {}
       },
@@ -2165,9 +2165,9 @@
   ],
   "statistics": {
     "evaluated_expectations": 65,
-    "success_percent": 100.0,
+    "success_percent": 96.92307692307692,
     "successful_expectations": null,
     "unsuccessful_expectations": null
   },
-  "success": true
+  "success": false
 }

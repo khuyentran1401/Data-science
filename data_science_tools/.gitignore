@@ -4,3 +4,5 @@ datasette_examples
 *.jpg
 *-datapane*
 *.csv
+*.zip
+mallet-2.0.8

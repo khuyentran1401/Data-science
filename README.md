@@ -47,6 +47,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [link](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [link](https://github.com/khuyentran1401/kedro_demo)
 | Introduction to Deepnote: Real-time Collaboration on Jupyter Notebook | [link](https://pub.towardsai.net/introduction-to-deepnote-real-time-collaboration-on-jupyter-notebook-18509c95d62f)
+| Great Expectations: Always Know What to Expect From Your Data | [link](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 
 # Productive Tools
 

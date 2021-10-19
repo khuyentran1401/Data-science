@@ -234,6 +234,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) | [link](https://github.com/khuyentran1401/same-stats-different-graphs)
 |Introduction to One-Way ANOVA: A Test to Compare the Means between More than Two Groups | [link]( https://towardsdatascience.com/introduction-to-one-way-anova-a-test-to-compare-the-means-between-more-than-two-groups-a656cb53b19c)| [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/ANOVA_examples.ipynb)
+| Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb)
 
 # Applications
 

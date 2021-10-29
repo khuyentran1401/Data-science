@@ -155,6 +155,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Pyvis: Visualize Interactive Network Graphs in Python | [link](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/pyvis_examples/pyvis.ipynb)
 | Build and Analyze Knowledge Graphs with Diffbot | [link](https://towardsdatascience.com/build-and-analyze-knowledge-graphs-with-diffbot-2af83065ade0) 
 | Observe The Friend Paradox in Facebook Data Using Python | [link](https://towardsdatascience.com/observe-the-friend-paradox-in-facebook-data-using-python-314c23fd49e4#44e7-514613b6bd18) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/friend_paradox/facebook_network.ipynb)
+| What skills and backgrounds do data scientists have in common? | [link](https://www.datacamp.com/community/blog/what-skills-and-backgrounds-do-data-scientists-have-in-common) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fvisualization%2Fanalyze_data_science_market%2Fanalyze_data_science_market.ipynb)
 
   
 # Mathematical Programming

@@ -196,6 +196,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
+| Simplify Your Functions with Functools’ Partial and Singledispatch | [link](https://towardsdatascience.com/simplify-your-functions-with-functools-partial-and-singledispatch-b7071f7543bb) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/functools%20example.ipynb)
 
 
 # Terminal

@@ -158,6 +158,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Observe The Friend Paradox in Facebook Data Using Python | [link](https://towardsdatascience.com/observe-the-friend-paradox-in-facebook-data-using-python-314c23fd49e4#44e7-514613b6bd18) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/friend_paradox/facebook_network.ipynb)
 | What skills and backgrounds do data scientists have in common? | [link](https://www.datacamp.com/community/blog/what-skills-and-backgrounds-do-data-scientists-have-in-common) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fvisualization%2Fanalyze_data_science_market%2Fanalyze_data_science_market.ipynb)
 | Visualize Similarities Between Companies With Graph Database | [link](https://khuyentran1476.medium.com/visualize-similarities-between-companies-with-graph-database-212af872fbf6) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/analyze_artificial_intelligence_industry.ipynb)
+| Visualize GitHub Social Network with PyGraphistry | [link](https://towardsdatascience.com/visualize-github-social-network-with-pygraphistry-dfc23a38ec8d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/visualize_github_network/github_explore.ipynb)
 
   
 # Mathematical Programming

@@ -33,7 +33,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Data Science Tools 
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/faker.ipynb) |
 | Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
@@ -43,14 +43,16 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Datapane’s New Features: Create a Beautiful Dashboard in Python in a Few Lines of Code | [link](https://towardsdatascience.com/datapanes-new-features-create-a-beautiful-dashboard-in-python-in-a-few-lines-of-code-a3c44523292b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Datapane_new_features)
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
-| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
+| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [link](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [link](https://github.com/khuyentran1401/kedro_demo)
+| Orchestrate a Data Science Project in Python With Prefect | [link](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
 | Introduction to Deepnote: Real-time Collaboration on Jupyter Notebook | [link](https://pub.towardsai.net/introduction-to-deepnote-real-time-collaboration-on-jupyter-notebook-18509c95d62f)
+| Great Expectations: Always Know What to Expect From Your Data | [link](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 
 # Productive Tools
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Share your Python Objects Across Different Environments in One Line of Code | [link](https://towardsdatascience.com/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e)  | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/blob_datapane.ipynb) |
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [link](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
@@ -59,10 +61,11 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [link](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 | Pydash: A Kitchen Sink of Missing Python Utilities | [link](https://towardsdatascience.com/pydash-a-bucket-of-missing-python-utilities-5d10365be4fc) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/pydash.ipynb)
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [link](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples)
+| Write Clean Python Code Using Pipes | [link](https://towardsdatascience.com/write-clean-python-code-using-pipes-1239a0f3abf5) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fproductive_tools%2Fpipe.ipynb)
 
 # Tools for Deployment
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Effortlessly Publish your Python Package to PyPI Using Poetry | [link](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f) | [link](https://github.com/khuyentran1401/pretty-text)
 | Typer: Build Powerful CLIs in One Line of Code using Python | [link](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [link](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
@@ -70,7 +73,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Speed-up Tools
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Cython-A Speed-Up Tool for your Python Function | [link](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [link](https://github.com/khuyentran1401/Cython) |
 | Train your Machine Learning Model 150x Faster with cuML | [link](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [link](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
@@ -78,7 +81,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Math Tools
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | SymPy: Symbolic Computation in Python | [link](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/sympy_example.ipynb)
 | How to Create Mathematical Animations like 3Blue1Brown Using Python |[link](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
@@ -86,7 +89,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Machine Learning
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Monitor And Log your Machine Learning Experiment Remotely with HyperDash | [link](https://towardsdatascience.com/how-to-monitor-and-log-your-machine-learning-experiment-remotely-with-hyperdash-aa7106b15509) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Hyperdash.ipynb) |
 |How to Efficiently Fine-Tune your Machine Learning Models | <a href="https://towardsdatascience.com/how-to-fine-tune-your-machine-learning-models-with-ease-8ca62d1217b1" target="_blank">link</a>| [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
@@ -99,9 +102,9 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Natural Language Processing
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
+| Sentiment Analysis of LinkedIn Messages      | [link](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
 | Find Common Words in Article with Python Module Newspaper and NLTK      | [link](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [link](https://github.com/khuyentran1401/Extract-text-from-article) |
 | How to Tokenize Tweets with Python | [link](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/tweets_tokenize.ipynb) |
  | How to Solve Analogies with Word2Vec | [link](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [link](https://github.com/khuyentran1401/Data-science/blob/master//nlp/word2vec.ipynb) |
@@ -116,20 +119,20 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Computer Vision
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an App to Classify Dogs Using fastai and Streamlit | [link](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [link](https://github.com/khuyentran1401/dog_classifier)
 
 # Time Series
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Kats: a Generalizable Framework to Analyze Time Series Data in Python | [link](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
 | How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [link](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
  
 # Feature Engineering
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | 3 Ways to Extract Features from Dates with Python | [link](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [link](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 | Similarity Encoding for Dirty Categories Using dirty_cat | [link](https://towardsdatascience.com/similarity-encoding-for-dirty-categories-using-dirty-cat-d9f0b581a552) | [link](https://github.com/khuyentran1401/Data-science/blob/master/feature_engineering/dirty_cat_example/employee_salaries.ipynb)
@@ -137,9 +140,9 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Visualization
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| How to Embed Interactive Charts on your Medium Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/embed_charts.ipynb) |
+| How to Embed Interactive Charts on your Articles and Personal Website | [link](https://towardsdatascience.com/how-to-embed-interactive-charts-on-your-medium-articles-and-website-6987f7b28472) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/embed_charts.ipynb) |
 | What I Learned from Scraping 15k Data Science Articles on Medium      | [link](https://medium.com/@khuyentran1476/what-i-learned-from-scraping-15k-data-science-articles-on-medium-98a5f252d0aa) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/medium_articles) |
 | How to Create Interactive Plots with Altair | [link](https://towardsdatascience.com/how-to-create-interactive-and-elegant-plot-with-altair-8dd87a890f2a) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/altair/altair.ipynb) |
 | How to Create a Drop-Down Menu and a Slide Bar for your Favorite Visualization Tool | [link](https://towardsdatascience.com/how-to-create-a-drop-down-menu-and-a-slide-bar-for-your-favorite-visualization-tool-3a50b7c9ea01) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/dropdown/dropdown.ipynb) |
@@ -153,11 +156,14 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Pyvis: Visualize Interactive Network Graphs in Python | [link](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/pyvis_examples/pyvis.ipynb)
 | Build and Analyze Knowledge Graphs with Diffbot | [link](https://towardsdatascience.com/build-and-analyze-knowledge-graphs-with-diffbot-2af83065ade0) 
 | Observe The Friend Paradox in Facebook Data Using Python | [link](https://towardsdatascience.com/observe-the-friend-paradox-in-facebook-data-using-python-314c23fd49e4#44e7-514613b6bd18) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/friend_paradox/facebook_network.ipynb)
+| What skills and backgrounds do data scientists have in common? | [link](https://www.datacamp.com/community/blog/what-skills-and-backgrounds-do-data-scientists-have-in-common) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fvisualization%2Fanalyze_data_science_market%2Fanalyze_data_science_market.ipynb)
+| Visualize Similarities Between Companies With Graph Database | [link](https://khuyentran1476.medium.com/visualize-similarities-between-companies-with-graph-database-212af872fbf6) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/analyze_artificial_intelligence_industry.ipynb)
+| Visualize GitHub Social Network with PyGraphistry | [link](https://towardsdatascience.com/visualize-github-social-network-with-pygraphistry-dfc23a38ec8d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/visualize_github_network/github_explore.ipynb)
 
   
 # Mathematical Programming
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to choose stocks to invest in with Python      | [link](https://towardsdatascience.com/choose-stocks-to-invest-with-python-584892e3ad22) | [link](https://github.com/khuyentran1401/Data-science/tree/master/mathematical_programming/invest_stock/stock_invest.ipynb) |
 | Maximize your Productivity with Python      | [link](https://towardsdatascience.com/maximize-your-productivity-with-python-6110004b45f7) | [link](https://github.com/khuyentran1401/Task-scheduler-problem/tree/master)
@@ -169,7 +175,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Scraping
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Web Scrape Movie Database with Beautiful Soup      | [link](https://medium.com/analytics-vidhya/detailed-tutorials-for-beginners-web-scrap-movie-database-from-multiple-pages-with-beautiful-soup-5836828d23) | [link](https://github.com/khuyentran1401/Web-scrape-Ghibli-Movie-Database/tree/master) |
 | top-github-scraper: Scrape Top Github Users and Repositories Based On a Keyword in One Line of Code | [link](https://khuyentran1476.medium.com/top-github-scraper-scrape-top-github-users-and-repositories-based-on-a-keyword-in-one-line-of-code-d48b29954aac) | [link](https://github.com/khuyentran1401/Data-science/blob/master/scraping/scrape_top_github.ipynb)
@@ -177,7 +183,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Python
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Numpy Tricks for your Data Science Projects| [link](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [link](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [link](https://github.com/khuyentran1401/Data-science/blob/master//python/Time.ipynb) |
@@ -191,11 +197,12 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | How to Exclude the Outliers in Pandas DataFrame | [link](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
 | Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [link](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [link](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
+| Simplify Your Functions with Functools’ Partial and Singledispatch | [link](https://towardsdatascience.com/simplify-your-functions-with-functools-partial-and-singledispatch-b7071f7543bb) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/functools%20example.ipynb)
 
 
 # Terminal
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create and View Interactive Cheatsheets on the Command-line | [link](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
 | Understand CSV Files from your Terminal with XSV | [link](https://towardsdatascience.com/understand-your-csv-files-from-your-terminal-with-xsv-65255ae67293) 
@@ -211,7 +218,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Linear Algebra
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Build a Matrix Module from Scratch   | [link](https://towardsdatascience.com/how-to-build-a-matrix-module-from-scratch-a4f35ec28b56)   | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/tree/master/matrix) |
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [link](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [link](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
@@ -219,7 +226,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Data Structure
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Convex Hull: An Innovative Approach to Gift-Wrap your Data | [link](https://towardsdatascience.com/convex-hull-an-innovative-approach-to-gift-wrap-your-data-899992881efc) | [link](https://github.com/khuyentran1401/Computational-Geometry/blob/master/Graham%20Scan.ipynb) |
 | How to Visualize Social Network With Graph Theory | [link](https://towardsdatascience.com/how-to-visualize-social-network-with-graph-theory-4b2dc0c8a99f) | [link](https://github.com/khuyentran1401/Game-of-Thrones-And-Graph) |
@@ -229,14 +236,15 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Statistics
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) | [link](https://github.com/khuyentran1401/same-stats-different-graphs)
 |Introduction to One-Way ANOVA: A Test to Compare the Means between More than Two Groups | [link]( https://towardsdatascience.com/introduction-to-one-way-anova-a-test-to-compare-the-means-between-more-than-two-groups-a656cb53b19c)| [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/ANOVA_examples.ipynb)
+| Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb)
 
 # Applications
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an Interactive Startup Growth Calculator with Python | [link](https://towardsdatascience.com/how-to-create-an-interactive-startup-growth-calculator-with-python-d224816f29d5) | [link](https://github.com/datapane/gallery/tree/master/startup-calculator)
 | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [link](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
@@ -248,7 +256,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Learning Tips
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Learn Data Science when Life does not Give You a Break | [link](https://towardsdatascience.com/how-to-learn-data-science-when-life-does-not-give-you-a-break-a26a6ea328fd) |
 | How to Accelerate your Data Science Career by Putting yourself in the Right Environment | [link](https://towardsdatascience.com/how-to-accelerate-your-data-science-career-by-putting-yourself-in-the-right-environment-8316f42a476c) |
@@ -257,7 +265,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Productive Tips
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Organize your Data Science Articles with Github | [link](https://towardsdatascience.com/how-to-organize-your-data-science-articles-with-github-b5b9427dad37) | [link](https://github.com/khuyentran1401/machine-learning-articles) |
 | How to Create Reusable Command-Line | [link](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
@@ -268,7 +276,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # VSCode
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Leverage Visual Studio Code for your Data Science Projects | [link](https://towardsdatascience.com/how-to-leverage-visual-studio-code-for-your-data-science-projects-7078b70a72f0) | 
 | Top 4 Code Viewers for Data Scientist in VSCode | [link](https://towardsdatascience.com/top-4-code-viewers-for-data-scientist-in-vscode-e275e492350d) |
@@ -279,14 +287,14 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 
 # Book Review
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Python Machine Learning: A Comprehensive Handbook for Machine Learning | [link](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
 
 
 # Data Science Portfolio
 
-| Title        | Medium article           | Repository  |
+| Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [link](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693)| 
 | Build an Impressive Github Profile in 3 Steps | [link](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
@@ -296,7 +304,6 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 Special thanks to these supporters for supporting this project!
 
 [<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://www.linkedin.com/in/sagar-ravindra-sonawane/)
-
 
 
 

@@ -1,0 +1,2173 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "first_data.csv",
+      "data_connector_name": "default_inferred_data_connector_name",
+      "datasource_name": "first_data"
+    },
+    "batch_markers": {
+      "ge_load_time": "20211007T205137.632660Z",
+      "pandas_data_fingerprint": "07ecc047862b79412680dbca23ce05c1"
+    },
+    "batch_spec": {
+      "path": "/home/khuyen/Data-science/data_science_tools/great_expectations_example/great_expectations/../data/first_data.csv"
+    },
+    "expectation_suite_name": "first_data.csv.warning",
+    "great_expectations_version": "0.13.36",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2021-10-07T15:51:37.618483+00:00"
+    },
+    "validation_time": "20211007T205137.647569Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column_list": [
+            "Unnamed: 0",
+            "Daily Time Spent on Site",
+            "Age",
+            "Area Income",
+            "Daily Internet Usage",
+            "Ad Topic Line",
+            "City",
+            "Male",
+            "Country",
+            "Timestamp",
+            "Clicked on Ad"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": [
+          "Unnamed: 0",
+          "Daily Time Spent on Site",
+          "Age",
+          "Area Income",
+          "Daily Internet Usage",
+          "Ad Topic Line",
+          "City",
+          "Male",
+          "Country",
+          "Timestamp",
+          "Clicked on Ad"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "max_value": 610,
+          "min_value": 610
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 610
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "max_value": 32.6,
+          "min_value": 32.6
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 32.6
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "max_value": 91.37,
+          "min_value": 91.37
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 91.37
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "max_value": 65.26704918032787,
+          "min_value": 65.26704918032787
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 65.26704918032787
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "max_value": 68.33,
+          "min_value": 68.33
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 68.33
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                37.47,
+                37.47
+              ],
+              [
+                51.5,
+                51.5
+              ],
+              [
+                68.25,
+                68.25
+              ],
+              [
+                78.51,
+                78.51
+              ],
+              [
+                87.09,
+                87.09
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            37.47,
+            51.5,
+            68.25,
+            78.51,
+            87.09
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "max_value": 0.9344262295081968,
+          "min_value": 0.9344262295081968
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.9344262295081968
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Time Spent on Site",
+          "type_list": [
+            "FLOAT",
+            "FLOAT4",
+            "FLOAT8",
+            "FLOAT64",
+            "DOUBLE",
+            "DOUBLE_PRECISION",
+            "NUMERIC",
+            "FloatType",
+            "DoubleType",
+            "float_",
+            "float16",
+            "float32",
+            "float64",
+            "number",
+            "DECIMAL",
+            "REAL"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "float64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "max_value": 19,
+          "min_value": 19
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 19
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "max_value": 61,
+          "min_value": 61
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 61
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "max_value": 36.05081967213115,
+          "min_value": 36.05081967213115
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 36.05081967213115
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "max_value": 35.0,
+          "min_value": 35.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 35.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                23,
+                23
+              ],
+              [
+                29,
+                29
+              ],
+              [
+                35,
+                35
+              ],
+              [
+                42,
+                42
+              ],
+              [
+                52,
+                52
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            23,
+            29,
+            35,
+            42,
+            52
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "value_set": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "max_value": 0.07049180327868852,
+          "min_value": 0.07049180327868852
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.07049180327868852
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Age",
+          "type_list": [
+            "INTEGER",
+            "integer",
+            "int",
+            "int_",
+            "int8",
+            "int16",
+            "int32",
+            "int64",
+            "uint8",
+            "uint16",
+            "uint32",
+            "uint64",
+            "INT",
+            "INTEGER",
+            "INT64",
+            "TINYINT",
+            "BYTEINT",
+            "SMALLINT",
+            "BIGINT",
+            "IntegerType",
+            "LongType"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "int64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "max_value": 14548.06,
+          "min_value": 14548.06
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 14548.06
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "max_value": 79484.8,
+          "min_value": 79484.8
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 79484.8
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "max_value": 55365.62095081966,
+          "min_value": 55365.62095081966
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 55365.62095081966
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "max_value": 57532.6,
+          "min_value": 57532.6
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 57532.6
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                30487.48,
+                30487.48
+              ],
+              [
+                47682.28,
+                47682.28
+              ],
+              [
+                57519.64,
+                57519.64
+              ],
+              [
+                65044.59,
+                65044.59
+              ],
+              [
+                73538.09,
+                73538.09
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            30487.48,
+            47682.28,
+            57519.64,
+            65044.59,
+            73538.09
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "max_value": 1.0,
+          "min_value": 1.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 1.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Area Income",
+          "type_list": [
+            "FLOAT",
+            "FLOAT4",
+            "FLOAT8",
+            "FLOAT64",
+            "DOUBLE",
+            "DOUBLE_PRECISION",
+            "NUMERIC",
+            "FloatType",
+            "DoubleType",
+            "float_",
+            "float16",
+            "float32",
+            "float64",
+            "number",
+            "DECIMAL",
+            "REAL"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "float64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "max_value": 105.0,
+          "min_value": 105.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 105.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "max_value": 269.96,
+          "min_value": 269.96
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 269.96
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "max_value": 179.4397868852459,
+          "min_value": 179.4397868852459
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 179.4397868852459
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "max_value": 183.035,
+          "min_value": 183.035
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 183.035
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                113.75,
+                113.75
+              ],
+              [
+                137.2,
+                137.2
+              ],
+              [
+                182.65,
+                182.65
+              ],
+              [
+                217.68,
+                217.68
+              ],
+              [
+                245.89,
+                245.89
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            113.75,
+            137.2,
+            182.65,
+            217.68,
+            245.89
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "max_value": 0.9704918032786886,
+          "min_value": 0.9704918032786886
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.9704918032786886
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Daily Internet Usage",
+          "type_list": [
+            "FLOAT",
+            "FLOAT4",
+            "FLOAT8",
+            "FLOAT64",
+            "DOUBLE",
+            "DOUBLE_PRECISION",
+            "NUMERIC",
+            "FloatType",
+            "DoubleType",
+            "float_",
+            "float16",
+            "float32",
+            "float64",
+            "number",
+            "DECIMAL",
+            "REAL"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "float64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Ad Topic Line"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Ad Topic Line",
+          "max_value": 1.0,
+          "min_value": 1.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 1.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Ad Topic Line",
+          "type_list": [
+            "CHAR",
+            "NCHAR",
+            "VARCHAR",
+            "NVARCHAR",
+            "TEXT",
+            "NTEXT",
+            "STRING",
+            "StringType",
+            "string",
+            "str",
+            "object",
+            "dtype('O')"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "City"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "City",
+          "max_value": 0.9819672131147541,
+          "min_value": 0.9819672131147541
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.9819672131147541
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "City",
+          "type_list": [
+            "CHAR",
+            "NCHAR",
+            "VARCHAR",
+            "NVARCHAR",
+            "TEXT",
+            "NTEXT",
+            "STRING",
+            "StringType",
+            "string",
+            "str",
+            "object",
+            "dtype('O')"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "max_value": 0,
+          "min_value": 0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "max_value": 1,
+          "min_value": 1
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 1
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "max_value": 0.4852459016393443,
+          "min_value": 0.4852459016393443
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.4852459016393443
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "max_value": 0.0,
+          "min_value": 0.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "value_set": [
+            0,
+            1
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "max_value": 0.003278688524590164,
+          "min_value": 0.003278688524590164
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.003278688524590164
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Male",
+          "type_list": [
+            "INTEGER",
+            "integer",
+            "int",
+            "int_",
+            "int8",
+            "int16",
+            "int32",
+            "int64",
+            "uint8",
+            "uint16",
+            "uint32",
+            "uint64",
+            "INT",
+            "INTEGER",
+            "INT64",
+            "TINYINT",
+            "BYTEINT",
+            "SMALLINT",
+            "BIGINT",
+            "IntegerType",
+            "LongType"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "int64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Country"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Country",
+          "max_value": 0.3655737704918033,
+          "min_value": 0.3655737704918033
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.3655737704918033
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Country",
+          "type_list": [
+            "CHAR",
+            "NCHAR",
+            "VARCHAR",
+            "NVARCHAR",
+            "TEXT",
+            "NTEXT",
+            "STRING",
+            "StringType",
+            "string",
+            "str",
+            "object",
+            "dtype('O')"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Timestamp"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Timestamp",
+          "max_value": 1.0,
+          "min_value": 1.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 1.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Timestamp",
+          "type_list": [
+            "CHAR",
+            "NCHAR",
+            "VARCHAR",
+            "NVARCHAR",
+            "TEXT",
+            "NTEXT",
+            "STRING",
+            "StringType",
+            "string",
+            "str",
+            "object",
+            "dtype('O')"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_min_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "max_value": 0,
+          "min_value": 0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_max_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "max_value": 1,
+          "min_value": 1
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 1
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "max_value": 0.4918032786885246,
+          "min_value": 0.4918032786885246
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.4918032786885246
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "max_value": 0.0,
+          "min_value": 0.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_quantile_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "allow_relative_error": "lower",
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "quantile_ranges": {
+            "quantiles": [
+              0.05,
+              0.25,
+              0.5,
+              0.75,
+              0.95
+            ],
+            "value_ranges": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "success_details": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "observed_value": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "value_set": [
+            0,
+            1
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 610,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "max_value": 0.003278688524590164,
+          "min_value": 0.003278688524590164
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 0.003278688524590164
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "ge_cloud_id": null,
+        "kwargs": {
+          "batch_id": "609e953946445f7bf0a7bf98d5202c0a",
+          "column": "Clicked on Ad",
+          "type_list": [
+            "INTEGER",
+            "integer",
+            "int",
+            "int_",
+            "int8",
+            "int16",
+            "int32",
+            "int64",
+            "uint8",
+            "uint16",
+            "uint32",
+            "uint64",
+            "INT",
+            "INTEGER",
+            "INT64",
+            "TINYINT",
+            "BYTEINT",
+            "SMALLINT",
+            "BIGINT",
+            "IntegerType",
+            "LongType"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "int64"
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 65,
+    "success_percent": 100.0,
+    "successful_expectations": null,
+    "unsuccessful_expectations": null
+  },
+  "success": true
+}

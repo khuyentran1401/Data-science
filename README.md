@@ -62,6 +62,8 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Pydash: A Kitchen Sink of Missing Python Utilities | [link](https://towardsdatascience.com/pydash-a-bucket-of-missing-python-utilities-5d10365be4fc) | [link](https://github.com/khuyentran1401/Data-science/blob/master/python/pydash.ipynb)
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [link](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples)
 | Write Clean Python Code Using Pipes | [link](https://towardsdatascience.com/write-clean-python-code-using-pipes-1239a0f3abf5) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fproductive_tools%2Fpipe.ipynb)
+| Introducing FugueSQL — SQL for Pandas, Spark, and Dask DataFrames | [link](https://towardsdatascience.com/introducing-fuguesql-sql-for-pandas-spark-and-dask-dataframes-63d461a16b27) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/fugueSQL.ipynb)
+| DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [link](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
 
 # Tools for Deployment
 
@@ -240,7 +242,8 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | ------------- |:-------------:| :-----:|
 | Can Datasets of a Dinosaur and a Circle have Identical Statistics? | [link](https://towardsdatascience.com/how-to-turn-a-dinosaur-dataset-into-a-circle-dataset-with-the-same-statistics-64136c2e2ca0) | [link](https://github.com/khuyentran1401/same-stats-different-graphs)
 |Introduction to One-Way ANOVA: A Test to Compare the Means between More than Two Groups | [link]( https://towardsdatascience.com/introduction-to-one-way-anova-a-test-to-compare-the-means-between-more-than-two-groups-a656cb53b19c)| [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/ANOVA_examples.ipynb)
-| Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb)
+| Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb) 
+| Detect Change Points with Bayesian Inference and PyMC3 | [link](https://towardsdatascience.com/detect-change-points-with-bayesian-inference-and-pymc3-3b4f3ae6b9bb#9530-e5f3d0f86132) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_example/google%20analytics.ipynb)
 
 # Applications
 

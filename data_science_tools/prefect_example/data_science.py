@@ -85,7 +85,7 @@ def report_accuracy(predictions: np.ndarray, test_y: pd.DataFrame) -> None:
 with Flow("data-science") as flow:
 
     
-    train_test_dict = LocalResult(dir='data/processed/Sat Nov 06 15:40:15 2021/').read(location='split_data_output').value
+    train_test_dict = LocalResult(dir='data/processed/Mon_Dec_20_2021_20:55:20').read(location='split_data_output').value
 
     # Load data
     train_x = train_test_dict['train_x']

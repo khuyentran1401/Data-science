@@ -14,7 +14,7 @@ def load_data(path: str) -> pd.DataFrame:
     return pd.read_csv(path)
 
 
-@task(target="{date:%a_%b_%d_%Y_%H:%M:%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
+@task(target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
 def get_classes(data: pd.DataFrame, target_col: str) -> List[str]:
     """Task for getting the classes from the Iris data set."""
     return sorted(data[target_col].unique())
@@ -27,7 +27,7 @@ def encode_categorical_columns(data: pd.DataFrame, target_col: str) -> pd.DataFr
     return pd.get_dummies(data, columns=[target_col], prefix="", prefix_sep="")
 
 
-@task(log_stdout=True, target="{date:%a_%b_%d_%Y_%H:%M:%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
+@task(log_stdout=True, target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
 def split_data(data: pd.DataFrame, test_data_ratio: float, classes: list) -> Dict[str, Any]:
     """Task for splitting the classical Iris data set into training and test
     sets, each split into features and labels.

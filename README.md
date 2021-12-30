@@ -245,6 +245,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 |Introduction to One-Way ANOVA: A Test to Compare the Means between More than Two Groups | [link]( https://towardsdatascience.com/introduction-to-one-way-anova-a-test-to-compare-the-means-between-more-than-two-groups-a656cb53b19c)| [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/ANOVA_examples.ipynb)
 | Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb) 
 | Detect Change Points with Bayesian Inference and PyMC3 | [link](https://towardsdatascience.com/detect-change-points-with-bayesian-inference-and-pymc3-3b4f3ae6b9bb#9530-e5f3d0f86132) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_example/google%20analytics.ipynb)
+| Bayesian Linear Regression with Bambi | [link](https://towardsdatascience.com/bayesian-linear-regression-with-bambi-a5e6570f167b) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayes_linear_regression/linear_regression.ipynb)
 
 # Applications
 

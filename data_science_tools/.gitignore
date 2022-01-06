@@ -7,3 +7,4 @@ datasette_examples
 *.zip
 mallet-2.0.8
 *.pickle
+whylog_example

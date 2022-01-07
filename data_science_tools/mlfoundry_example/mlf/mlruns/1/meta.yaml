@@ -1,0 +1,4 @@
+artifact_location: file:///home/khuyen/Data-science/data_science_tools/mlfoundry_example/mlf/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: test-project

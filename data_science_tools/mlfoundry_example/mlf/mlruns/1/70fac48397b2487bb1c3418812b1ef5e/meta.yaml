@@ -1,0 +1,15 @@
+artifact_uri: file:///home/khuyen/Data-science/data_science_tools/mlfoundry_example/mlf/mlruns/1/70fac48397b2487bb1c3418812b1ef5e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 70fac48397b2487bb1c3418812b1ef5e
+run_uuid: 70fac48397b2487bb1c3418812b1ef5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641322638766
+status: 1
+tags: []
+user_id: unknown

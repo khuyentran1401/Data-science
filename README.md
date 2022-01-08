@@ -162,7 +162,6 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Visualize Similarities Between Companies With Graph Database | [link](https://khuyentran1476.medium.com/visualize-similarities-between-companies-with-graph-database-212af872fbf6) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/analyze_artificial_intelligence_industry.ipynb)
 | Visualize GitHub Social Network with PyGraphistry | [link](https://towardsdatascience.com/visualize-github-social-network-with-pygraphistry-dfc23a38ec8d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/visualize_github_network/github_explore.ipynb)
 | Find the Top Bootcamps for Data Professionals From Over 5k Profiles | [link](https://khuyentran1476.medium.com/find-the-top-bootcamps-for-data-professionals-from-over-5k-profiles-92c38b10ddb4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/ds_bootcamps)
-| Earn More Salary as a Coder — Higher Degree or More Years of Experience? | [link](https://towardsdatascience.com/earn-more-salary-as-a-coder-higher-degree-or-more-years-of-experience-68c13f73a557) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/stackoverflow_survey/analyze_salary.ipynb)
 
   
 # Mathematical Programming
@@ -247,6 +246,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb) 
 | Detect Change Points with Bayesian Inference and PyMC3 | [link](https://towardsdatascience.com/detect-change-points-with-bayesian-inference-and-pymc3-3b4f3ae6b9bb#9530-e5f3d0f86132) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_example/google%20analytics.ipynb)
 | Bayesian Linear Regression with Bambi | [link](https://towardsdatascience.com/bayesian-linear-regression-with-bambi-a5e6570f167b) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayes_linear_regression/linear_regression.ipynb)
+| Earn More Salary as a Coder — Higher Degree or More Years of Experience? | [link](https://towardsdatascience.com/earn-more-salary-as-a-coder-higher-degree-or-more-years-of-experience-68c13f73a557) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/stackoverflow_survey/analyze_salary.ipynb)
 
 # Applications
 

@@ -246,6 +246,7 @@ If you want to received updates of these blogs in your mailbox, you can subscrib
 | Bayes’ Theorem, Clearly Explained with Visualization | [link](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14#5c49-6a7199b5fc13) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_theorem.ipynb) 
 | Detect Change Points with Bayesian Inference and PyMC3 | [link](https://towardsdatascience.com/detect-change-points-with-bayesian-inference-and-pymc3-3b4f3ae6b9bb#9530-e5f3d0f86132) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayesian_example/google%20analytics.ipynb)
 | Bayesian Linear Regression with Bambi | [link](https://towardsdatascience.com/bayesian-linear-regression-with-bambi-a5e6570f167b) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayes_linear_regression/linear_regression.ipynb)
+| Earn More Salary as a Coder — Higher Degree or More Years of Experience? | [link](https://towardsdatascience.com/earn-more-salary-as-a-coder-higher-degree-or-more-years-of-experience-68c13f73a557) | [link](https://github.com/khuyentran1401/Data-science/blob/master/statistics/stackoverflow_survey/analyze_salary.ipynb)
 
 # Applications
 

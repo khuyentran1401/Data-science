@@ -1,12 +1,11 @@
-from prefect import Flow
-from prefect.tasks.prefect import StartFlowRun
+import mlfoundry as mlf
+from data_engineering import data_engineer_flow
+from data_science import data_science_flow
 
-data_engineering_flow = StartFlowRun(
-    flow_name="data-engineer", project_name='Iris Project', wait=True, parameters={'test_data_ratio': 0.3})
-data_science_flow = StartFlowRun(
-    flow_name="data-science", project_name='Iris Project', wait=True)
+# Initialize a new MLFoundryRun
+mlf_api = mlf.get_client()
+mlf_run = mlf_api.create_run(project_name="Iris-project")
 
-with Flow("main-flow") as flow:
-    result = data_science_flow(upstream_tasks=[data_engineering_flow])
-
-flow.run()
+# Run flows
+train_test_dict = data_engineer_flow(mlf_run)
+data_science_flow(train_test_dict, mlf_run)

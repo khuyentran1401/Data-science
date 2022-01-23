@@ -1,41 +1,34 @@
-from prefect import task, Flow, Parameter 
-from prefect.engine.results import LocalResult
-
 from typing import Any, Dict, List
 
+import mlfoundry as mlf
 import pandas as pd
+from mlfoundry.mlfoundry_run import MlFoundryRun
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OrdinalEncoder
 
-# ---------------------------------------------------------------------------- #
-#                                 Create tasks                                 #
-# ---------------------------------------------------------------------------- #
-@task
+
 def load_data(path: str) -> pd.DataFrame:
     return pd.read_csv(path)
 
 
-@task(target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
-def get_classes(data: pd.DataFrame, target_col: str) -> List[str]:
-    """Task for getting the classes from the Iris data set."""
-    return sorted(data[target_col].unique())
-
-
-@task
 def encode_categorical_columns(data: pd.DataFrame, target_col: str) -> pd.DataFrame:
     """Task for encoding the categorical columns in the Iris data set."""
 
-    return pd.get_dummies(data, columns=[target_col], prefix="", prefix_sep="")
+    enc = OrdinalEncoder()
+    data[target_col] = enc.fit_transform(data[[target_col]])
+    return data
 
 
-@task(log_stdout=True, target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
-def split_data(data: pd.DataFrame, test_data_ratio: float, classes: list) -> Dict[str, Any]:
+def split_data(
+    data: pd.DataFrame, target_col: str, test_data_ratio: float, mlf_run: MlFoundryRun
+) -> Dict[str, Any]:
     """Task for splitting the classical Iris data set into training and test
     sets, each split into features and labels.
     """
 
     print(f"Splitting data into training and test sets with ratio {test_data_ratio}")
 
-    X, y = data.drop(columns=classes), data[classes]
+    X, y = data.drop(columns=target_col), data[target_col]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_data_ratio)
 
     # When returning many variables, it is a good practice to give them names:
@@ -47,22 +40,24 @@ def split_data(data: pd.DataFrame, test_data_ratio: float, classes: list) -> Dic
     )
 
 
-# ---------------------------------------------------------------------------- #
-#                                 Create a flow                                #
-# ---------------------------------------------------------------------------- #
+def data_engineer_flow(mlf_run: MlFoundryRun):
 
-with Flow("data-engineer") as flow:
-    
     # Define parameters
-    target_col = 'species'
-    test_data_ratio = Parameter("test_data_ratio", default=0.2)
+    params = {"target_col": "species", "test_data_ratio": 0.2}
+
+    # Log parameters
+    mlf_run.log_params(params)
 
     # Define tasks
     data = load_data(path="data/raw/iris.csv")
-    classes = get_classes(data=data, target_col=target_col) 
-    categorical_columns = encode_categorical_columns(data=data, target_col=target_col)
-    train_test_dict = split_data(data=categorical_columns, test_data_ratio=test_data_ratio, classes=classes)
+    categorical_columns = encode_categorical_columns(
+        data=data, target_col=params["target_col"]
+    )
+    train_test_dict = split_data(
+        data=categorical_columns,
+        target_col=params["target_col"],
+        test_data_ratio=params["test_data_ratio"],
+        mlf_run=mlf_run,
+    )
 
-# flow.visualize()
-flow.run()
-# flow.register(project_name="Iris Project")
+    return train_test_dict

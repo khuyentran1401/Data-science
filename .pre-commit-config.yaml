@@ -1,16 +1,13 @@
-  # See https://pre-commit.com for more information
-  # See https://pre-commit.com/hooks.html for more hooks
-  repos:
-    - repo: https://github.com/ambv/black
-      rev: stable
-      hooks:
-        - id: black
-          language_version: python3.7
-    -   repo: https://github.com/pre-commit/pre-commit-hooks
-        rev: v2.0.0
-        hooks:
-        - id: flake8
-    -   repo: https://github.com/timothycrosley/isort
-        rev: 4.3.21
-        hooks:
-        -   id: isort
+repos:
+-   repo: https://github.com/ambv/black
+    rev: 20.8b1
+    hooks:
+    - id: black
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.4
+    hooks:
+    - id: flake8
+-   repo: https://github.com/timothycrosley/isort
+    rev: 5.7.0
+    hooks:
+    -   id: isort

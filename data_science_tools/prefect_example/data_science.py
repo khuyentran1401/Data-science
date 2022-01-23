@@ -1,20 +1,20 @@
-from prefect import task, Flow, Parameter
-from prefect.engine.results import LocalResult
-
 import numpy as np
 import pandas as pd
+from prefect import Flow, Parameter, task
+from prefect.engine.results import LocalResult
+
 
 # ---------------------------------------------------------------------------- #
 #                                 Create tasks                                 #
 # ---------------------------------------------------------------------------- #
 @task(log_stdout=True)
 def train_model(
-        train_x: pd.DataFrame, train_y: pd.DataFrame, num_train_iter: int, learning_rate: float) -> np.ndarray:
-    """Task for training a simple multi-class logistic regression model. The
-    number of training iterations as well as the learning rate are taken from
-    conf/project/parameters.yml. All of the data as well as the parameters
-    will be provided to this function at the time of execution.
-    """
+    train_x: pd.DataFrame,
+    train_y: pd.DataFrame,
+    num_train_iter: int,
+    learning_rate: float,
+) -> np.ndarray:
+
     num_iter = num_train_iter
     lr = learning_rate
     X = train_x.to_numpy()
@@ -48,6 +48,7 @@ def train_model(
 def _sigmoid(z):
     """A helper sigmoid function used by the training and the scoring tasks."""
     return 1 / (1 + np.exp(-z))
+
 
 @task
 def predict(model: np.ndarray, test_x: pd.DataFrame) -> np.ndarray:
@@ -84,19 +85,22 @@ def report_accuracy(predictions: np.ndarray, test_y: pd.DataFrame) -> None:
 
 with Flow("data-science") as flow:
 
-    
-    train_test_dict = LocalResult(dir='data/processed/Mon_Dec_20_2021_20:55:20').read(location='split_data_output').value
+    train_test_dict = (
+        LocalResult(dir="data/processed/Mon_Dec_20_2021_20:55:20")
+        .read(location="split_data_output")
+        .value
+    )
 
     # Load data
-    train_x = train_test_dict['train_x']
-    train_y = train_test_dict['train_y']
-    test_x = train_test_dict['test_x']
-    test_y = train_test_dict['test_y']
-    
+    train_x = train_test_dict["train_x"]
+    train_y = train_test_dict["train_y"]
+    test_x = train_test_dict["test_x"]
+    test_y = train_test_dict["test_y"]
+
     # Define parameters
-    num_train_iter = Parameter('num_train_iter', default=10000)
-    learning_rate = Parameter('learning_rate', default = 0.01)
-    
+    num_train_iter = Parameter("num_train_iter", default=10000)
+    learning_rate = Parameter("learning_rate", default=0.01)
+
     # Define tasks
     model = train_model(train_x, train_y, num_train_iter, learning_rate)
     predictions = predict(model, test_x)

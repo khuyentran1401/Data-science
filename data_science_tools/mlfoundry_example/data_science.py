@@ -93,14 +93,15 @@ def log_data_stats(
         data_slice=mlf.DataSlice.TRAIN,
         data_schema=data_schema,
         model_type=mlf.ModelType.MULTICLASS_CLASSIFICATION,
-        # shap_values=shap_values # ! Uncomment this give an error: Details: [Errno 2] No such file or directory: './resources/failure.png'
+        shap_values=shap_values,
     )
+
     mlf_run.log_dataset_stats(
         test_df,
         data_slice=mlf.DataSlice.TEST,
         data_schema=data_schema,
         model_type=mlf.ModelType.MULTICLASS_CLASSIFICATION,
-        # shap_values=shap_values
+        shap_values=shap_values,
     )
 
     log_metrics(prediction_test["predictions"], test_y, mlf_run)

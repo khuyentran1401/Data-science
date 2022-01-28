@@ -10,7 +10,6 @@ wandb
 *.zip
 *.gif
 *.jpg
-*.pkl
 
 scraping/ghibli.ipynb
 

@@ -5,6 +5,16 @@ Collection of useful data science topics along with code and articles in my [dat
 
 If you want to received updates of these blogs in your mailbox, you can subscribe to [my Medium newsletter](https://khuyentran1476.medium.com/subscribe). To received bite-sized Python and daily data science tips in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/).
 
+## How to Download the Code in This Repository to Your Local Machine
+
+To download the code in this repo, you can simply use git clone
+```bash
+git clone https://github.com/khuyentran1401/Data-science
+```
+However, due to the large number of files in this repository, it will take around 5 minutes. To clone in couple of seconds, use [git-lfs](https://git-lfs.github.com/).
+```bash
+git-lfs clone https://github.com/khuyentran1401/Data-science
+```
 # Contents
 1. [Data Science Tools](#data-science-tools)
 2. [Productive Tools](#productive-tools)

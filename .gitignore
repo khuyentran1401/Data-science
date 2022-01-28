@@ -7,10 +7,10 @@ dp*
 mallet-2.0.8
 .benchmarks
 wandb
-*.pkl
 *.zip
 *.gif
 *.jpg
+*.pkl
 
 scraping/ghibli.ipynb
 

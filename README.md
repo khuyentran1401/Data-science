@@ -174,6 +174,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | Visualize GitHub Social Network with PyGraphistry | [link](https://towardsdatascience.com/visualize-github-social-network-with-pygraphistry-dfc23a38ec8d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/visualize_github_network/github_explore.ipynb)
 | Find the Top Bootcamps for Data Professionals From Over 5k Profiles | [link](https://khuyentran1476.medium.com/find-the-top-bootcamps-for-data-professionals-from-over-5k-profiles-92c38b10ddb4) | [link](https://github.com/khuyentran1401/Data-science/tree/master/visualization/ds_bootcamps)
 | floWeaver — Turn Flow Data Into a Sankey Diagram In Python | [link](https://towardsdatascience.com/floweaver-turn-flow-data-into-a-sankey-diagram-in-python-d166e87dbba#2962-71a0f6581d6d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/floweaver_example/travel.ipynb)
+| atoti — Build a BI Platform in Python | [link](https://pub.towardsai.net/atoti-build-a-bi-platform-in-python-beea47b92c7b) | [link](https://github.com/khuyentran1401/Data-science/blob/master/visualization/atoti_example/atoti.ipynb)
 
   
 # Mathematical Programming

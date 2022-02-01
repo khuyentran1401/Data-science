@@ -17,48 +17,52 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 ```
 # Contents
 1. [Data Science Tools](#data-science-tools)
-2. [Productive Tools](#productive-tools)
-3. [Tools for Deployment](#tools-for-deployment)
-4. [Speed-up Tools](#speed-up-tools)
-5. [Math Tools](#math-tools)
-6. [Machine Learning](#machine-learning)
-7. [Natural Language Processing](#natural-language-processing)
-8. [Computer Vision](#computer-vision)
-9. [Time Series](#time-series)
-10. [Feature Engineering](#feature-engineering)
-11. [Visualization](#visualization)
-12. [Mathematical Programming](#mathematical-programming)
-13. [Scraping](#scraping)
-14. [Python](#python)
-15. [Terminal](#terminal)
-16. [Linear Algebra](#linear-algebra)
-17. [Data Structure](#data-structure)
-18. [Statistics](#statistics)
-19. [Applications](#applications)
-20. [Learning Tips](#learning-tips)
-21. [Productive Tips](#productive-tips)
-22. [VSCode](#vscode)
-23. [Book Review](#book-review)
-24. [Data Science Portfolio](#data-science-portfolio)
+2. [Testing](#testing)
+3. [Productive Tools](#productive-tools)
+4. [Tools for Deployment](#tools-for-deployment)
+5. [Speed-up Tools](#speed-up-tools)
+6. [Math Tools](#math-tools)
+7. [Machine Learning](#machine-learning)
+8. [Natural Language Processing](#natural-language-processing)
+9. [Computer Vision](#computer-vision)
+10. [Time Series](#time-series)
+11. [Feature Engineering](#feature-engineering)
+12. [Visualization](#visualization)
+13. [Mathematical Programming](#mathematical-programming)
+14. [Scraping](#scraping)
+15. [Python](#python)
+16. [Terminal](#terminal)
+17. [Linear Algebra](#linear-algebra)
+18. [Data Structure](#data-structure)
+19. [Statistics](#statistics)
+20. [Applications](#applications)
+21. [Learning Tips](#learning-tips)
+22. [Productive Tips](#productive-tips)
+23. [VSCode](#vscode)
+24. [Book Review](#book-review)
+25. [Data Science Portfolio](#data-science-portfolio)
 
 # Data Science Tools 
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create Fake Data with Faker | [link](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/faker.ipynb) |
-| Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 |Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [link](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [link](https://github.com/khuyentran1401/Machine-learning-pipeline) |
 | Introduction to Datasette: Explore and Publish Your Data in One Line of Code | [link](https://towardsdatascience.com/introduction-to-datasette-explore-and-publish-your-data-in-one-line-of-code-cbdc40cb4583)
 | Introduction to Datapane: A Python Library to Build Interactive Reports | [link](https://towardsdatascience.com/introduction-to-datapane-a-python-library-to-build-interactive-reports-4593fd3cb9c8) | 
 | Datapane’s New Features: Create a Beautiful Dashboard in Python in a Few Lines of Code | [link](https://towardsdatascience.com/datapanes-new-features-create-a-beautiful-dashboard-in-python-in-a-few-lines-of-code-a3c44523292b) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/Datapane_new_features)
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [link](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
-|Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
-| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [link](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [link](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [link](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [link](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
 | Introduction to Deepnote: Real-time Collaboration on Jupyter Notebook | [link](https://pub.towardsai.net/introduction-to-deepnote-real-time-collaboration-on-jupyter-notebook-18509c95d62f)
+
+
+# Testing
+|Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
+| 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Great Expectations: Always Know What to Expect From Your Data | [link](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
+| Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 
 # Productive Tools
 

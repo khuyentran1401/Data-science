@@ -59,6 +59,8 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 
 
 # Testing
+| Title        | Article           | Repository  |
+| ------------- |:-------------:| :-----:|
 |Pytest for Data Scientists | [link](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Great Expectations: Always Know What to Expect From Your Data | [link](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)

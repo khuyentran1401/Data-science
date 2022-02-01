@@ -65,6 +65,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [link](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Great Expectations: Always Know What to Expect From Your Data | [link](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [link](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 | Introduction to Schema: A Python Libary to Validate your Data | [link](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [link](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
+| DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [link](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
 
 # Productive Tools
 
@@ -79,7 +80,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [link](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples)
 | Write Clean Python Code Using Pipes | [link](https://towardsdatascience.com/write-clean-python-code-using-pipes-1239a0f3abf5) | [link](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fproductive_tools%2Fpipe.ipynb)
 | Introducing FugueSQL — SQL for Pandas, Spark, and Dask DataFrames | [link](https://towardsdatascience.com/introducing-fuguesql-sql-for-pandas-spark-and-dask-dataframes-63d461a16b27) | [link](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/fugueSQL.ipynb)
-| DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [link](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [link](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
+
 
 # Tools for Deployment
 

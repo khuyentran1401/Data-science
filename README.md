@@ -66,7 +66,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | Great Expectations: Always Know What to Expect From Your Data | [🔗](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 | Introduction to Schema: A Python Libary to Validate your Data | [🔗](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 | DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [🔗](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
-
+| Checklist — Behavioral Testing of NLP Models | [🔗](https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/nlp/checklist/checklist_examples.ipynb)
 # Productive Tools
 
 | Title        | Article           | Repository  |
@@ -134,7 +134,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
  | Streamlit and spaCy: Create an App to Predict Sentiment and Word Similarities with Minimal Domain Knowledge | [🔗](https://towardsdatascience.com/streamlit-and-spacy-create-an-app-to-predict-sentiment-and-word-similarities-with-minimal-domain-14085085a5d4) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/spacy_streamlit_app)
  | Build a Robust Conversational Assistant with Rasa | [🔗](https://towardsdatascience.com/build-a-conversational-assistant-with-rasa-b410a809572d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/conversational_rasa)
  | I Analyzed 2k Data Scientist and Data Engineer Jobs and This is What I Found | [🔗](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/diffbot_examples)
-
+| Checklist — Behavioral Testing of NLP Models | [🔗](https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/nlp/checklist/checklist_examples.ipynb)
 
 # Computer Vision
 

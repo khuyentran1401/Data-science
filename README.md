@@ -81,6 +81,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples)
 | Write Clean Python Code Using Pipes | [🔗](https://towardsdatascience.com/write-clean-python-code-using-pipes-1239a0f3abf5) | [🔗](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fproductive_tools%2Fpipe.ipynb)
 | Introducing FugueSQL — SQL for Pandas, Spark, and Dask DataFrames | [🔗](https://towardsdatascience.com/introducing-fuguesql-sql-for-pandas-spark-and-dask-dataframes-63d461a16b27) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/fugueSQL.ipynb)
+| Fugue and DuckDB: Fast SQL Code in Python | [🔗](https://towardsdatascience.com/fugue-and-duckdb-fast-sql-code-in-python-e2e2dfc0f8eb) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/Fugue_and_Duckdb/Fugue_and_Duckdb.ipynb)
 
 
 # Tools for Deployment

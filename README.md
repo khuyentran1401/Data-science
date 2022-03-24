@@ -45,7 +45,6 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 27. [Book Review](#book-review)
 28. [Data Science Portfolio](#data-science-portfolio)
 
-
 # MLOps
 
 | Title        | Article           | Repository  |

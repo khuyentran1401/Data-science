@@ -11,10 +11,7 @@ To download the code in this repo, you can simply use git clone
 ```bash
 git clone https://github.com/khuyentran1401/Data-science
 ```
-However, due to the large number of files in this repository, it will take around 5 minutes. To clone in couple of seconds, use [git-lfs](https://git-lfs.github.com/).
-```bash
-git-lfs clone https://github.com/khuyentran1401/Data-science
-```
+
 # Contents
 1. [MLOps](#mlops)
 2. [Testing](#testing)

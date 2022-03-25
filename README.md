@@ -11,10 +11,7 @@ To download the code in this repo, you can simply use git clone
 ```bash
 git clone https://github.com/khuyentran1401/Data-science
 ```
-However, due to the large number of files in this repository, it will take around 5 minutes. To clone in couple of seconds, use [git-lfs](https://git-lfs.github.com/).
-```bash
-git-lfs clone https://github.com/khuyentran1401/Data-science
-```
+
 # Contents
 1. [MLOps](#mlops)
 2. [Testing](#testing)
@@ -127,6 +124,8 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | human-learn: Create a Human Learning Model by Drawing | [🔗](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/human-learn%20examples.ipynb)
 | Patsy: Build Powerful Features with Arbitrary Python Code | [🔗](https://towardsdatascience.com/patsy-build-powerful-features-with-arbitrary-python-code-bb4bb98db67a#3be4-4bcff97738cd) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/statistics/patsy_example.ipynb)
 | SHAP: Explain Any Machine Learning Model in Python | [🔗](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7) | [🔗](https://deepnote.com/project/Data-science-hxlyJpi-QrKFJziQgoMSmQ/%2FData-science%2Fdata_science_tools%2Fshapey_values%2Fshapey_values.ipynb)
+| Predict Movie Ratings with User-Based Collaborative Filtering  | [🔗](https://towardsdatascience.com/predict-movie-ratings-with-user-based-collaborative-filtering-392304b988af) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/collaborative_filtering/collaborative_filtering.ipynb)
+
 
 
 # Natural Language Processing

@@ -49,10 +49,10 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 
 # MLOps
 
-| Title        | Article           | Repository  |
-| ------------- |:-------------:| :-----:|
+| Title        | Article           | Repository  | Video 
+| ------------- |:-------------:| :-----:| :-----:|
 |Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [🔗](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [🔗](https://github.com/khuyentran1401/Machine-learning-pipeline) |
-| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [🔗](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) |
+| Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [🔗](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) | [🔗](https://github.com/khuyentran1401/hydra_demo) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNoPnqnVrWaYtZ2G4nFTnGze)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [🔗](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
@@ -62,9 +62,9 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 
 # Testing
 
-| Title        | Article           | Repository  |
-| ------------- |:-------------:| :-----:|
-| Pytest for Data Scientists | [🔗](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest)
+| Title        | Article           | Repository  | Video
+| ------------- |:-------------:| :-----:| :-----:|
+| Pytest for Data Scientists | [🔗](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [🔗](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Great Expectations: Always Know What to Expect From Your Data | [🔗](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 | Introduction to Schema: A Python Libary to Validate your Data | [🔗](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)

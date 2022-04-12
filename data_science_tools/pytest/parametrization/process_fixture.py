@@ -19,7 +19,6 @@ def text_contain_word(word: str, text: str):
 def example_data():
     return 'Today I found a duck and I am happy'
 
-
 def test_extract_sentiment(example_data):
 
     sentiment = extract_sentiment(example_data)

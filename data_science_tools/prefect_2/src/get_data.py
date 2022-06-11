@@ -23,7 +23,7 @@ def save_data(df: pd.DataFrame, save_path: str):
 @hydra.main(config_path="../config", config_name="get_data", version_base=None)
 @flow
 def get_data(config):
-    for database, save_path in config.data.items():
+    for database, save_path in config.data.raw.items():
         df = read_data(config.connection, database)
         save_data(df, save_path)
 

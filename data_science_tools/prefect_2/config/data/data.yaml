@@ -1,0 +1,4 @@
+raw: 
+  train: data/raw/train.csv
+  test: data/raw/test.csv
+processed: data/processed/pet.csv

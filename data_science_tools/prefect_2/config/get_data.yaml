@@ -1,0 +1,8 @@
+connection:
+  user: postgres
+  password: 123456
+  host: localhost:5432
+  database: pet_finder
+
+data:
+  raw: data/raw/pet.csv

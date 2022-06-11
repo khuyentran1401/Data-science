@@ -5,7 +5,6 @@ from prefect import flow, task
 from sqlalchemy import create_engine
 
 
-# fmt: off
 @task(retries=3)
 def read_data(connection):
     engine = create_engine(
@@ -17,7 +16,6 @@ def read_data(connection):
     df = pd.read_sql(query, con=engine)
     return df
 
-# fmt: on
 @task
 def save_data(df: pd.DataFrame, save_path: str):
     df.to_csv(abspath(save_path))

@@ -5,4 +5,5 @@ connection:
   database: pet_finder
 
 data:
-  raw: data/raw/pet.csv
+  train: data/raw/train.csv
+  test: data/raw/test.csv

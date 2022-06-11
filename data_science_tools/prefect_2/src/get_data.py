@@ -1,60 +1,32 @@
-import json
-from collections import OrderedDict
-from unicodedata import name
-
 import hydra
-from dotenv import dotenv_values
+import pandas as pd
 from hydra.utils import to_absolute_path as abspath
 from prefect import flow, task
-from rauth import OAuth2Service, OAuth2Session
+from sqlalchemy import create_engine
 
-# ---------------------------------------------------------------------------- #
-#                                 Create tasks                                 #
-# ---------------------------------------------------------------------------- #
+
+@task(retries=3)
+def read_data(connection, database: str):
+    engine = create_engine(
+        f"postgresql://{connection.user}:{connection.password}@{connection.host}/{connection.database}",
+    )
+    query = f"SELECT * FROM {database}"
+    df = pd.read_sql(query, con=engine)
+    return df
+
 
 @task
-def get_env_vars():
-    return dotenv_values(".env")
-
-@task(retries=3)
-def get_session(vars: OrderedDict):
-    data = {"grant_type": "client_credentials"}
-
-    service = OAuth2Service(
-            client_id=vars["CLIENT_ID"],
-            client_secret=vars["CLIENT_SECRET"],
-            access_token_url=vars["TOKEN_URL"],
-        )
-        
-    session = service.get_auth_session(data=data, decoder=json.loads)
-    return session
-
-@task 
-def get_api(base_api: str, filters: list):
+def save_data(df: pd.DataFrame, save_path: str):
+    df.to_csv(abspath(save_path))
 
 
-@task(retries=3)
-def get_data(session: OAuth2Session, api: str):
-    response = session.get(api)
-    return response.json()
-
-@task 
-def save_data(data: dict, save_location: str):
-    with open(abspath(save_location), 'w') as f:
-        json.dump(data, f)
-
-# ---------------------------------------------------------------------------- #
-#                                 Create a flow                                #
-# ---------------------------------------------------------------------------- #
-
-@hydra.main(config_path="../config", config_name="process", version_base=None)
-@flow 
-def get_data_from_api(config):
-    vars = get_env_vars()
-    session = get_session(vars)
-    data = get_data(session, config.api)
-    save_data(data, config.data.raw)
+@hydra.main(config_path="../config", config_name="get_data", version_base=None)
+@flow
+def get_data(config):
+    for database, save_path in config.data.items():
+        df = read_data(config.connection, database)
+        save_data(df, save_path)
 
 
 if __name__ == "__main__":
-    get_data_from_api()
+    get_data()

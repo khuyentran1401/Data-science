@@ -1,0 +1,31 @@
+api: https://api.petfinder.com/v2/animals?type=Dog
+
+data:
+  raw: data/raw/pet.csv
+  processed: data/processed/pet.csv
+
+filter: 
+  type: Dog 
+
+attributes:
+  - name
+  - type
+  - breeds.primary
+  - breeds.secondary
+  - breeds.mixed
+  - colors.primary
+  - colors.secondary
+  - age
+  - gender
+  - size 
+  - attributes.spayed_neutered
+  - attributes.house_trained
+  - attributes.special_needs
+  - attributes.shots_current
+  - environment.children
+  - environment.dogs
+  - environment.cats
+  - status
+  - contact.address.city
+  - contact.address.state
+  - contact.address.country

@@ -1,0 +1,105 @@
+import pickle
+
+import numpy as np
+import pandas as pd
+from prefect import flow, task
+
+
+# ---------------------------------------------------------------------------- #
+#                                 Create tasks                                 #
+# ---------------------------------------------------------------------------- #
+@task
+def load_data(save_location: str):
+    return pickle.load(open(save_location, "rb"))
+
+
+@task
+def train_model(
+    train_x: pd.DataFrame,
+    train_y: pd.DataFrame,
+    num_train_iter: int,
+    learning_rate: float,
+) -> np.ndarray:
+
+    num_iter = num_train_iter
+    lr = learning_rate
+    X = train_x.to_numpy()
+    Y = train_y.to_numpy()
+
+    # Add bias to the features
+    bias = np.ones((X.shape[0], 1))
+    X = np.concatenate((bias, X), axis=1)
+
+    weights = []
+    # Train one model for each class in Y
+    for k in range(Y.shape[1]):
+        # Initialise weights
+        theta = np.zeros(X.shape[1])
+        y = Y[:, k]
+        for _ in range(num_iter):
+            z = np.dot(X, theta)
+            h = _sigmoid(z)
+            gradient = np.dot(X.T, (h - y)) / y.size
+            theta -= lr * gradient
+        # Save the weights for each model
+        weights.append(theta)
+
+    # Print finishing training message
+    print("Finish training the model.")
+
+    # Return a joint multi-class model with weights for all classes
+    return np.vstack(weights).transpose()
+
+
+def _sigmoid(z):
+    """A helper sigmoid function used by the training and the scoring tasks."""
+    return 1 / (1 + np.exp(-z))
+
+
+@task
+def predict(model: np.ndarray, test_x: pd.DataFrame) -> np.ndarray:
+    """Task for making predictions given a pre-trained model and a test set."""
+    X = test_x.to_numpy()
+
+    # Add bias to the features
+    bias = np.ones((X.shape[0], 1))
+    X = np.concatenate((bias, X), axis=1)
+
+    # Predict "probabilities" for each class
+    result = _sigmoid(np.dot(X, model))
+
+    # Return the index of the class with max probability for all samples
+    return np.argmax(result, axis=1)
+
+
+@task
+def report_accuracy(predictions: np.ndarray, test_y: pd.DataFrame) -> None:
+    """Task for reporting the accuracy of the predictions performed by the
+    previous task. Notice that this function has no outputs, except logging.
+    """
+    # Get true class index
+    target = np.argmax(test_y.to_numpy(), axis=1)
+    # Calculate accuracy of predictions
+    accuracy = np.sum(predictions == target) / target.shape[0]
+    # Log the accuracy of the model
+    print(f"Model accuracy on test set: {round(accuracy * 100, 2)}")
+
+
+# ---------------------------------------------------------------------------- #
+#                                 Create a flow                                #
+# ---------------------------------------------------------------------------- #
+
+
+@flow
+def data_science(num_train_iter: int = 10_000, learning_rate: float = 0.01):
+
+    data = load_data("data/processed/train_test").result()
+
+    # Define tasks
+    model = train_model(data["train_x"], data["train_y"], num_train_iter, learning_rate)
+    predictions = predict(model, data["test_x"])
+    report_accuracy(predictions, data["test_y"])
+
+
+if __name__ == "__main__":
+    data_science()

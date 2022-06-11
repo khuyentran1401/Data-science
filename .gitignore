@@ -143,4 +143,7 @@ dmypy.json
 .pyre/
 .config
 
+#hydra
+outputs
+
 

@@ -1,3 +1,5 @@
 defaults:
   - data: data
   - _self_
+
+n_estimators: 20

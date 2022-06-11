@@ -16,6 +16,11 @@ def read_data(connection, database: str):
 
 
 @task
+def merge_data(df1, df2):
+    return pd.concat([df1, df2])
+
+
+@task
 def save_data(df: pd.DataFrame, save_path: str):
     df.to_csv(abspath(save_path))
 
@@ -23,9 +28,8 @@ def save_data(df: pd.DataFrame, save_path: str):
 @hydra.main(config_path="../config", config_name="get_data", version_base=None)
 @flow
 def get_data(config):
-    for database, save_path in config.data.raw.items():
-        df = read_data(config.connection, database)
-        save_data(df, save_path)
+    df = read_data(config.connection, config.data.raw.name)
+    save_data(df, config.data.raw.path)
 
 
 if __name__ == "__main__":

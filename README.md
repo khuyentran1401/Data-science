@@ -12,11 +12,6 @@ To download the code in this repo, you can simply use git clone
 git clone https://github.com/khuyentran1401/Data-science
 ```
 
-However, due to the large number of files in this repository, it will take around 5 minutes. To clone in couple of seconds, use [git-lfs](https://git-lfs.github.com/).
-```bash
-git-lfs clone https://github.com/khuyentran1401/Data-science
-```
-
 # Contents
 1. [MLOps](#mlops)
 2. [Testing](#testing)
@@ -60,6 +55,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNqskWiXLxx1QRDDng9O8Fsf)
 | BentoML: Create an ML Powered Prediction Service in Minutes | [🔗](https://towardsdatascience.com/bentoml-create-an-ml-powered-prediction-service-in-minutes-23d135d6ca76) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/bentoml_demo)
 | How to Structure a Data Science Project for Readability and Transparency | [🔗](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) | [🔗](https://github.com/khuyentran1401/data-science-template)
+| GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗]([https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84)) | [🔗]([https://github.com/khuyentran1401/data-science-template](https://github.com/khuyentran1401/employee-future-prediction))
 
 # Testing
 

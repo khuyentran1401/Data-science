@@ -62,24 +62,27 @@ def encode_cat_cols(cat_cols: list, data: pd.DataFrame):
     return data
 
 
-@task
-def split_data(data: pd.DataFrame):
+def split_X_y(data: pd.DataFrame):
     X = data.drop(columns=["AdoptionSpeed"])
     y = data["AdoptionSpeed"]
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=0.3,
-        random_state=0,
-    )
-    return {"X_train": X_train, "X_test": X_test, "y_train": y_train, "y_test": y_test}
+    return X, y
+
+
+@task
+def split_data(data: pd.DataFrame):
+    train = data.dropna(subset=["AdoptionSpeed"])
+    test = data[data["AdoptionSpeed"].isna()]
+    X_train, y_train = split_X_y(train)
+    X_test, _ = split_X_y(test)
+    return {"X_train": X_train, "X_test": X_test, "y_train": y_train}
 
 
 @task
 def save_data(data: dict, save_dir: str):
+
     for name, value in data.items():
-        save_path = abspath(f"{save_dir}/{name}")
-        pickle.dump(value, open(save_path, "wb"))
+        save_path = abspath(save_dir + name + ".csv")
+        value.to_csv(save_path)
 
 
 @hydra.main(config_path="../config", config_name="process", version_base=None)

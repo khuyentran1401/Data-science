@@ -12,11 +12,6 @@ To download the code in this repo, you can simply use git clone
 git clone https://github.com/khuyentran1401/Data-science
 ```
 
-However, due to the large number of files in this repository, it will take around 5 minutes. To clone in couple of seconds, use [git-lfs](https://git-lfs.github.com/).
-```bash
-git-lfs clone https://github.com/khuyentran1401/Data-science
-```
-
 # Contents
 1. [MLOps](#mlops)
 2. [Testing](#testing)
@@ -60,13 +55,14 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNqskWiXLxx1QRDDng9O8Fsf)
 | BentoML: Create an ML Powered Prediction Service in Minutes | [🔗](https://towardsdatascience.com/bentoml-create-an-ml-powered-prediction-service-in-minutes-23d135d6ca76) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/bentoml_demo)
 | How to Structure a Data Science Project for Readability and Transparency | [🔗](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) | [🔗](https://github.com/khuyentran1401/data-science-template)
+| GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84) | [🔗](https://github.com/khuyentran1401/employee-future-prediction)
 
 # Testing
 
 | Title        | Article           | Repository  |  Video
 | ------------- |:-------------:| :-----:| :-----:|
 | Pytest for Data Scientists | [🔗](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
-| 4 Lessor-Known Yet Awesome Tips for Pytest | [🔗](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
+| 4 Lessor-Known Yet Awesome Tips for Pytest | [🔗](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | Great Expectations: Always Know What to Expect From Your Data | [🔗](https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/great_expectations_example)
 | Validate Your pandas DataFrame with Pandera |  [🔗](https://medium.com/towards-data-science/validate-your-pandas-dataframe-with-pandera-2995910e564) |[🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/pandera_example/pandera.ipynb) 
 | Introduction to Schema: A Python Libary to Validate your Data | [🔗](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
@@ -139,7 +135,7 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
-| Sentiment Analysis of LinkedIn Messages| [🔗](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
+| Sentiment Analysis of LinkedIn Messages| [🔗](https://towardsdatascience.com/sentiment-analysis-of-linkedin-messages-3bb152307f84) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/linkedin_analysis) |
 | Find Common Words in Article with Python Module Newspaper and NLTK| [🔗](https://towardsdatascience.com/find-common-words-in-article-with-python-module-newspaper-and-nltk-8c7d6c75733) | [🔗](https://github.com/khuyentran1401/Extract-text-from-article) |
 | How to Tokenize Tweets with Python | [🔗](https://towardsdatascience.com/an-introduction-to-tweettokenizer-for-processing-tweets-9879389f8fe7) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/tweets_tokenize.ipynb) |
  | How to Solve Analogies with Word2Vec | [🔗](https://towardsdatascience.com/how-to-solve-analogies-with-word2vec-6ebaf2354009) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master//nlp/word2vec.ipynb) |
@@ -362,7 +358,6 @@ git-lfs clone https://github.com/khuyentran1401/Data-science
 Special thanks to these supporters for supporting this project!
 
 [<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://www.linkedin.com/in/sagar-ravindra-sonawane/)
-
 
 
 

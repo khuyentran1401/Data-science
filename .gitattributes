@@ -1,1 +1,14 @@
 statistics/bayes_linear_regression/student-score.csv filter=lfs diff=lfs merge=lfs -text
+feature_engineering/snorkel_example/test_fake_jobs.pkl filter=lfs diff=lfs merge=lfs -text
+feature_engineering/snorkel_example/train_fake_jobs.pkl filter=lfs diff=lfs merge=lfs -text
+data_science_tools/great_expectations_example/data/first_data.csv filter=lfs diff=lfs merge=lfs -text
+data_science_tools/great_expectations_example/data/second_data.csv filter=lfs diff=lfs merge=lfs -text
+data_science_tools/prefect_example/data/processed/Tue_Dec_21_2021_16-26-44/get_classes_output filter=lfs diff=lfs merge=lfs -text
+data_science_tools/prefect_example/data/processed/Tue_Dec_21_2021_16-26-44/split_data_output filter=lfs diff=lfs merge=lfs -text
+data_science_tools/prefect_example/data/raw/iris.csv filter=lfs diff=lfs merge=lfs -text
+mathematical_programming/locations_of_stores/distance.xlsx filter=lfs diff=lfs merge=lfs -text
+mathematical_programming/schedule_flight_crew/flight_schedule.csv filter=lfs diff=lfs merge=lfs -text
+visualization/dropdown/population.csv filter=lfs diff=lfs merge=lfs -text
+visualization/pyvis_examples/employer_matching.xlsx filter=lfs diff=lfs merge=lfs -text
+data_science_tools/mlfoundry_example/data/processed/split_data filter=lfs diff=lfs merge=lfs -text
+data_science_tools/mlfoundry_example/data/raw/iris.csv filter=lfs diff=lfs merge=lfs -text

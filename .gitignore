@@ -7,7 +7,6 @@ dp*
 mallet-2.0.8
 .benchmarks
 wandb
-*.pkl
 *.zip
 *.gif
 *.jpg
@@ -16,6 +15,7 @@ scraping/ghibli.ipynb
 
 # VSCode workspace
 *-workspace
+.vscode
 
 # C extensions
 *.so
@@ -142,5 +142,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .config
+
+#hydra
+outputs
 
 

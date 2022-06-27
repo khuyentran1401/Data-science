@@ -1,10 +1,10 @@
-from prefect import task, Flow, Parameter 
-from prefect.engine.results import LocalResult
-
 from typing import Any, Dict, List
 
 import pandas as pd
+from prefect import Flow, Parameter, task
+from prefect.engine.results import LocalResult
 from sklearn.model_selection import train_test_split
+
 
 # ---------------------------------------------------------------------------- #
 #                                 Create tasks                                 #
@@ -14,7 +14,10 @@ def load_data(path: str) -> pd.DataFrame:
     return pd.read_csv(path)
 
 
-@task(target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
+@task(
+    target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output",
+    result=LocalResult(dir="data/processed"),
+)
 def get_classes(data: pd.DataFrame, target_col: str) -> List[str]:
     """Task for getting the classes from the Iris data set."""
     return sorted(data[target_col].unique())
@@ -27,8 +30,14 @@ def encode_categorical_columns(data: pd.DataFrame, target_col: str) -> pd.DataFr
     return pd.get_dummies(data, columns=[target_col], prefix="", prefix_sep="")
 
 
-@task(log_stdout=True, target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output", result = LocalResult(dir='data/processed'))
-def split_data(data: pd.DataFrame, test_data_ratio: float, classes: list) -> Dict[str, Any]:
+@task(
+    log_stdout=True,
+    target="{date:%a_%b_%d_%Y_%H-%M-%S}/{task_name}_output",
+    result=LocalResult(dir="data/processed"),
+)
+def split_data(
+    data: pd.DataFrame, test_data_ratio: float, classes: list
+) -> Dict[str, Any]:
     """Task for splitting the classical Iris data set into training and test
     sets, each split into features and labels.
     """
@@ -52,16 +61,18 @@ def split_data(data: pd.DataFrame, test_data_ratio: float, classes: list) -> Dic
 # ---------------------------------------------------------------------------- #
 
 with Flow("data-engineer") as flow:
-    
+
     # Define parameters
-    target_col = 'species'
+    target_col = "species"
     test_data_ratio = Parameter("test_data_ratio", default=0.2)
 
     # Define tasks
     data = load_data(path="data/raw/iris.csv")
-    classes = get_classes(data=data, target_col=target_col) 
+    classes = get_classes(data=data, target_col=target_col)
     categorical_columns = encode_categorical_columns(data=data, target_col=target_col)
-    train_test_dict = split_data(data=categorical_columns, test_data_ratio=test_data_ratio, classes=classes)
+    train_test_dict = split_data(
+        data=categorical_columns, test_data_ratio=test_data_ratio, classes=classes
+    )
 
 # flow.visualize()
 flow.run()

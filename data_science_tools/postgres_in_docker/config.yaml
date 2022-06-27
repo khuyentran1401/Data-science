@@ -1,0 +1,9 @@
+username: postgres
+password: 123456
+host: localhost
+port: 5432
+database: car_crashes
+drivername: postgresql
+
+data_url: https://raw.githubusercontent.com/mwaskom/seaborn-data/master/car_crashes.csv
+table_name: car_crashes.csv

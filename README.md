@@ -292,6 +292,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [🔗](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
 | PyWebIO 1.3.0: Add Tabs, Pin Input, and Update an Input Based on Another Input | [🔗](https://towardsdatascience.com/pywebio-1-3-0-add-tabs-pin-input-and-update-an-input-based-on-another-input-e81a139fefcb) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_1_3_0)
 | Create an App to Deal with Boredom Using PyWebIO | [🔗](https://towardsdatascience.com/create-an-app-to-deal-with-boredom-using-pywebio-d17f3acd1613) | [🔗](https://build.pyweb.io/get/khuyentran1401/bored_app)
+| Build a Robust Workflow to Visualize Trending GitHub Repositories in Python | [🔗](https://towardsdatascience.com/build-a-robust-workflow-to-visualize-trending-github-repositories-in-python-98f2fc3e9a86) | [🔗](https://github.com/khuyentran1401/analyze_github_feed)
 
 # Share Insights
 

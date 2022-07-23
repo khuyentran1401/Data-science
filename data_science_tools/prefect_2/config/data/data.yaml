@@ -1,4 +1,0 @@
-raw: 
-  name: pet 
-  path: data/raw/pet.csv
-processed: data/processed/

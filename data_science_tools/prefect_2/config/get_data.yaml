@@ -1,9 +1,0 @@
-defaults:
-  - data: data
-  - _self_
-
-connection:
-  user: postgres
-  password: 123456
-  host: localhost:5432
-  database: pet_finder

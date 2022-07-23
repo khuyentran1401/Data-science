@@ -51,11 +51,12 @@ git clone https://github.com/khuyentran1401/Data-science
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [🔗](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
+| Orchestrate Your Data Science Project with Prefect 2.0 | [🔗](https://medium.com/the-prefect-blog/orchestrate-your-data-science-project-with-prefect-2-0-4118418fd7ce) | [🔗](https://github.com/khuyentran1401/analyze_github_feed)
 | DagsHub: a GitHub Supplement for Data Scientists and ML Engineers | [🔗](https://towardsdatascience.com/dagshub-a-github-supplement-for-data-scientists-and-ml-engineers-9ecaf49cc505) | [🔗](https://dagshub.com/khuyentran1401/dagshub-demo)
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNqskWiXLxx1QRDDng9O8Fsf)
 | BentoML: Create an ML Powered Prediction Service in Minutes | [🔗](https://towardsdatascience.com/bentoml-create-an-ml-powered-prediction-service-in-minutes-23d135d6ca76) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/bentoml_demo)
 | How to Structure a Data Science Project for Readability and Transparency | [🔗](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) | [🔗](https://github.com/khuyentran1401/data-science-template)
-| GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗]([https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84)) | [🔗]([https://github.com/khuyentran1401/data-science-template](https://github.com/khuyentran1401/employee-future-prediction))
+| GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84) | [🔗](https://github.com/khuyentran1401/employee-future-prediction)
 
 # Testing
 
@@ -79,6 +80,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 3 Ways to Get Notified with Python | [🔗](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
 | How to Create Reusable Command-Line | [🔗](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [🔗](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
+| | [🔗](https://medium.com/the-prefect-blog/sending-slack-notifications-in-python-with-prefect-840a895f81c) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 
 
 # Python Helper Tools
@@ -291,6 +293,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | PyWebIO: Write Interactive Web App in Script Way Using Python | [🔗](https://towardsdatascience.com/pywebio-write-interactive-web-app-in-script-way-using-python-14f50155af4e) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_examples)
 | PyWebIO 1.3.0: Add Tabs, Pin Input, and Update an Input Based on Another Input | [🔗](https://towardsdatascience.com/pywebio-1-3-0-add-tabs-pin-input-and-update-an-input-based-on-another-input-e81a139fefcb) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/pywebio_1_3_0)
 | Create an App to Deal with Boredom Using PyWebIO | [🔗](https://towardsdatascience.com/create-an-app-to-deal-with-boredom-using-pywebio-d17f3acd1613) | [🔗](https://build.pyweb.io/get/khuyentran1401/bored_app)
+| Build a Robust Workflow to Visualize Trending GitHub Repositories in Python | [🔗](https://towardsdatascience.com/build-a-robust-workflow-to-visualize-trending-github-repositories-in-python-98f2fc3e9a86) | [🔗](https://github.com/khuyentran1401/analyze_github_feed)
 
 # Share Insights
 

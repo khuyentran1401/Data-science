@@ -80,7 +80,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 3 Ways to Get Notified with Python | [🔗](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/notification) |
 | How to Create Reusable Command-Line | [🔗](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [🔗](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
-| | [🔗](https://medium.com/the-prefect-blog/sending-slack-notifications-in-python-with-prefect-840a895f81c) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
+| Sending Slack Notifications in Python with Prefect| [🔗](https://medium.com/the-prefect-blog/sending-slack-notifications-in-python-with-prefect-840a895f81c) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 
 
 # Python Helper Tools

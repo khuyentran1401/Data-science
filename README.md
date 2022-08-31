@@ -151,6 +151,7 @@ git clone https://github.com/khuyentran1401/Data-science
  | I Analyzed 2k Data Scientist and Data Engineer Jobs and This is What I Found | [🔗](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/diffbot_examples)
 | Checklist — Behavioral Testing of NLP Models | [🔗](https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/nlp/checklist/checklist_examples.ipynb)
 | PRegEx: Write Human-Readable Regular Expressions in Python | [🔗](https://towardsdatascience.com/pregex-write-human-readable-regular-expressions-in-python-9c87d1b1335) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/pregex.ipynb)
+| Texthero: Text Preprocessing, Representation, and Visualization for a pandas DataFrame | [🔗](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/texthero)
 
 # Computer Vision
 

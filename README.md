@@ -167,7 +167,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | ------------- |:-------------:| :-----:|
 | Kats: a Generalizable Framework to Analyze Time Series Data in Python | [🔗](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
 | How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [🔗](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
-| 4 Tools to Automatically Extract Data from Datetime in Python | [🔗](https://towardsdatascience.com/4-tools-to-automatically-extract-data-from-datetime-in-python-9ecf44943f89) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
+| 4 Tools to Automatically Extract Data from Datetime in Python | [🔗](https://towardsdatascience.com/4-tools-to-automatically-extract-data-from-datetime-in-python-9ecf44943f89) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_date_features.ipynb)
  
 # Feature Engineering
 

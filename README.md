@@ -63,6 +63,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Structure a Data Science Project for Readability and Transparency | [🔗](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) | [🔗](https://github.com/khuyentran1401/data-science-template)
 | GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84) | [🔗](https://github.com/khuyentran1401/employee-future-prediction)
 | Create Robust Data Pipelines with Prefect, Docker, and GitHub | [🔗](https://towardsdatascience.com/create-robust-data-pipelines-with-prefect-docker-and-github-12b231ca6ed2) | [🔗](https://github.com/khuyentran1401/prefect-docker)
+| Create a Maintainable Data Pipeline with Prefect and DVC | [🔗](https://towardsdatascience.com/create-a-maintainable-data-pipeline-with-prefect-and-dvc-1d691ea5bcea) | [🔗](https://github.com/khuyentran1401/prefect-dvc)
 
 # Testing
 

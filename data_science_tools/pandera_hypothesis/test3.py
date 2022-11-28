@@ -1,7 +1,9 @@
 import pandas as pd
+import pytest
+from pandas.testing import assert_frame_equal
 import pandera as pa
 
-out_schema = pa.DataFrameSchema(
+expected = pa.DataFrameSchema(
     {
         "val1": pa.Column(int, pa.Check.in_range(-2, 3)),
         "val2": pa.Column(int, pa.Check.in_range(-2, 3)),
@@ -10,12 +12,20 @@ out_schema = pa.DataFrameSchema(
 )
 
 
-@pa.check_output(out_schema)
+@pa.check_output(expected)
 def processing_fn(df):
     processed = df.assign(val3=df.val1 / df.val2)
     return processed
 
 
-if __name__ == "__main__":
-    df = pd.DataFrame({"val1": [1, 1, -1, -2, 2], "val2": [1, 1, -1, -2, 2]})
-    processing_fn(df)
+val1 = [[1, 1, -1, -2, 2], [1, 1, -1, -2, 2]]
+val2 = [[1, 2, -2, -1, 2], [1, 1, 1, 1, 1]]
+
+
+@pytest.mark.parametrize("val1,val2", list(zip(val1, val2)))
+def test_processing_fn(val1, val2):
+    # Create test data
+    df = pd.DataFrame({"val1": val1, "val2": val2})
+
+    # Get result
+    result = processing_fn(df)

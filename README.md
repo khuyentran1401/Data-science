@@ -5,6 +5,11 @@ Collection of useful data science topics along with code and articles in my [dat
 
 If you want to received updates of these blogs in your mailbox, you can subscribe to [my Medium newsletter](https://khuyentran1476.medium.com/subscribe). To received bite-sized Python and daily data science tips in your mailbox, you can subscribe to [Data Science Simplified](https://mathdatasimplified.com/).
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=khuyentran1401/Data-science&type=Date)](https://star-history.com/#khuyentran1401/Data-science&Date)
+
+
 ## How to Download the Code in This Repository to Your Local Machine
 
 To download the code in this repo, you can simply use git clone
@@ -51,13 +56,15 @@ git clone https://github.com/khuyentran1401/Data-science
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [🔗](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
-| Orchestrate Your Data Science Project with Prefect 2.0 | [🔗](https://medium.com/the-prefect-blog/orchestrate-your-data-science-project-with-prefect-2-0-4118418fd7ce) | [🔗](https://github.com/khuyentran1401/analyze_github_feed)
+| Orchestrate Your Data Science Project with Prefect 2.0 | [🔗](https://medium.com/the-prefect-blog/orchestrate-your-data-science-project-with-prefect-2-0-4118418fd7ce) | [🔗](https://github.com/khuyentran1401/prefect2-mlops-demo)
 | DagsHub: a GitHub Supplement for Data Scientists and ML Engineers | [🔗](https://towardsdatascience.com/dagshub-a-github-supplement-for-data-scientists-and-ml-engineers-9ecaf49cc505) | [🔗](https://dagshub.com/khuyentran1401/dagshub-demo)
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNqskWiXLxx1QRDDng9O8Fsf)
 | BentoML: Create an ML Powered Prediction Service in Minutes | [🔗](https://towardsdatascience.com/bentoml-create-an-ml-powered-prediction-service-in-minutes-23d135d6ca76) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/bentoml_demo)
 | How to Structure a Data Science Project for Readability and Transparency | [🔗](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) | [🔗](https://github.com/khuyentran1401/data-science-template)
 | GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84) | [🔗](https://github.com/khuyentran1401/employee-future-prediction)
 | Create Robust Data Pipelines with Prefect, Docker, and GitHub | [🔗](https://towardsdatascience.com/create-robust-data-pipelines-with-prefect-docker-and-github-12b231ca6ed2) | [🔗](https://github.com/khuyentran1401/prefect-docker)
+| Create a Maintainable Data Pipeline with Prefect and DVC | [🔗](https://towardsdatascience.com/create-a-maintainable-data-pipeline-with-prefect-and-dvc-1d691ea5bcea) | [🔗](https://github.com/khuyentran1401/prefect-dvc)
+| DVC + GitHub Actions: Automatically Rerun Modified Components of a Pipeline | [🔗](https://towardsdatascience.com/dvc-github-actions-automatically-rerun-modified-components-of-a-pipeline-a3632519dc42) | [🔗](https://github.com/khuyentran1401/prefect-dvc/tree/dvc-pipeline)
 
 # Testing
 
@@ -167,6 +174,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | ------------- |:-------------:| :-----:|
 | Kats: a Generalizable Framework to Analyze Time Series Data in Python | [🔗](https://towardsdatascience.com/kats-a-generalizable-framework-to-analyze-time-series-data-in-python-3c8d21efe057) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/kats_examples/kats.ipynb)
 | How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [🔗](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
+| 4 Tools to Automatically Extract Data from Datetime in Python | [🔗](https://towardsdatascience.com/4-tools-to-automatically-extract-data-from-datetime-in-python-9ecf44943f89) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_date_features.ipynb)
  
 # Feature Engineering
 

@@ -1,7 +1,7 @@
 import pandas as pd
+import pandera as pa
 import pytest
 from pandas.testing import assert_frame_equal
-import pandera as pa
 
 expected = pa.DataFrameSchema(
     {
@@ -28,4 +28,4 @@ def test_processing_fn(val1, val2):
     df = pd.DataFrame({"val1": val1, "val2": val2})
 
     # Get result
-    result = processing_fn(df)
+    processing_fn(df)

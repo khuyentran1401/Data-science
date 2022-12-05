@@ -17,6 +17,6 @@ def test_processing_fn():
     # Create expected output
     expected = df.copy()
     expected["val3"] = [1, 0.5, 0.5, 2, 1]
-    
+
     # Test
     assert_frame_equal(result, expected, check_dtype=False)

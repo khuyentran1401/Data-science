@@ -4,7 +4,7 @@
 Collection of useful data science topics along with articles and videos.
 
 Subscribe to:
-- My [YouTube channel](https://www.youtube.com/@datasciencesimplified) for **videos** related to Python and data sience
+- [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for **videos** related to Python and data sience
 - [My Medium newsletter](https://khuyentran1476.medium.com/subscribe) for updates of my **blogs** in your mailbox
 - [Data Science Simplified](https://mathdatasimplified.com/) for **bite-sized** Python tips in your mailbox
 

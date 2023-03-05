@@ -48,6 +48,7 @@ def test_model(model: LogisticRegression, X_test: pd.DataFrame, y_test: pd.DataF
 
     # Print results
     print("Accuracy:", accuracy)
+    return accuracy
 
 
 def save_model(model):
@@ -61,8 +62,8 @@ def main():
     processed_df = preprocess_data(df)
     X_train, X_test, y_train, y_test = split_data(processed_df)
     model = train_model(X_train, y_train)
-    test_model(model, X_test, y_test)
     save_model(model)
+    return test_model(model, X_test, y_test)
 
 
 if __name__ == "__main__":

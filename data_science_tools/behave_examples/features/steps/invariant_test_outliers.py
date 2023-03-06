@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 from behave import given, then, when
 from training import preprocess_data, split_data, test_model, train_model
@@ -22,8 +23,13 @@ def step_given_performance_exists(context):
 @given("a dataset with outliers exists")
 def step_given_outliers(context):
     noisy_data = context.original_data.copy()
-    noisy_data.loc[noisy_data["customer_id"] == 12, "income"] = 1_000_000_000
-    noisy_data.loc[noisy_data["customer_id"] == 30, "income"] = 500_000_000
+
+    # randomly select two indices to change the income values
+    np.random.seed(0)
+    indices = np.random.choice(noisy_data.index, size=2, replace=False)
+
+    # change the income values at the selected indices
+    noisy_data.loc[indices, "income"] = [1_000_000, 500_000]
     context.noisy_data = noisy_data
 
 
@@ -38,6 +44,4 @@ def step_when_trained(context):
 @then("the model's performance should not be significantly affected")
 def step_then_performance(context):
     # Evaluate the model's performance
-    print(context.original_accuracy)
-    print(context.noisy_accuracy)
-    assert abs(context.original_accuracy - context.noisy_accuracy) < 1
+    assert abs(context.original_accuracy - context.noisy_accuracy) < 0.05

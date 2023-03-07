@@ -1,4 +1,7 @@
 Feature: Model Performance
+  As a data scientist
+  I want to guarantee my model is invariant to variations in the input data 
+  So that my model can produce accurate forecasts in real-world scenarios.
 
   Scenario: Outliers
     Given a original dataset without outliers exists

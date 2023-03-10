@@ -4,6 +4,6 @@ Feature: Sentiment Analysis
   So that my model can produce consistent results in real-world scenarios.
 
   Scenario: Paraphrased text
-    Given a text with a positive sentiment
+    Given a text
     When the text is paraphrased
-    Then the sentiment analysis result should remain positive
+    Then both text should have the same sentiment

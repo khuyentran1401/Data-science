@@ -1,9 +1,9 @@
-Feature: Sentiment Analysis
-  As a user of the sentiment analysis model
-  I want to ensure that the model predicts the correct sentiment
-  So that I can trust the model's predictions
+Feature: Sentiment Analysis with Specific Word
+  As a data scientist
+  I want to ensure that the presence of a specific word has a positive or negative effect on the sentiment score of a text
 
-  Scenario: Positive sentiment prediction
-    Given a positive text
-    When I input the text into the model
-    Then the model should predict "positive" sentiment
+  Scenario: Sentiment analysis with specific word
+    Given a sentence 
+    And the same sentence with the addition of the word 'awesome'
+    When I input the new sentence into the model
+    Then the sentiment score should increase

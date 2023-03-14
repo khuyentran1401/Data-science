@@ -2,14 +2,14 @@ from behave import given, then, when
 from textblob import TextBlob
 
 
-@given("a sentence")
-def step_given_positive_word(context):
-    context.sent = "I love this product"
+@given("a sentence '{sentence}")
+def step_given_positive_word(context, sentence):
+    context.sent = sentence
 
 
 @given("the same sentence with the addition of the word '{word}'")
 def step_given_a_positive_word(context, word):
-    context.new_sent = f"I love this {word} product"
+    context.new_sent = " ".join([context.sent, word])
 
 
 @when("I input the new sentence into the model")

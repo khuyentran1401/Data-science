@@ -2,21 +2,30 @@ from behave import given, then, when
 from textblob import TextBlob
 
 
+def get_sentiment(sent: str):
+    return TextBlob(sent).sentiment.polarity
+
+
 @given("a text")
 def step_given_positive_sentiment(context):
-    context.sent = "The hotel room was great! It was spacious, clean and had a nice view of the city."
+    context.original = (
+        "The hotel room was great! It was spacious, "
+        "clean and had a nice view of the city."
+    )
 
 
 @when("the text is paraphrased")
 def step_when_paraphrased(context):
-    context.sent_paraphrased = "The hotel room wasn't bad. It wasn't cramped, dirty, and had a decent view of the city."
+    context.paraphrased = (
+        "The hotel room wasn't bad. It wasn't cramped, "
+        "dirty, and had a decent view of the city."
+    )
 
 
 @then("both text should have the same sentiment")
 def step_then_sentiment_analysis(context):
-    # Get sentiment of each sentence
-    sentiment_original = TextBlob(context.sent).sentiment.polarity
-    sentiment_paraphrased = TextBlob(context.sent_paraphrased).sentiment.polarity
+    sentiment_original = get_sentiment(context.original)
+    sentiment_paraphrased = get_sentiment(context.paraphrased)
 
     # Print sentiment
     print(f"Sentiment of the original text: {sentiment_original:.2f}")

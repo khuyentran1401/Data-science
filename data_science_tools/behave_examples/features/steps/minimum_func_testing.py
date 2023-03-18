@@ -20,10 +20,7 @@ def predict(input_data: Union[int, float, str, list]):
     y = np.array([2, 4, 6, 8, 10])
     model.fit(X, y)
 
-    # Predict the output using the input array
-    output = model.predict(input_array)
-
-    return output
+    return model.predict(input_array)
 
 
 @given("I have an integer input of {input_value}")

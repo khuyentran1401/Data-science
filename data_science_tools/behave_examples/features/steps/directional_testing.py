@@ -2,6 +2,10 @@ from behave import given, then, when
 from textblob import TextBlob
 
 
+def get_sentiment(sent: str):
+    return TextBlob(sent).sentiment.polarity
+
+
 @given("a sentence '{sentence}")
 def step_given_positive_word(context, sentence):
     context.sent = sentence
@@ -14,8 +18,8 @@ def step_given_a_positive_word(context, word):
 
 @when("I input the new sentence into the model")
 def step_when_use_model(context):
-    context.sentiment_score = TextBlob(context.sent).sentiment.polarity
-    context.adjusted_score = TextBlob(context.new_sent).sentiment.polarity
+    context.sentiment_score = get_sentiment(context.sent)
+    context.adjusted_score = get_sentiment(context.new_sent)
 
 
 @then("the sentiment score should increase")

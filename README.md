@@ -66,7 +66,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Build a Full-Stack ML Application With Pydantic And Prefect | [🔗](https://towardsdatascience.com/build-a-full-stack-ml-application-with-pydantic-and-prefect-915f00fe0c62) | [🔗](https://github.com/khuyentran1401/iris-prefect) |  [🔗](https://youtu.be/c-Bqg7Gbuc8)
 | DVC + GitHub Actions: Automatically Rerun Modified Components of a Pipeline | [🔗](https://towardsdatascience.com/dvc-github-actions-automatically-rerun-modified-components-of-a-pipeline-a3632519dc42) | [🔗](https://github.com/khuyentran1401/prefect-dvc/tree/dvc-pipeline) | [🔗](https://youtu.be/jZu7LPKIOlY)
 | Create Observable and Reproducible Notebooks with Hex | [🔗](https://towardsdatascience.com/create-observable-and-reproducible-notebooks-with-hex-460e75818a09) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/prefect2) | [🔗](https://youtu.be/_BjqCrun4nE)
-| Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://towardsdatascience.com/build-reliable-machine-learning-pipelines-with-continuous-integration-ea822eb09bf6) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo)
+| Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://towardsdatascience.com/build-reliable-machine-learning-pipelines-with-continuous-integration-ea822eb09bf6) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo/tree/ci-main) | [🔗] (https://youtu.be/rkg09nNMAhs)
 
 # Testing
 

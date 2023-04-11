@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">
-Data Science Topics
+Data Science
 </h3>
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-blueviolet?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 

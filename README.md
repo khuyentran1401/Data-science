@@ -74,7 +74,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | DVC + GitHub Actions: Automatically Rerun Modified Components of a Pipeline | [🔗](https://towardsdatascience.com/dvc-github-actions-automatically-rerun-modified-components-of-a-pipeline-a3632519dc42) | [🔗](https://github.com/khuyentran1401/prefect-dvc/tree/dvc-pipeline) | [🔗](https://youtu.be/jZu7LPKIOlY)
 | Create Observable and Reproducible Notebooks with Hex | [🔗](https://towardsdatascience.com/create-observable-and-reproducible-notebooks-with-hex-460e75818a09) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/prefect2) | [🔗](https://youtu.be/_BjqCrun4nE)
 | Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://towardsdatascience.com/build-reliable-machine-learning-pipelines-with-continuous-integration-ea822eb09bf6) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/rkg09nNMAhs)
-| Automate Machine Learning Deployment with GitHub Actions | [🔗](https://towardsdatascience.com/automate-machine-learning-deployment-with-github-actions-f752766981b1) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) 
+| Automate Machine Learning Deployment with GitHub Actions | [🔗](https://towardsdatascience.com/automate-machine-learning-deployment-with-github-actions-f752766981b1) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
 
 # Testing
 

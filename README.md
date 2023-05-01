@@ -56,7 +56,6 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
-|Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [🔗](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [🔗](https://github.com/khuyentran1401/Machine-learning-pipeline) | [🔗](https://youtu.be/80s_dbfiqLM)
 | Introduction to Hydra.cc: A Powerful Framework to Configure your Data Science Projects | [🔗](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6) | [🔗](https://github.com/khuyentran1401/hydra_demo) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoPnqnVrWaYtZ2G4nFTnGze)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
@@ -75,6 +74,12 @@ git clone https://github.com/khuyentran1401/Data-science
 | Create Observable and Reproducible Notebooks with Hex | [🔗](https://towardsdatascience.com/create-observable-and-reproducible-notebooks-with-hex-460e75818a09) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/prefect2) | [🔗](https://youtu.be/_BjqCrun4nE)
 | Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://towardsdatascience.com/build-reliable-machine-learning-pipelines-with-continuous-integration-ea822eb09bf6) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/rkg09nNMAhs)
 | Automate Machine Learning Deployment with GitHub Actions | [🔗](https://towardsdatascience.com/automate-machine-learning-deployment-with-github-actions-f752766981b1) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
+
+# Data Management Tools
+| Title        | Article           | Repository  | Video
+| ------------- |:-------------:| :-----:| :-----:|
+|Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [🔗](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) | [🔗](https://github.com/khuyentran1401/Machine-learning-pipeline) | [🔗](https://youtu.be/80s_dbfiqLM)
+| What is dbt (data build tool) and When should you use it? | [🔗](https://towardsdatascience.com/what-is-dbt-data-build-tool-and-when-should-you-use-it-9dc1566d960d) | [🔗](https://github.com/khuyentran1401/dbt-demo) 
 
 # Testing
 

@@ -85,13 +85,13 @@ git clone https://github.com/khuyentran1401/Data-science
 | Introduction to Schema: A Python Libary to Validate your Data | [🔗](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/schema.ipynb)
 | How to Create Fake Data with Faker | [🔗](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/faker.ipynb) |
 | Hypothesis and Pandera: Generate Synthesis Pandas DataFrame for Testing | [🔗](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pandera_hypothesis) | [🔗](https://youtu.be/RbW-x_2dFMQ)
-| What is dbt (data build tool) and When should you use it? | [🔗](https://towardsdatascience.com/what-is-dbt-data-build-tool-and-when-should-you-use-it-9dc1566d960d) | [🔗](https://github.com/khuyentran1401/dbt-demo)
+| Build an Efficient Data Pipeline: Is dbt the Key? | [🔗](https://mathdatasimplified.com/2023/05/01/build-an-efficient-data-pipeline-is-dbt-the-key/) | [🔗](https://github.com/khuyentran1401/dbt-demo)
 
 # Testing
 
 | Title        | Article           | Repository  |  Video
 | ------------- |:-------------:| :-----:| :-----:|
-| Pytest for Data Scientists | [🔗](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
+| Pytest for Data Scientists | [🔗](https://mathdatasimplified.com/2023/04/24/pytest-for-data-scientists-3/) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [🔗](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [🔗](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
 | Checklist — Behavioral Testing of NLP Models | [🔗](https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/nlp/checklist/checklist_examples.ipynb)

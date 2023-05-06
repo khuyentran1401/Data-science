@@ -3,7 +3,7 @@
 Data Science
 </h3>
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science)  [![View on Medium](https://img.shields.io/badge/Medium-View%20on%20Medium-blueviolet?logo=medium)](https://khuyentran1476.medium.com/) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-Daily%20Data%20Science%20Tips-green?logo=wordpress)](https://mathdatasimplified.com/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-View%20Blog-green?logo=wordpress)](https://mathdatasimplified.com/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
  
 Collection of useful data science topics along with articles and videos.
@@ -11,9 +11,8 @@ Collection of useful data science topics along with articles and videos.
 </div>
  
 Subscribe to:
-- [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for **videos** related to Python and data sience
-- [My Medium newsletter](https://khuyentran1476.medium.com/subscribe) for updates of my **blogs** in your mailbox
-- [Data Science Simplified](https://mathdatasimplified.com/) for **bite-sized** Python tips in your mailbox
+- [Data Science Simplified](https://mathdatasimplified.com/) for articles and bite-sized Python tips in your mailbox
+- [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for videos related to Python and data sience
 
 ## How to Download the Code in This Repository to Your Local Machine
 

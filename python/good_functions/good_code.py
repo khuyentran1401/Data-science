@@ -8,7 +8,6 @@ import gdown
 
 
 def main():
-
     url = "https://drive.google.com/uc?id=1jI1cmxqnwsmC-vbl8dNY6b4aNBtBbKy3"
     output_path = "Twitter.zip"
     path_train = "Data/train/en"
@@ -29,16 +28,13 @@ class DataGetter:
         self.unzip_data()
 
     def download_zip_data_from_google_drive(self):
-
         gdown.download(self.url, self.output_path, quiet=False)
 
     def unzip_data(self):
-
         with zipfile.ZipFile(self.output_path, "r") as zip_ref:
             zip_ref.extractall(".")
 
     def get_train_test_docs(self) -> Tuple[list, list]:
-
         tweets_train_files = self.get_files(self.path_train)
         tweets_test_files = self.get_files(self.path_test)
 
@@ -52,7 +48,6 @@ class DataGetter:
 
     @staticmethod
     def get_files(path: str) -> List[str]:
-
         return [
             file
             for file in listdir(path)
@@ -63,7 +58,6 @@ class DataGetter:
     def extract_texts_from_multiple_files(
         cls, path_to_file: str, files: list
     ) -> List[str]:
-
         all_docs = []
         for file in files:
             text_in_one_file = cls.extract_texts_from_each_file(path_to_file, file)
@@ -73,13 +67,10 @@ class DataGetter:
 
     @staticmethod
     def extract_texts_from_each_file(path_to_file: str, file_name: list) -> str:
-
         list_of_text_in_one_file = [
             r.text for r in ET.parse(join(path_to_file, file_name)).getroot()[0]
         ]
-        text_in_one_file_as_string = " ".join(t for t in list_of_text_in_one_file)
-
-        return text_in_one_file_as_string
+        return " ".join(list_of_text_in_one_file)
 
 
 if __name__ == "__main__":

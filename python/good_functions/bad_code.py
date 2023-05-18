@@ -41,14 +41,17 @@ def load_data(url: str, output: str, path_train: str, path_test: str):
     # Extract texts from each file
     t_train = []
     for file in tweets_train_files:
-        train_doc_1 = [r.text for r in ET.parse(join(path_train, file)).getroot()[0]]
-        t_train.append(" ".join(t for t in train_doc_1))
+        list_train_doc_1 = [
+            r.text for r in ET.parse(join(path_train, file)).getroot()[0]
+        ]
+        train_doc_1 = " ".join(t for t in list_train_doc_1)
+        t_train.append(train_doc_1)
 
     t_test = []
     for file in tweets_test_files:
-        test_doc_1 = [r.text for r in ET.parse(join(path_test, file)).getroot()[0]]
-        t_test.append(" ".join(t for t in test_doc_1))
-
+        list_test_doc_1 = [r.text for r in ET.parse(join(path_test, file)).getroot()[0]]
+        test_doc_1 = " ".join(t for t in list_test_doc_1)
+        t_test.append(test_doc_1)
     return t_train, t_test
 
 

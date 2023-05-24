@@ -1,0 +1,272 @@
+{
+    "name": "data science skills",
+    "children": [
+        {
+            "name": "Programming Tools",
+            "children": [
+                {
+                    "name": "SAS",
+                    "value": 36
+                },
+                {
+                    "name": "Python",
+                    "value": 20
+                },
+                {
+                    "name": "pandas",
+                    "value": 17
+                },
+                {
+                    "name": "NumPy",
+                    "value": 17
+                },
+                {
+                    "name": "Microsoft SQL Server",
+                    "value": 10
+                },
+                {
+                    "name": "Microsoft Power BI",
+                    "value": 10
+                },
+                {
+                    "name": "scikit-learn",
+                    "value": 10
+                },
+                {
+                    "name": "Git",
+                    "value": 10
+                },
+                {
+                    "name": "Microsoft Excel",
+                    "value": 9
+                },
+                {
+                    "name": "Project Jupyter",
+                    "value": 9
+                },
+                {
+                    "name": "Apache Hive",
+                    "value": 9
+                },
+                {
+                    "name": "Oracle Database",
+                    "value": 7
+                },
+                {
+                    "name": "Qlik",
+                    "value": 7
+                },
+                {
+                    "name": "Matplotlib",
+                    "value": 7
+                },
+                {
+                    "name": "Statistical Package for the Social Sciences",
+                    "value": 6
+                },
+                {
+                    "name": "Databricks",
+                    "value": 5
+                },
+                {
+                    "name": "Tableau Software",
+                    "value": 5
+                },
+                {
+                    "name": "Keras",
+                    "value": 5
+                },
+                {
+                    "name": "Docker",
+                    "value": 5
+                },
+                {
+                    "name": "Visual Basic for Applications",
+                    "value": 4
+                },
+                {
+                    "name": "Looker",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "business",
+            "children": [
+                {
+                    "name": "marketing",
+                    "value": 23
+                },
+                {
+                    "name": "quantitative research",
+                    "value": 14
+                },
+                {
+                    "name": "business intelligence",
+                    "value": 13
+                },
+                {
+                    "name": "project management",
+                    "value": 11
+                },
+                {
+                    "name": "Gartner",
+                    "value": 8
+                },
+                {
+                    "name": "management",
+                    "value": 6
+                },
+                {
+                    "name": "finance",
+                    "value": 6
+                },
+                {
+                    "name": "Salesforce",
+                    "value": 4
+                },
+                {
+                    "name": "commerce",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "cloud services",
+            "children": [
+                {
+                    "name": "Amazon Web Services",
+                    "value": 35
+                },
+                {
+                    "name": "Microsoft Azure",
+                    "value": 10
+                },
+                {
+                    "name": "Google Cloud Platform",
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "computer science",
+            "children": [
+                {
+                    "name": "computer science",
+                    "value": 93
+                },
+                {
+                    "name": "application programming interface",
+                    "value": 11
+                },
+                {
+                    "name": "software engineering",
+                    "value": 8
+                },
+                {
+                    "name": "information technology",
+                    "value": 5
+                },
+                {
+                    "name": "computer engineering",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "data science",
+            "children": [
+                {
+                    "name": "machine learning",
+                    "value": 140
+                },
+                {
+                    "name": "analytics",
+                    "value": 64
+                },
+                {
+                    "name": "artificial intelligence",
+                    "value": 61
+                },
+                {
+                    "name": "data science",
+                    "value": 50
+                },
+                {
+                    "name": "natural language processing",
+                    "value": 29
+                },
+                {
+                    "name": "data visualization",
+                    "value": 11
+                },
+                {
+                    "name": "computer vision",
+                    "value": 9
+                },
+                {
+                    "name": "data modeling",
+                    "value": 6
+                },
+                {
+                    "name": "data analysis",
+                    "value": 5
+                },
+                {
+                    "name": "cluster analysis",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "degrees",
+            "children": [
+                {
+                    "name": "master's degree",
+                    "value": 79
+                },
+                {
+                    "name": "phd",
+                    "value": 31
+                },
+                {
+                    "name": "bachelor's degree",
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "name": "mathematics",
+            "children": [
+                {
+                    "name": "statistics",
+                    "value": 100
+                },
+                {
+                    "name": "mathematics",
+                    "value": 64
+                },
+                {
+                    "name": "applied mathematics",
+                    "value": 27
+                },
+                {
+                    "name": "operations research",
+                    "value": 16
+                },
+                {
+                    "name": "mathematical optimization",
+                    "value": 15
+                },
+                {
+                    "name": "mathematical analysis",
+                    "value": 9
+                },
+                {
+                    "name": "mathematical finance",
+                    "value": 7
+                }
+            ]
+        }
+    ]
+}

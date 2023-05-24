@@ -1,0 +1,124 @@
+{
+    "mathematics": [
+        "statistics",
+        "applied mathematics",
+        "mathematical optimization",
+        "mathematical analysis",
+        "Bayesian statistics",
+        "mathematics",
+        "operations research",
+        "mathematical finance"
+    ],
+    "computer science": [
+        "computer science",
+        "software engineering",
+        "computer engineering",
+        "application programming interface",
+        "information technology",
+        "information system"
+    ],
+    "data science": [
+        "machine learning",
+        "analytics",
+        "artificial intelligence",
+        "natural language processing",
+        "data science",
+        "data visualization",
+        "data modeling",
+        "cluster analysis",
+        "computer vision",
+        "data analysis"
+    ],
+    "Programming Tools": [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "Matplotlib",
+        "Keras",
+        "SAS",
+        "Git",
+        "Microsoft Power BI",
+        "Apache Hive",
+        "Microsoft Excel",
+        "Visual Basic for Applications",
+        "Tableau Software",
+        "Looker",
+        "Oracle Database",
+        "GitHub",
+        "Qlik",
+        "Databricks",
+        "Docker",
+        "Microsoft SQL Server",
+        "Project Jupyter",
+        "Statistical Package for the Social Sciences"
+    ],
+    "business": [
+        "marketing",
+        "quantitative research",
+        "business intelligence",
+        "project management",
+        "management",
+        "commerce",
+        "Salesforce",
+        "Jira",
+        "Gartner",
+        "finance"
+    ],
+    "degrees": [
+        "master's degree",
+        "bachelor's degree",
+        "phd"
+    ],
+    "programming languages": [
+        
+    ],
+    "cloud services": [
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud Platform"
+    ],
+    "companies": [
+        " Inc.",
+        "Amazon.com Inc.",
+        "Google",
+        "Tesco",
+        "Microsoft Corporation",
+        "Office of Federal Contract Compliance Programs",
+        "SAS Institute",
+        "Nintendo DS",
+        "United States Department of Defense"
+    ],
+    "science": [
+        "science",
+        "physics",
+        "STEM fields",
+        "bioinformatics",
+        "medicine",
+        "actuarial science",
+        "research",
+        "research and development"
+    ],
+    "expertise": [
+        "expert",
+        "professional",
+        "scientist",
+        "lead",
+        "freelancer"
+    ],
+    "other": [
+        "education",
+        "economics",
+        "financial service",
+        "automation",
+        "compensation and benefits",
+        "Instagram",
+        "representational state transfer",
+        "engineering",
+        "electrical engineering",
+        "technology",
+        "English",
+        "design",
+        "Contribute"
+    ]
+}

@@ -56,7 +56,7 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
-| Stop Hard Coding in a Data Science Project – Use Configuration Files Instead | [🔗](https://mathdatasimplified.com/2023/05/25/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/) | [🔗](https://github.com/khuyentran1401/hydra-demo) 
+| Stop Hard Coding in a Data Science Project – Use Configuration Files Instead | [🔗](https://mathdatasimplified.com/2023/05/25/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/) | [🔗](https://github.com/khuyentran1401/hydra-demo) | [🔗](https://youtu.be/jaX9zrC7y4Y)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [🔗](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)

@@ -85,6 +85,8 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Create Fake Data with Faker | [🔗](https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9) | [🔗](https://deepnote.com/launch?url=https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/faker.ipynb) |
 | Hypothesis and Pandera: Generate Synthesis Pandas DataFrame for Testing | [🔗](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pandera_hypothesis) | [🔗](https://youtu.be/RbW-x_2dFMQ)
 | What is dbt (data build tool) and When should you use it? | [🔗](https://mathdatasimplified.com/2023/05/01/build-an-efficient-data-pipeline-is-dbt-the-key/) | [🔗](https://github.com/khuyentran1401/dbt-demo)| [🔗](https://youtu.be/mM5zWBP3G_U)
+| Streamline dbt Model Development with Notebook-Style Workspace | [🔗](https://mathdatasimplified.com/2023/06/05/dbt-mage-interactively-build-and-orchestrate-data-models/) | [🔗](https://github.com/khuyentran1401/dbt-demo)| [🔗](https://github.com/khuyentran1401/dbt-mage)
+
 # Testing
 
 | Title        | Article           | Repository  |  Video

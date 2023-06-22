@@ -1,59 +1,56 @@
 import xml.etree.ElementTree as ET
 import zipfile
-from os import listdir
-from os.path import isfile, join
+from pathlib import Path
 
 import gdown
 
 
-def main():
-
-    load_data(
-        url="https://drive.google.com/uc?id=1jI1cmxqnwsmC-vbl8dNY6b4aNBtBbKy3",
-        output="Twitter.zip",
-        path_train="Data/train/en",
-        path_test="Data/test/en",
-    )
-
-
-def load_data(url: str, output: str, path_train: str, path_test: str):
-
+def get_data(
+    url: str,
+    zip_path: str,
+    raw_train_path: str,
+    raw_test_path: str,
+    processed_train_path: str,
+    processed_test_path: str,
+):
     # Download data from Google Drive
-    output = "Twitter.zip"
-    gdown.download(url, output, quiet=False)
+    gdown.download(url, zip_path, quiet=False)
 
     # Unzip data
-    with zipfile.ZipFile(output, "r") as zip_ref:
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
         zip_ref.extractall(".")
 
-    # Get train, test data files
-    tweets_train_files = [
-        file
-        for file in listdir(path_train)
-        if isfile(join(path_train, file)) and file != "truth.txt"
-    ]
-    tweets_test_files = [
-        file
-        for file in listdir(path_test)
-        if isfile(join(path_test, file)) and file != "truth.txt"
-    ]
-
-    # Extract texts from each file
+    # Extract texts from files in the train directory
     t_train = []
-    for file in tweets_train_files:
-        list_train_doc_1 = [
-            r.text for r in ET.parse(join(path_train, file)).getroot()[0]
-        ]
+    for file_path in Path(raw_train_path).glob("*.xml"):
+        list_train_doc_1 = [r.text for r in ET.parse(file_path).getroot()[0]]
         train_doc_1 = " ".join(t for t in list_train_doc_1)
         t_train.append(train_doc_1)
+    t_train_docs = " ".join(t_train)
 
+    # Extract texts from files in the test directory
     t_test = []
-    for file in tweets_test_files:
-        list_test_doc_1 = [r.text for r in ET.parse(join(path_test, file)).getroot()[0]]
+    for file_path in Path(raw_test_path).glob("*.xml"):
+        list_test_doc_1 = [r.text for r in ET.parse(file_path).getroot()[0]]
         test_doc_1 = " ".join(t for t in list_test_doc_1)
         t_test.append(test_doc_1)
-    return t_train, t_test
+    t_test_docs = " ".join(t_test)
+
+    # Write processed data to a train file
+    with open(processed_train_path, "w") as f:
+        f.write(t_train_docs)
+
+    # Write processed data to a test file
+    with open(processed_test_path, "w") as f:
+        f.write(t_test_docs)
 
 
 if __name__ == "__main__":
-    main()
+    get_data(
+        url="https://drive.google.com/uc?id=1jI1cmxqnwsmC-vbl8dNY6b4aNBtBbKy3",
+        zip_path="Twitter.zip",
+        raw_train_path="Data/train/en",
+        raw_test_path="Data/test/en",
+        processed_train_path="Data/train/en.txt",
+        processed_test_path="Data/test/en.txt",
+    )

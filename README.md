@@ -58,6 +58,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | ------------- |:-------------:| :-----:| :-----:|
 | Stop Hard Coding in a Data Science Project – Use Configuration Files Instead | [🔗](https://mathdatasimplified.com/2023/05/25/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/) | [🔗](https://github.com/khuyentran1401/hydra-demo) | [🔗](https://youtu.be/jaX9zrC7y4Y)
 | Poetry: A Better Way to Manage Python Dependencies | [🔗](https://mathdatasimplified.com/2023/06/12/poetry-a-better-way-to-manage-python-dependencies/) | | [🔗](https://youtu.be/-QSUyDvHQGY)
+| Git for Data Scientists: Learn Git through Practical Examples  | [🔗](https://mathdatasimplified.com/2023/07/01/git-deep-dive-for-data-scientists/) | | [🔗](https://youtu.be/UKCTvrJSoL0)
 | Introduction to Weight & Biases: Track and Visualize your Machine Learning Experiments in 3 Lines of Code | [🔗](https://towardsdatascience.com/introduction-to-weight-biases-track-and-visualize-your-machine-learning-experiments-in-3-lines-9c9553b0f99d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/wandb_tracking)
 | Kedro — A Python Framework for Reproducible Data Science Project | [🔗](https://towardsdatascience.com/kedro-a-python-framework-for-reproducible-data-science-project-4d44977d4f04) | [🔗](https://github.com/khuyentran1401/kedro_demo)
 | Orchestrate a Data Science Project in Python With Prefect | [🔗](https://towardsdatascience.com/orchestrate-a-data-science-project-in-python-with-prefect-e69c61a49074) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/prefect_example)
@@ -253,8 +254,8 @@ git clone https://github.com/khuyentran1401/Data-science
 
 # Python
 
-| Title        | Article           | Repository  |
-| ------------- |:-------------:| :-----:|
+| Title        | Article           | Repository  | Video
+| ------------- |:-------------:| :-----:| :-----:|
 | Numpy Tricks for your Data Science Projects| [🔗](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [🔗](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master//python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [🔗](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/lambda.ipynb) |
@@ -265,7 +266,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Get the Most out of Your Array With These Four Numpy Methods | [🔗](https://medium.com/swlh/get-the-most-out-of-your-array-with-these-four-numpy-methods-2fc4a6b04736) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/four_numpy_methods.ipynb)
 | 3 Python Tricks to Read, Create, and Run Multiple Files Automatically | [🔗](https://towardsdatascience.com/3-python-tricks-to-read-create-and-run-multiple-files-automatically-5221ebaad2ba) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/python_tricks)
 | How to Exclude the Outliers in Pandas DataFrame | [🔗](https://towardsdatascience.com/how-to-exclude-the-outliers-in-pandas-dataframe-c749fca4e091) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/python/4_pandas_lesser_know_tricks.ipynb)
-| Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [🔗](https://mathdatasimplified.com/2023/05/11/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-2/) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions)
+| Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable | [🔗](https://mathdatasimplified.com/2023/05/11/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-2/) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/good_functions) | [🔗](https://youtu.be/IDHD8JYBl5M)
 | 3 Techniques to Effortlessly Import and Execute Python Modules | [🔗](https://towardsdatascience.com/3-advance-techniques-to-effortlessly-import-and-execute-your-python-modules-ccdcba017b0c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/module_example)
 | Simplify Your Functions with Functools’ Partial and Singledispatch | [🔗](https://towardsdatascience.com/simplify-your-functions-with-functools-partial-and-singledispatch-b7071f7543bb) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/python/functools%20example.ipynb)
 

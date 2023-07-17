@@ -39,7 +39,7 @@ git clone https://github.com/khuyentran1401/Data-science
 1. [Mathematical Programming](#mathematical-programming)
 1. [Scraping](#scraping)
 1. [Python](#python)
-1. [Terminal](#terminal)
+1. [Logging and Debugging](#logging-and-debugging)
 1. [Linear Algebra](#linear-algebra)
 1. [Data Structure](#data-structure)
 1. [Statistics](#statistics)
@@ -271,13 +271,14 @@ git clone https://github.com/khuyentran1401/Data-science
 | Simplify Your Functions with Functools’ Partial and Singledispatch | [🔗](https://towardsdatascience.com/simplify-your-functions-with-functools-partial-and-singledispatch-b7071f7543bb) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/python/functools%20example.ipynb)
 
 
-# Terminal
+# Logging and Debugging
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create and View Interactive Cheatsheets on the Command-line | [🔗](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff) |
 | Understand CSV Files from your Terminal with XSV | [🔗](https://towardsdatascience.com/understand-your-csv-files-from-your-terminal-with-xsv-65255ae67293) 
 | Prettify your Terminal Text With Termcolor and Pyfiglet| [🔗](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/prettify_terminal_output) |
+| Simplify Your Python Logging with Loguru | [🔗](https://mathdatasimplified.com/2023/07/17/simplify-your-python-logging-with-loguru/) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/logging_tools) |
 | Stop Using Print to Debug in Python. Use Icecream Instead | [🔗](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc) 
 | Rich: Generate Rich and Beautiful Text in the Terminal with Python | [🔗](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/terminal/rich)
 | Create a Beautiful Dashboard in your Terminal with Wtfutil | [🔗](https://towardsdatascience.com/create-a-beautiful-dashboard-in-your-terminal-with-wtfutil-573424fe3684) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/terminal/wtf/config.yml)

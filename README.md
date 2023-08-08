@@ -76,6 +76,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Create Observable and Reproducible Notebooks with Hex | [🔗](https://towardsdatascience.com/create-observable-and-reproducible-notebooks-with-hex-460e75818a09) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/prefect2) | [🔗](https://youtu.be/_BjqCrun4nE)
 | Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://mathdatasimplified.com/2023/04/11/build-reliable-machine-learning-pipelines-with-continuous-integration-2/) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/rkg09nNMAhs)
 | Automate Machine Learning Deployment with GitHub Actions | [🔗](https://mathdatasimplified.com/2023/04/18/automate-machine-learning-deployment-with-github-actions-2/) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
+| How to Build a Fully Automated Data Drift Detection Pipeline | [🔗](https://mathdatasimplified.com/2023/08/01/build-a-fully-automated-data-drift-detection-pipeline/) | [🔗](https://github.com/khuyentran1401/detect-data-drift-pipeline) | [🔗](https://youtu.be/4w2ly3WuL40)
 
 # Data Management Tools
 | Title        | Article           | Repository  | Video

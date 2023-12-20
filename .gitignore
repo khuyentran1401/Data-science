@@ -9,7 +9,6 @@ mallet-2.0.8
 wandb
 *.zip
 *.gif
-*.jpg
 
 scraping/ghibli.ipynb
 

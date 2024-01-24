@@ -259,6 +259,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
 | 6 Common Mistakes to Avoid in Data Science Code | [🔗](https://mathdatasimplified.com/6-common-mistakes-to-avoid-in-data-science-code/) | | [🔗](https://youtu.be/7Hww31vZSyA)
+| 5 Steps to Transform Messy Functions into Production-Ready Code | [🔗](https://bit.ly/42h9Tyc) | [🔗](https://bit.ly/3Uc9qet) | [🔗](https://bit.ly/3u58ePv)
 | Numpy Tricks for your Data Science Projects| [🔗](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [🔗](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master//python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [🔗](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/lambda.ipynb) |

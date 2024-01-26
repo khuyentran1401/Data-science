@@ -12,8 +12,8 @@ Collection of useful data science topics along with articles and videos.
 </div>
  
 Subscribe to:
-- [Data Science Simplified](https://mathdatasimplified.com/) for articles and bite-sized Python tips in your mailbox
-- [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for videos related to Python and data science
+- [Data Science Simplified](https://bit.ly/data-simplified) for articles and bite-sized Python tips in your mailbox
+- [My YouTube channel](https://bit.ly/3OdtJUY) for videos related to Python and data science
 
 ## How to Download the Code in This Repository to Your Local Machine
 

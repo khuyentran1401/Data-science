@@ -1,16 +1,10 @@
 [<img src="img/Social media_facebook.jpg">](https://bit.ly/data-simplified)
 
-<div align="center">
-<h1 align="center">
-Data Science
-</h3>
+# Data Science
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-View%20Blog-green?logo=wordpress)](https://bit.ly/data-simplified) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://bit.ly/3OdtJUY) 
 
- 
 Collection of useful data science topics along with articles and videos.
-
-</div>
  
 Subscribe to:
 - [Data Science Simplified](https://bit.ly/data-simplified) for articles and bite-sized Python tips in your mailbox

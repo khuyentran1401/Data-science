@@ -390,12 +390,6 @@ git clone https://github.com/khuyentran1401/Data-science
 | Build an Impressive Github Profile in 3 Steps | [🔗](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
 
 
-# Supporters
-Special thanks to these supporters for supporting this project!
-
-[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://www.linkedin.com/in/sagar-ravindra-sonawane/)
-
-
 
 
 

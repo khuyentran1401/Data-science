@@ -73,6 +73,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://mathdatasimplified.com/build-reliable-machine-learning-pipelines-with-continuous-integration-2/) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/rkg09nNMAhs)
 | Automate Machine Learning Deployment with GitHub Actions | [🔗](https://mathdatasimplified.com/automate-machine-learning-deployment-with-github-actions-2/) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
 | How to Build a Fully Automated Data Drift Detection Pipeline | [🔗](https://mathdatasimplified.com/build-a-fully-automated-data-drift-detection-pipeline/) | [🔗](https://github.com/khuyentran1401/detect-data-drift-pipeline) | [🔗](https://youtu.be/4w2ly3WuL40)
+| Setting Up Automated Model Training Workflows with AWS S3 | [🔗](https://bit.ly/497dEbl) | [🔗](https://bit.ly/3VsDzH7) |
 
 # Data Management Tools
 | Title        | Article           | Repository  | Video

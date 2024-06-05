@@ -389,6 +389,8 @@ git clone https://github.com/khuyentran1401/Data-science
 | ------------- |:-------------:| :-----:|
 | How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [🔗](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693)| 
 | Build an Impressive Github Profile in 3 Steps | [🔗](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
+| Data Science Specialization Roadmaps | [🔗](https://www.scaler.com/blog/category/data-science-business-analytics/)
+
 
 
 

@@ -6,10 +6,7 @@ Data Science
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-View%20Blog-green?logo=wordpress)](https://codecut.ai/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
- 
 Collection of useful data science topics along with articles and videos.
-
-</div>
  
 Subscribe to:
 - [CodeCut](https://codecut.ai/) for articles and bite-sized Python tips in your mailbox
@@ -258,6 +255,8 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
+| 6 Common Mistakes to Avoid in Data Science Code | [🔗](https://mathdatasimplified.com/6-common-mistakes-to-avoid-in-data-science-code/) | | [🔗](https://youtu.be/7Hww31vZSyA)
+| 5 Steps to Transform Messy Functions into Production-Ready Code | [🔗](https://bit.ly/42h9Tyc) | [🔗](https://bit.ly/3Uc9qet) | [🔗](https://bit.ly/3u58ePv)
 | Numpy Tricks for your Data Science Projects| [🔗](https://medium.com/@khuyentran1476/comprehensive-numpy-tutorials-for-beginners-8b88696bd3a2) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/Numpy_tricks.ipynb) |
 | Timing for Efficient Python Code | [🔗](https://towardsdatascience.com/timing-the-performance-to-choose-the-right-python-object-for-your-data-science-project-670db6f11b8e) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master//python/Time.ipynb) |
 | How to Use Lambda for Efficient Python Code | [🔗](https://towardsdatascience.com/how-to-use-lambda-for-efficient-python-code-ff950dc8d259) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/python/lambda.ipynb) |
@@ -391,17 +390,3 @@ git clone https://github.com/khuyentran1401/Data-science
 | ------------- |:-------------:| :-----:|
 | How to Create an Elegant Website for your Data Science Portfolio in 10 minutes | [🔗](https://towardsdatascience.com/how-to-create-an-elegant-website-for-your-data-science-portfolio-in-10-minutes-577f77d1f693)| 
 | Build an Impressive Github Profile in 3 Steps | [🔗](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
-
-
-# Supporters
-Special thanks to these supporters for supporting this project!
-
-[<img src="img/danny.png" width="100" height="100">](https://github.com/DataWithDanny) [<img src="img/sagar.jpeg" width="100" height="100">](https://www.linkedin.com/in/sagar-ravindra-sonawane/)
-
-
-
-
-
-
-
-

@@ -1,8 +1,6 @@
 [<img src="img/Social media_facebook.jpg">](https://codecut.ai)
-<div align="center">
-<h1 align="center">
-Data Science
-</h3>
+
+# Data Science
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-View%20Blog-green?logo=wordpress)](https://codecut.ai/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
@@ -20,35 +18,35 @@ git clone https://github.com/khuyentran1401/Data-science
 ```
 
 # Contents
-[MLOps](#mlops)
-[Data Management Tools](#data-management-tools)
-[Testing](#testing)
-[Productive Tools](#productive-tools)
-[Python Helper Tools](#python-helper-tools)
-[Tools for Deployment](#tools-for-deployment)
-[Speed-up Tools](#speed-up-tools)
-[Math Tools](#math-tools)
-[Machine Learning](#machine-learning)
-[Natural Language Processing](#natural-language-processing)
-[Computer Vision](#computer-vision)
-[Time Series](#time-series)
-[Feature Engineering](#feature-engineering)
-[Visualization](#visualization)
-[Mathematical Programming](#mathematical-programming)
-[Scraping](#scraping)
-[Python](#python)
-[Logging and Debugging](#logging-and-debugging)
-[Linear Algebra](#linear-algebra)
-[Data Structure](#data-structure)
-[Statistics](#statistics)
-[Web Applications](#web-applications)
-[Share Insights](#share-insights)
-[Cool Tools](#cool-tools)
-[Learning Tips](#learning-tips)
-[Productive Tips](#productive-tips)
-[VSCode](#vscode)
-[Book Review](#book-review)
-[Data Science Portfolio](#data-science-portfolio)
+1. [MLOps](#mlops)
+1. [Data Management Tools](#data-management-tools)
+1. [Testing](#testing)
+1. [Productive Tools](#productive-tools)
+1. [Python Helper Tools](#python-helper-tools)
+1. [Tools for Deployment](#tools-for-deployment)
+1. [Speed-up Tools](#speed-up-tools)
+1. [Math Tools](#math-tools)
+1. [Machine Learning](#machine-learning)
+1. [Natural Language Processing](#natural-language-processing)
+1. [Computer Vision](#computer-vision)
+1. [Time Series](#time-series)
+1. [Feature Engineering](#feature-engineering)
+1. [Visualization](#visualization)
+1. [Mathematical Programming](#mathematical-programming)
+1. [Scraping](#scraping)
+1. [Python](#python)
+1. [Logging and Debugging](#logging-and-debugging)
+1. [Linear Algebra](#linear-algebra)
+1. [Data Structure](#data-structure)
+1. [Statistics](#statistics)
+1. [Web Applications](#web-applications)
+1. [Share Insights](#share-insights)
+1. [Cool Tools](#cool-tools)
+1. [Learning Tips](#learning-tips)
+1. [Productive Tips](#productive-tips)
+1. [VSCode](#vscode)
+1. [Book Review](#book-review)
+1. [Data Science Portfolio](#data-science-portfolio)
 
 # MLOps
 

@@ -1,13 +1,13 @@
-[<img src="img/Social media_facebook.jpg">](https://codecut.ai)
+[<img src="img/Social media_facebook.jpg">](https://codecut.ai/?utm_source=github&utm_medium=github_profile&utm_campaign=github_banner)
 
 # Data Science
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/Data%20Science%20Simplified-View%20Blog-green?logo=wordpress)](https://codecut.ai/) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/CodeCut-View%20Website-green?logo=wordpress)](https://codecut.ai/?utm_source=github&utm_medium=github_profile&utm_campaign=github_badge) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
 Collection of useful data science topics along with articles and videos.
  
 Subscribe to:
-- [CodeCut](https://codecut.ai/) for articles and bite-sized Python tips in your mailbox
+- [CodeCut](https://codecut.ai/?utm_source=github&utm_medium=github_profile&utm_campaign=subscribe_to) for articles and bite-sized Python tips in your mailbox
 - [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for videos related to Python and data science
 
 ## How to Download the Code in This Repository to Your Local Machine

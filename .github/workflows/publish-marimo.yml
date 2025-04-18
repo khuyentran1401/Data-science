@@ -2,13 +2,12 @@ name: Publish Marimo Notebooks
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [master]
     paths:
-      - 'data_science_tools/polars_vs_pandas.py'  # Only trigger on changes to this specific file
-  workflow_dispatch:  # Allow manual triggering
+      - '**/*.py'  # Trigger on any Python file changes in any directory
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -25,20 +24,56 @@ jobs:
           python -m pip install --upgrade pip
           pip install marimo
           # Install any other dependencies needed by your notebooks
-          pip install pandas numpy polars
+          pip install pandas polars
 
-      - name: Export marimo notebook
+      - name: Export marimo notebooks
         run: |
-          mkdir -p _site/data_science_tools
+          mkdir -p marimo_notebooks
+          # Get list of changed files that match the path pattern
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep "\.py$" || true)
           
-          # Export the specific notebook to HTML
-          marimo export "data_science_tools/polars_vs_pandas.py" --format html --output "_site/data_science_tools/polars_vs_pandas.html"
+          # Loop through each changed file
+          for notebook in $CHANGED_FILES; do
+            if [ -f "$notebook" ] && grep -q "import marimo" "$notebook"; then
+              echo "Exporting notebook: $notebook"
+              # Create subdirectory structure to maintain organization
+              output_dir="marimo_notebooks/$(dirname "$notebook")"
+              mkdir -p "$output_dir"
+              marimo export html-wasm "$notebook" --output "$output_dir" --mode run
+            fi
+          done
           
-          # Create a simple index.html
-          echo "<html><head><title>Marimo Notebooks</title><style>body{font-family:sans-serif;max-width:800px;margin:0 auto;padding:20px}h1{color:#0066cc}</style></head><body><h1>Marimo Notebooks</h1><p><a href=\"data_science_tools/polars_vs_pandas.html\">Polars vs Pandas</a></p></body></html>" > _site/index.html
+          # Create an index.html that lists all notebooks
+          echo "<html><head><title>Marimo Notebooks</title><style>body{font-family:sans-serif;max-width:800px;margin:0 auto;padding:20px}h1{color:#0066cc}</style></head><body><h1>Marimo Notebooks</h1><ul>" > marimo_notebooks/index.html
+          
+          # Find all HTML files and add them to the index
+          find marimo_notebooks -name "*.html" ! -name "index.html" | sort | while read -r file; do
+            rel_path="${file#marimo_notebooks/}"
+            name=$(basename "$file" .html)
+            echo "<li><a href=\"$rel_path\">$rel_path</a></li>" >> marimo_notebooks/index.html
+          done
+          
+          echo "</ul></body></html>" >> marimo_notebooks/index.html
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 📦 Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
-          branch: gh-pages
+          path: marimo_notebooks
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions:
+        pages: write
+        id-token: write
+
+    steps:
+        - name: 🌐 Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
+          with:
+              artifact_name: github-pages

@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - 'data_science_tools/polars_vs_pandas.py'  # Only trigger on this specific file
+      - '.github/workflows/publish-marimo.yml'    # Trigger on changes to this file
 
 jobs:
   build:
@@ -24,18 +25,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install marimo
           # Install any other dependencies needed by your notebooks
-          pip install pandas polars pyarrow
+          pip install pandas polars
 
       - name: Export marimo notebook
         run: |
-          mkdir -p marimo_notebooks/
+          mkdir -p marimo_notebooks/data_science_tools/polars_vs_pandas
           # Export the specific notebook
-          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/ --mode edit
+          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/data_science_tools/polars_vs_pandas --mode edit
 
       - name: 📦 Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: marimo_notebooks
+          path: marimo_notebooks/data_science_tools/polars_vs_pandas
 
   deploy:
     needs: build
@@ -54,3 +55,4 @@ jobs:
           uses: actions/deploy-pages@v4
           with:
               artifact_name: github-pages
+              path: marimo_notebooks/data_science_tools/polars_vs_pandas

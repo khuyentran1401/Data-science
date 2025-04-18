@@ -6,9 +6,9 @@ app = marimo.App()
 
 @app.cell
 def _():
-    import marimo as mos
+    import marimo as mo
 
-    return (mos,)
+    return (mo,)
 
 
 @app.cell(hide_code=True)

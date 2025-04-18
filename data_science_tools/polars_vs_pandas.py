@@ -39,6 +39,12 @@ def _():
     return data, df, n_rows, np, pd
 
 
+@app.cell
+def _(df):
+    df.to_csv("large_file.csv", index=False)
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""## 1. Reading Data Faster""")

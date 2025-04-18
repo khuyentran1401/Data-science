@@ -1,4 +1,4 @@
-# Sentiment Analysis of LinkedIn Messages
+## Sentiment Analysis of LinkedIn Messages
 
 <center><img src="https://github.com/khuyentran1401/Data-science/blob/master/img/linkedin_connection.png?raw=true"</center>
 

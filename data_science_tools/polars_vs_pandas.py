@@ -13,7 +13,7 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""# Polars vs. Pandas: A Multi-Core Alternative for DataFrames""")
+    mo.md(r"""# Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames""")
     return
 
 
@@ -223,18 +223,6 @@ def _(df_pd_1, df_pl_1):
     print(df_pd_1.memory_usage(deep=True).sum() / 1000000.0, "MB")
     print(df_pl_1.estimated_size() / 1000000.0, "MB")
     return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""## Final Thoughts""")
-    return
-
-
-@app.cell
-def _(df_pl_1):
-    df_pd_2 = df_pl_1.to_pandas()
-    return (df_pd_2,)
 
 
 if __name__ == "__main__":

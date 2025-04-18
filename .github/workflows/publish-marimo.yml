@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - '**/*.py'  # Trigger on any Python file changes in any directory
+      - 'data_science_tools/polars_vs_pandas.py'  # Only trigger on this specific file
 
 jobs:
   build:
@@ -26,34 +26,11 @@ jobs:
           # Install any other dependencies needed by your notebooks
           pip install pandas polars
 
-      - name: Export marimo notebooks
+      - name: Export marimo notebook
         run: |
-          mkdir -p marimo_notebooks
-          # Get list of changed files that match the path pattern
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep "\.py$" || true)
-          
-          # Loop through each changed file
-          for notebook in $CHANGED_FILES; do
-            if [ -f "$notebook" ] && grep -q "import marimo" "$notebook"; then
-              echo "Exporting notebook: $notebook"
-              # Create subdirectory structure to maintain organization
-              output_dir="marimo_notebooks/$(dirname "$notebook")"
-              mkdir -p "$output_dir"
-              marimo export html-wasm "$notebook" --output "$output_dir" --mode run
-            fi
-          done
-          
-          # Create an index.html that lists all notebooks
-          echo "<html><head><title>Marimo Notebooks</title><style>body{font-family:sans-serif;max-width:800px;margin:0 auto;padding:20px}h1{color:#0066cc}</style></head><body><h1>Marimo Notebooks</h1><ul>" > marimo_notebooks/index.html
-          
-          # Find all HTML files and add them to the index
-          find marimo_notebooks -name "*.html" ! -name "index.html" | sort | while read -r file; do
-            rel_path="${file#marimo_notebooks/}"
-            name=$(basename "$file" .html)
-            echo "<li><a href=\"$rel_path\">$rel_path</a></li>" >> marimo_notebooks/index.html
-          done
-          
-          echo "</ul></body></html>" >> marimo_notebooks/index.html
+          mkdir -p marimo_notebooks/
+          # Export the specific notebook
+          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/ --mode run
 
       - name: 📦 Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

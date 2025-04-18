@@ -13,7 +13,7 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""# Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames""")
+    mo.md(r"""# Polars vs. Pandas: A Multi-Core Alternative for DataFrames""")
     return
 
 

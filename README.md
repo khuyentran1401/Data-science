@@ -5,11 +5,11 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/CodeCut-View%20Website-green?logo=wordpress)](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=github_badge) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
 Collection of useful data science topics along with articles and videos.
- 
-Subscribe to:
-- [CodeCut](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=subscribe_to) for articles and bite-sized Python tips in your mailbox
-- [My YouTube channel](https://www.youtube.com/@datasciencesimplified) for videos related to Python and data science
 
+## The Data Scientist’s Toolkit: 100+ Essential Tools for Modern Analytics
+
+To receive a condensed overview of these tools and additional resources, sign up for [CodeCut's free PDF guide](https://codecut.ai/data-scientist-toolkit/?utm_source=github&utm_medium=data_science_repo&utm_campaign=free_pdf). This comprehensive 264-page document covers over 100 essential data science tools, providing you with a valuable reference for your work.
+ 
 ## How to Download the Code in This Repository to Your Local Machine
 
 To download the code in this repo, you can simply use git clone

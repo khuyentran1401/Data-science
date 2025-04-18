@@ -1,6 +1,6 @@
 [<img src="img/Social media_facebook.jpg">](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=github_banner)
 
-# Data Science
+## Data Science
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/khuyentran1401/Data-science) [![Daily Data Science Tips](https://img.shields.io/badge/CodeCut-View%20Website-green?logo=wordpress)](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=github_badge) [![View on YouTube](https://img.shields.io/badge/YouTube-Watch%20on%20Youtube-red?logo=youtube)](https://www.youtube.com/channel/UCNMawpMow-lW5d2svGhOEbw) 
 
@@ -17,7 +17,7 @@ To download the code in this repo, you can simply use git clone
 git clone https://github.com/khuyentran1401/Data-science
 ```
 
-# Contents
+## Contents
 1. [MLOps](#mlops)
 1. [Data Management Tools](#data-management-tools)
 1. [Testing](#testing)
@@ -48,7 +48,7 @@ git clone https://github.com/khuyentran1401/Data-science
 1. [Book Review](#book-review)
 1. [Data Science Portfolio](#data-science-portfolio)
 
-# MLOps
+## MLOps
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -74,7 +74,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Automate Machine Learning Deployment with GitHub Actions | [🔗](https://codecut.ai/automate-machine-learning-deployment-with-github-actions-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
 | How to Build a Fully Automated Data Drift Detection Pipeline | [🔗](https://codecut.ai/build-a-fully-automated-data-drift-detection-pipeline/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/detect-data-drift-pipeline) | [🔗](https://youtu.be/4w2ly3WuL40)
 
-# Data Management Tools
+## Data Management Tools
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
 |Introduction to DVC: Data Version Control Tool for Machine Learning Projects | [🔗](https://codecut.ai/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Machine-learning-pipeline) | [🔗](https://youtu.be/80s_dbfiqLM) 
@@ -86,7 +86,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | What is dbt (data build tool) and When should you use it? | [🔗](https://codecut.ai/build-an-efficient-data-pipeline-is-dbt-the-key/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/dbt-demo)| [🔗](https://youtu.be/mM5zWBP3G_U)
 | Streamline dbt Model Development with Notebook-Style Workspace | [🔗](https://codecut.ai/dbt-mage-interactively-build-and-orchestrate-data-models/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/dbt-mage) | [🔗](https://youtu.be/vQFg1Mp60-s)
 
-# Testing
+## Testing
 
 | Title        | Article           | Repository  |  Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -97,7 +97,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Detect Defects in a Data Pipeline Early with Validation and Notifications | [🔗](https://towardsdatascience.com/detect-defects-in-a-data-pipeline-early-with-validation-and-notifications-83e9b652e65a) | [🔗](https://github.com/khuyentran1401/prefect2-mlops-demo/tree/deepchecks) | [🔗](https://youtu.be/HdPViOX8Uf8)
 | Write Readable Tests for Your Machine Learning Models with Behave | [🔗](https://towardsdatascience.com/write-readable-tests-for-your-machine-learning-models-with-behave-ec4a27b91490) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/behave_examples) | [🔗](https://youtu.be/gUttUxyNbIA)
 
-# Productive Tools
+## Productive Tools
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -119,7 +119,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Simplify Data Science Workflows on BigQuery with Fugue and Python | [🔗](https://towardsdatascience.com/simplify-data-science-workflows-on-bigquery-with-fugue-and-python-5215a1b65e43) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/fugue_bigquery.ipynb)
 
 
-# Tools for Deployment
+## Tools for Deployment
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -127,7 +127,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Typer: Build Powerful CLIs in One Line of Code using Python | [🔗](https://towardsdatascience.com/typer-build-powerful-clis-in-one-line-of-code-using-python-321d9aef3be8) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/terminal/typer_examples)
 
 
-# Speed-up Tools
+## Speed-up Tools
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -135,7 +135,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Train your Machine Learning Model 150x Faster with cuML | [🔗](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 
 
-# Math Tools
+## Math Tools
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -143,7 +143,7 @@ git clone https://github.com/khuyentran1401/Data-science
 
 
 
-# Machine Learning
+## Machine Learning
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -159,7 +159,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | River: Online Machine Learning in Python | [🔗](https://towardsdatascience.com/river-online-machine-learning-in-python-d0f048120e46) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/river_streaming/streaming.ipynb) | [🔗](https://youtu.be/2PRqU_uC1hk)
 | Human-Learn: Rule-Based Learning as an Alternative to Machine Learning | [🔗](https://towardsdatascience.com/human-learn-rule-based-learning-as-an-alternative-to-machine-learning-baf1899ecb3a) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/machine-learning/human_learn_examples/rule_based_model.ipynb) | [🔗](https://youtu.be/JF-bC6JYJsw)
 
-# Natural Language Processing
+## Natural Language Processing
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -178,13 +178,13 @@ git clone https://github.com/khuyentran1401/Data-science
 | PRegEx: Write Human-Readable Regular Expressions in Python | [🔗](https://codecut.ai/pregex-write-human-readable-regular-expressions-in-python-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/pregex.ipynb) | [🔗](https://youtu.be/bihAyp84NhE)
 | Texthero: Text Preprocessing, Representation, and Visualization for a pandas DataFrame | [🔗](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/nlp/texthero)
 
-# Computer Vision
+## Computer Vision
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | How to Create an App to Classify Dogs Using fastai and Streamlit | [🔗](https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28) | [🔗](https://github.com/khuyentran1401/dog_classifier)
 
-# Time Series
+## Time Series
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -192,7 +192,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Detect Seasonality, Outliers, and Changepoints in Your Time Series | [🔗](https://towardsdatascience.com/how-to-detect-seasonality-outliers-and-changepoints-in-your-time-series-5d0901498cff) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/google_analytics/google-analytics-analysis.ipynb)
 | 4 Tools to Automatically Extract Data from Datetime in Python | [🔗](https://towardsdatascience.com/4-tools-to-automatically-extract-data-from-datetime-in-python-9ecf44943f89) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_date_features.ipynb)
  
-# Feature Engineering
+## Feature Engineering
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -201,7 +201,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Snorkel — A Human-In-The-Loop Platform to Build Training Data | [🔗](https://towardsdatascience.com/snorkel-programmatically-build-training-data-in-python-712fc39649fe) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/feature_engineering/snorkel_example) | [🔗](https://youtu.be/Prr53wXiHfM)
 
 
-# Visualization
+## Visualization
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -229,7 +229,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | statsannotations: Add Statistical Significance Annotations on Seaborn Plots | [🔗](https://towardsdatascience.com/statsannotations-add-statistical-significance-annotations-on-seaborn-plots-6b753346a42a) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/visualization/statsannotation_example.ipynb) | [🔗](https://youtu.be/z26I6jsdIno)
 
   
-# Mathematical Programming
+## Mathematical Programming
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -241,7 +241,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Schedule Flights in Python | [🔗](https://towardsdatascience.com/how-to-schedule-flights-in-python-3357b200db9e) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/mathematical_programming/schedule_flight_crew/flight_crew_schedule.ipynb)
 | How to Solve a Production Planning and Inventory Problem in Python | [🔗](https://towardsdatascience.com/how-to-solve-a-production-planning-and-inventory-problem-in-python-45c546f4bcf0) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/mathematical_programming/production_and_inventory.ipynb)
 
-# Scraping
+## Scraping
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -270,7 +270,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Simplify Your Functions with Functools’ Partial and Singledispatch | [🔗](https://towardsdatascience.com/simplify-your-functions-with-functools-partial-and-singledispatch-b7071f7543bb) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/python/functools%20example.ipynb)
 
 
-# Logging and Debugging
+## Logging and Debugging
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
@@ -288,7 +288,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Python and Data Science Snippets on the Command Line | [🔗](https://towardsdatascience.com/python-and-data-science-snippets-on-the-command-line-2673d5d9e55d) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/python_snippet_tutorial)
 
 
-# Statistics
+## Statistics
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -299,7 +299,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Bayesian Linear Regression with Bambi | [🔗](https://towardsdatascience.com/bayesian-linear-regression-with-bambi-a5e6570f167b) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/statistics/bayes_linear_regression/linear_regression.ipynb)
 | Earn More Salary as a Coder — Higher Degree or More Years of Experience? | [🔗](https://towardsdatascience.com/earn-more-salary-as-a-coder-higher-degree-or-more-years-of-experience-68c13f73a557) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/statistics/stackoverflow_survey/analyze_salary.ipynb)
 
-# Linear Algebra
+## Linear Algebra
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -307,7 +307,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Linear Algebra for Machine Learning: Solve a System of Linear Equations | [🔗](https://towardsdatascience.com/linear-algebra-for-machine-learning-solve-a-system-of-linear-equations-3ec7e882e10f) | [🔗](https://github.com/khuyentran1401/Numerical-Optimization-Machine-learning/blob/master/Backward%20substitution%20and%20Gaussian%20Elimiation.ipynb) |
 
 
-# Data Structure
+## Data Structure
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -317,7 +317,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Find the Nearest Hospital with a Voronoi Diagram | [🔗](https://towardsdatascience.com/how-to-find-the-nearest-hospital-with-voronoi-diagram-63bd6d0b7b75) | [🔗](https://github.com/khuyentran1401/Voronoi-diagram/)
 
 
-# Web Applications
+## Web Applications
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -328,7 +328,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | Create an App to Deal with Boredom Using PyWebIO | [🔗](https://towardsdatascience.com/create-an-app-to-deal-with-boredom-using-pywebio-d17f3acd1613) | [🔗](https://build.pyweb.io/get/khuyentran1401/bored_app)
 | Build a Robust Workflow to Visualize Trending GitHub Repositories in Python | [🔗](https://towardsdatascience.com/build-a-robust-workflow-to-visualize-trending-github-repositories-in-python-98f2fc3e9a86) | [🔗](https://github.com/khuyentran1401/analyze_github_feed)
 
-# Share Insights
+## Share Insights
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -339,14 +339,14 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Share your Jupyter Notebook in 3 Lines of Code with Ngrok | [🔗](https://towardsdatascience.com/how-to-share-your-jupyter-notebook-in-3-lines-of-code-with-ngrok-bfe1495a9c0c) |
 | Introduction to Deepnote: Real-time Collaboration on Jupyter Notebook | [🔗](https://pub.towardsai.net/introduction-to-deepnote-real-time-collaboration-on-jupyter-notebook-18509c95d62f)
 
-# Cool Tools
+## Cool Tools
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Simulate Real-life Events in Python Using SimPy | [🔗](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/applications/simpy_examples)
 | How to Create Mathematical Animations like 3Blue1Brown Using Python |[🔗](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/visualization/manim_exp)
 
-# Learning Tips
+## Learning Tips
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -355,7 +355,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | To become a Better Data Scientist, you need to Think like a Programmer | [🔗](https://towardsdatascience.com/to-become-a-better-data-scientist-you-need-to-think-like-a-programmer-18d0a00994dc) | 
 | How not to be Overwhelmed with Data Science | [🔗](https://towardsdatascience.com/how-not-to-be-overwhelmed-with-data-science-5a95ff1618f8)
 
-# Productive Tips
+## Productive Tips
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -364,7 +364,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 7 Reasons Why you Should Start Documenting your Code | [🔗](https://towardsdatascience.com/7-reasons-why-you-should-start-documenting-your-code-48c2096de6a7)
 
 
-# VSCode
+## VSCode
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
@@ -375,14 +375,14 @@ git clone https://github.com/khuyentran1401/Data-science
 | Top 9 Keyboard Shortcuts in VSCode for Data Scientists | [🔗](https://towardsdatascience.com/top-9-keyboard-shortcuts-in-vscode-for-data-scientists-468691b65ebe) |
 
 
-# Book Review
+## Book Review
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
 | Python Machine Learning: A Comprehensive Handbook for Machine Learning | [🔗](https://medium.com/analytics-vidhya/python-machine-learning-a-comprehensive-handbook-for-machine-learning-63f024c898d0) |
 
 
-# Data Science Portfolio
+## Data Science Portfolio
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|

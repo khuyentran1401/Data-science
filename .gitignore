@@ -145,5 +145,5 @@ dmypy.json
 
 #hydra
 outputs
-
-
+marimo_notebooks
+*.csv

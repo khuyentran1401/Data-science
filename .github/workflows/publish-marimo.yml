@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p marimo_notebooks/
           # Export the specific notebook
-          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/ --mode run
+          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/ --mode edit
 
       - name: 📦 Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,57 +1,48 @@
-name: Publish Marimo Notebooks
+name: Deploy Marimo Notebooks to GitHub Pages
 
 on:
   push:
     branches: [master]
     paths:
-      - 'data_science_tools/polars_vs_pandas.py'  # Only trigger on this specific file
-      - '.github/workflows/publish-marimo.yml'    # Trigger on changes to this file
+      - 'data_science_tools/polars_vs_pandas.py'
+      - '.github/workflows/publish-marimo.yml'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
-          cache: 'pip'
+          python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Marimo
+        run: pip install marimo
+
+      - name: Export Marimo Notebook
         run: |
-          python -m pip install --upgrade pip
-          pip install marimo
-          # Install any other dependencies needed by your notebooks
-          pip install pandas polars
+          marimo export html-wasm data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas --mode run
 
-      - name: Export marimo notebook
-        run: |
-          mkdir -p marimo_notebooks/data_science_tools/polars_vs_pandas
-          # Export the specific notebook
-          marimo export html-wasm "data_science_tools/polars_vs_pandas.py" --output marimo_notebooks/data_science_tools/polars_vs_pandas --mode edit
-
-      - name: 📦 Upload Pages Artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: marimo_notebooks/data_science_tools/polars_vs_pandas
+          path: build
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-        name: github-pages
-        url: ${{ steps.deployment.outputs.page_url }}
-
     permissions:
-        pages: write
-        id-token: write
-
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-        - name: 🌐 Deploy to GitHub Pages
-          id: deployment
-          uses: actions/deploy-pages@v4
-          with:
-              artifact_name: github-pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages

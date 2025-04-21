@@ -1,20 +1,10 @@
-[tool.black]
-    py36 = true
-    include = '\.pyi?$'
-    exclude = '''
-    /(
-        \.git
-      | \.hg
-      | \.mypy_cache
-      | \.tox
-      | \.venv
-      | _build
-      | buck-out
-      | build
-      | dist
-
-      # The following are specific to Black, you probably don't want those.
-      | blib2to3
-      | tests/data
-    )/
-    '''
+[project]
+name = "data-science"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "marimo>=0.13.0",
+    "nbformat>=5.10.4",
+]

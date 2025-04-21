@@ -24,7 +24,7 @@ jobs:
 
       - name: Export Marimo Notebook
         run: |
-          marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas
+          marimo export html-wasm data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas --mode run --show-code
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

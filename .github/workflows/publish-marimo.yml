@@ -1,0 +1,48 @@
+name: Deploy Marimo Notebooks to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'data_science_tools/polars_vs_pandas.py'
+      - '.github/workflows/publish-marimo.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Marimo
+        run: pip install marimo
+
+      - name: Export Marimo Notebook
+        run: |
+          marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages

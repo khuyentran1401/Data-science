@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Marimo
-        run: pip install marimo numpy pandas polars
+        run: pip install marimo numpy pandas polars seaborn matplotlib
 
       - name: Export Marimo Notebook
         run: |

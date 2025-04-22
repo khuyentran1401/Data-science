@@ -1,12 +1,6 @@
-# /// script
-# requires-python = ">=3.11"
-# dependencies = [
-#     "marimo",
-# ]
-# ///
 import marimo
 
-__generated_with = "0.12.10"
+__generated_with = "0.13.0"
 app = marimo.App()
 
 
@@ -40,87 +34,108 @@ def _():
         "category": np.random.choice(["A", "B", "C", "D"], size=n_rows),
         "value": np.random.rand(n_rows) * 1000,
     }
-    pandas_df = pd.DataFrame(data)
-    pandas_df.head(10)
-    return data, n_rows, np, pandas_df, pd
+    df = pd.DataFrame(data)
+    df.head(10)
+    return df, pd
 
 
 @app.cell
-def _(pandas_df):
-    pandas_df.to_csv("large_file.csv", index=False)
+def _(df):
+    df.to_csv("large_file.csv", index=False)
     return
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## 1. Reading Data Faster""")
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""### Pandas""")
+    mo.md(r"""## Multi-Core Performance""")
     return
 
 
 @app.cell
-def _(pd):
+def _():
     import time
+    from functools import wraps
 
-    start_read_pd = time.time()
-    df_pd = pd.read_csv("large_file.csv")
-    end_read_pd = time.time()
-    print(f"Pandas read_csv took {end_read_pd - start_read_pd:.2f} seconds")
-    return df_pd, end_read_pd, start_read_pd, time
+    def timeit(operation_name):
+        def decorator(func):
+            @wraps(func)
+            def wrapper(*args, **kwargs):
+                start_time = time.time()
+                result = func(*args, **kwargs)
+                end_time = time.time()
+                execution_time = end_time - start_time
+                print(f"{operation_name} took {execution_time:.2f} seconds")
+                return result, execution_time
+
+            return wrapper
+
+        return decorator
+
+    return (timeit,)
+
+
+@app.function
+def create_comparison_plot(pandas_time, polars_time, title):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    # Set style for this plot
+    sns.set(style="whitegrid")
+    plt.style.use("dark_background")
+    plt.rcParams.update(
+        {
+            "axes.facecolor": "#2F2D2E",
+            "figure.facecolor": "#2F2D2E",
+            "axes.labelcolor": "white",
+            "xtick.color": "white",
+            "ytick.color": "white",
+            "text.color": "white",
+        }
+    )
+
+    # Create the plot
+    sns.barplot(
+        hue=["Pandas", "Polars"],
+        y=[pandas_time, polars_time],
+        palette=["#E583B6", "#72BEFA"],
+    )
+    plt.title(f"{title} (seconds)")
+    plt.ylabel("Time (s)")
+    plt.show()
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""### Polars""")
+    mo.md(r"""### Reading Data""")
     return
 
 
 @app.cell
-def _(time):
+def _(pd, timeit):
+    @timeit("Pandas read_csv")
+    def read_pandas():
+        return pd.read_csv("large_file.csv")
+
+    pandas_df, pandas_read_time = read_pandas()
+    return pandas_df, pandas_read_time
+
+
+@app.cell
+def _(timeit):
     import polars as pl
 
-    start_read_pl = time.time()
-    polars_df = pl.read_csv("large_file.csv")
-    end_read_pl = time.time()
-    print(f"Polars read_csv took {end_read_pl - start_read_pl:.2f} seconds")
-    return end_read_pl, pl, polars_df, start_read_pl
+    @timeit("Polars read_csv")
+    def read_polars():
+        return pl.read_csv("large_file.csv")
 
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## 2. Lazy Evaluation (Only in Polars)""")
-    return
+    polars_df, polars_read_time = read_polars()
+    return pl, polars_df, polars_read_time
 
 
 @app.cell
-def _(pl, polars_df):
-    lazy_polars_df = polars_df.lazy()
-    result = (
-        lazy_polars_df.filter(pl.col("value") > 100)
-        .group_by("category")
-        .agg(pl.col("value").mean().alias("avg_value"))
-        .collect()
-    )
-    result.head(10)
-    return lazy_polars_df, result
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## 3. Multi-Core Performance""")
+def _(pandas_read_time, polars_read_time):
+    create_comparison_plot(pandas_read_time, polars_read_time, "CSV Read Time")
     return
-
-
-@app.cell
-def _(data, pd, pl):
-    pandas_groupby_df = pd.DataFrame(data)
-    polars_groupby_df = pl.DataFrame(data)
-    return pandas_groupby_df, polars_groupby_df
 
 
 @app.cell(hide_code=True)
@@ -130,21 +145,31 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df, time):
-    start_groupby_pd = time.time()
-    pandas_groupby_df.groupby("category")["value"].mean()
-    end_groupby_pd = time.time()
-    print(f"Pandas groupby took {end_groupby_pd - start_groupby_pd:.2f} seconds")
-    return end_groupby_pd, start_groupby_pd
+def _(pandas_df, timeit):
+    @timeit("Pandas groupby")
+    def pandas_groupby(df):
+        return df.groupby("category")["value"].mean()
+
+    pandas_result, pandas_groupby_time = pandas_groupby(pandas_df)
+    return (pandas_groupby_time,)
 
 
 @app.cell
-def _(pl, polars_groupby_df, time):
-    start_groupby_pl = time.time()
-    polars_groupby_df.group_by("category").agg(pl.col("value").mean())
-    end_groupby_pl = time.time()
-    print(f"Polars groupby took {end_groupby_pl - start_groupby_pl:.2f} seconds")
-    return end_groupby_pl, start_groupby_pl
+def _(pl, polars_df, timeit):
+    @timeit("Polars groupby")
+    def polars_groupby(df):
+        return df.group_by("category").agg(pl.col("value").mean())
+
+    polars_result, polars_groupby_time = polars_groupby(polars_df)
+    return (polars_groupby_time,)
+
+
+@app.cell
+def _(pandas_groupby_time, polars_groupby_time):
+    create_comparison_plot(
+        pandas_groupby_time, polars_groupby_time, "Groupby Mean Time"
+    )
+    return
 
 
 @app.cell(hide_code=True)
@@ -154,21 +179,29 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df, time):
-    start_filter_pd = time.time()
-    pandas_filtered_df = pandas_groupby_df[pandas_groupby_df["value"] > 500]
-    end_filter_pd = time.time()
-    print(f"Pandas filter took {end_filter_pd - start_filter_pd:.2f} seconds")
-    return end_filter_pd, pandas_filtered_df, start_filter_pd
+def _(pandas_df, timeit):
+    @timeit("Pandas filter")
+    def pandas_filter(df):
+        return df[df["value"] > 500]
+
+    pandas_filtered, pandas_filter_time = pandas_filter(pandas_df)
+    return (pandas_filter_time,)
 
 
 @app.cell
-def _(pl, polars_groupby_df, time):
-    start_filter_pl = time.time()
-    polars_filtered_df = polars_groupby_df.filter(pl.col("value") > 500)
-    end_filter_pl = time.time()
-    print(f"Polars filter took {end_filter_pl - start_filter_pl:.2f} seconds")
-    return end_filter_pl, polars_filtered_df, start_filter_pl
+def _(pl, polars_df, timeit):
+    @timeit("Polars filter")
+    def polars_filter(df):
+        return df.filter(pl.col("value") > 500)
+
+    polars_filtered, polars_filter_time = polars_filter(polars_df)
+    return (polars_filter_time,)
+
+
+@app.cell
+def _(pandas_filter_time, polars_filter_time):
+    create_comparison_plot(pandas_filter_time, polars_filter_time, "Filter Rows Time")
+    return
 
 
 @app.cell(hide_code=True)
@@ -178,54 +211,60 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df, time):
-    start_sort_pd = time.time()
-    pandas_sorted_df = pandas_groupby_df.sort_values("value")
-    end_sort_pd = time.time()
-    print(f"Pandas sort took {end_sort_pd - start_sort_pd:.2f} seconds")
-    return end_sort_pd, pandas_sorted_df, start_sort_pd
+def _(pandas_df, timeit):
+    @timeit("Pandas sort")
+    def pandas_sort(df):
+        return df.sort_values("value")
+
+    pandas_sorted, pandas_sort_time = pandas_sort(pandas_df)
+    return (pandas_sort_time,)
 
 
 @app.cell
-def _(polars_groupby_df, time):
-    start_sort_pl = time.time()
-    polars_sorted_df = polars_groupby_df.sort("value")
-    end_sort_pl = time.time()
-    print(f"Polars sort took {end_sort_pl - start_sort_pl:.2f} seconds")
-    return end_sort_pl, polars_sorted_df, start_sort_pl
+def _(polars_df, timeit):
+    @timeit("Polars sort")
+    def polars_sort(df):
+        return df.sort("value")
+
+    polars_sorted, polars_sort_time = polars_sort(polars_df)
+    return (polars_sort_time,)
+
+
+@app.cell
+def _(pandas_sort_time, polars_sort_time):
+    create_comparison_plot(pandas_sort_time, polars_sort_time, "Sort Time")
+    return
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""### Join on Key""")
+    mo.md(r"""## Lazy Evaluation (Only in Polars)""")
     return
 
 
 @app.cell
-def _(pd, time):
-    pandas_df1 = pd.DataFrame({"key": range(5_000_000), "val1": range(5_000_000)})
-    pandas_df2 = pd.DataFrame({"key": range(5_000_000), "val2": range(5_000_000)})
-    start_join_pd = time.time()
-    pandas_joined_df = pd.merge(pandas_df1, pandas_df2, on="key")
-    end_join_pd = time.time()
-    print(f"Pandas join took {end_join_pd - start_join_pd:.2f} seconds")
-    return end_join_pd, pandas_df1, pandas_df2, pandas_joined_df, start_join_pd
+def _(pl, polars_df):
+    query = (
+        polars_df.lazy()
+        .group_by("category")
+        .agg(pl.col("value").mean().alias("avg_value"))
+        .filter(pl.col("avg_value") > 100)
+    )
+
+    print(query.explain())
+    return (query,)
 
 
 @app.cell
-def _(pl, time):
-    polars_df1 = pl.DataFrame({"key": range(5_000_000), "val1": range(5_000_000)})
-    polars_df2 = pl.DataFrame({"key": range(5_000_000), "val2": range(5_000_000)})
-    start_join_pl = time.time()
-    polars_joined_df = polars_df1.join(polars_df2, on="key", how="inner")
-    end_join_pl = time.time()
-    print(f"Polars join took {end_join_pl - start_join_pl:.2f} seconds")
-    return end_join_pl, polars_df1, polars_df2, polars_joined_df, start_join_pl
+def _(query):
+    result = query.collect()
+    print(result.head())
+    return
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## 4. Syntax Comparison""")
+    mo.md(r"""## Syntax Comparison""")
     return
 
 
@@ -236,15 +275,15 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df):
-    pandas_filtered_rows_df = pandas_groupby_df[pandas_groupby_df["value"] > 100]
-    return (pandas_filtered_rows_df,)
+def _(pandas_df):
+    pandas_filtered_rows_df = pandas_df[pandas_df["value"] > 100]
+    return
 
 
 @app.cell
-def _(pl, polars_groupby_df):
-    polars_filtered_rows_df = polars_groupby_df.filter(pl.col("value") > 100)
-    return (polars_filtered_rows_df,)
+def _(pl, polars_df):
+    polars_filtered_rows_df = polars_df.filter(pl.col("value") > 100)
+    return
 
 
 @app.cell(hide_code=True)
@@ -254,15 +293,15 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df):
-    pandas_selected_columns_df = pandas_groupby_df[["category", "value"]]
-    return (pandas_selected_columns_df,)
+def _(pandas_df):
+    pandas_selected_columns_df = pandas_df[["category", "value"]]
+    return
 
 
 @app.cell
-def _(polars_groupby_df):
-    polars_selected_columns_df = polars_groupby_df.select(["category", "value"])
-    return (polars_selected_columns_df,)
+def _(polars_df):
+    polars_selected_columns_df = polars_df.select(["category", "value"])
+    return
 
 
 @app.cell(hide_code=True)
@@ -272,42 +311,36 @@ def _(mo):
 
 
 @app.cell
-def _(pandas_groupby_df):
-    pandas_chained_operations_df = pandas_groupby_df[pandas_groupby_df["value"] > 1000]
+def _(pandas_df):
+    pandas_chained_operations_df = pandas_df[pandas_df["value"] > 1000]
     pandas_chained_operations_df = (
         pandas_chained_operations_df.groupby("category")["value"].mean().reset_index()
     )
-    return (pandas_chained_operations_df,)
+    return
 
 
 @app.cell
-def _(pl, polars_groupby_df):
-    polars_chained_operations_df = polars_groupby_df.filter(pl.col("value") > 1000)
+def _(pl, polars_df):
+    polars_chained_operations_df = polars_df.filter(pl.col("value") > 1000)
     polars_chained_operations_df = polars_chained_operations_df.group_by(
         "category"
     ).agg(pl.col("value").mean().alias("avg_value"))
-    return (polars_chained_operations_df,)
+    return
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## 5. Memory Efficiency""")
+    mo.md(r"""## Memory Efficiency""")
     return
 
 
 @app.cell
-def _(pandas_groupby_df, polars_groupby_df):
-    print(
-        f"Pandas DataFrame memory usage: {pandas_groupby_df.memory_usage(deep=True).sum() / 1000000.0:2f} MB"
-    )
-    print(
-        f"Polars DataFrame estimated size: {polars_groupby_df.estimated_size() / 1000000.0} MB"
-    )
-    return
+def _(pandas_df, polars_df):
+    pandas_memory = pandas_df.memory_usage(deep=True).sum() / 1000000.0
+    polars_memory = polars_df.estimated_size() / 1000000.0
 
-
-@app.cell
-def _():
+    print(f"Pandas DataFrame memory usage: {pandas_memory:.2f} MB")
+    print(f"Polars DataFrame estimated size: {polars_memory:.2f} MB")
     return
 
 

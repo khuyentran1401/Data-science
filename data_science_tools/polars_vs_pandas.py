@@ -87,33 +87,36 @@ def _():
 
 
 @app.cell
-def create_comparison_plot(pandas_time, polars_time, title):
+def create_comparison_plot():
     import matplotlib.pyplot as plt
     import seaborn as sns
 
-    # Set style for this plot
-    sns.set(style="whitegrid")
-    plt.style.use("dark_background")
-    plt.rcParams.update(
-        {
-            "axes.facecolor": "#2F2D2E",
-            "figure.facecolor": "#2F2D2E",
-            "axes.labelcolor": "white",
-            "xtick.color": "white",
-            "ytick.color": "white",
-            "text.color": "white",
-        }
-    )
+    def create_comparison_plot(pandas_time, polars_time, title):
+        # Set style for this plot
+        sns.set(style="whitegrid")
+        plt.style.use("dark_background")
+        plt.rcParams.update(
+            {
+                "axes.facecolor": "#2F2D2E",
+                "figure.facecolor": "#2F2D2E",
+                "axes.labelcolor": "white",
+                "xtick.color": "white",
+                "ytick.color": "white",
+                "text.color": "white",
+            }
+        )
 
-    # Create the plot
-    sns.barplot(
-        hue=["Pandas", "Polars"],
-        y=[pandas_time, polars_time],
-        palette=["#E583B6", "#72BEFA"],
-    )
-    plt.title(f"{title} (seconds)")
-    plt.ylabel("Time (s)")
-    plt.show()
+        # Create the plot
+        sns.barplot(
+            hue=["Pandas", "Polars"],
+            y=[pandas_time, polars_time],
+            palette=["#E583B6", "#72BEFA"],
+        )
+        plt.title(f"{title} (seconds)")
+        plt.ylabel("Time (s)")
+        plt.show()
+
+    return (create_comparison_plot,)
 
 
 @app.cell(hide_code=True)
@@ -145,7 +148,7 @@ def _(timeit):
 
 
 @app.cell
-def _(pandas_read_time, polars_read_time):
+def _(create_comparison_plot, pandas_read_time, polars_read_time):
     create_comparison_plot(pandas_read_time, polars_read_time, "CSV Read Time")
     return
 
@@ -177,7 +180,7 @@ def _(pl, polars_df, timeit):
 
 
 @app.cell
-def _(pandas_groupby_time, polars_groupby_time):
+def _(create_comparison_plot, pandas_groupby_time, polars_groupby_time):
     create_comparison_plot(
         pandas_groupby_time, polars_groupby_time, "Groupby Mean Time"
     )
@@ -211,7 +214,7 @@ def _(pl, polars_df, timeit):
 
 
 @app.cell
-def _(pandas_filter_time, polars_filter_time):
+def _(create_comparison_plot, pandas_filter_time, polars_filter_time):
     create_comparison_plot(pandas_filter_time, polars_filter_time, "Filter Rows Time")
     return
 
@@ -243,7 +246,7 @@ def _(polars_df, timeit):
 
 
 @app.cell
-def _(pandas_sort_time, polars_sort_time):
+def _(create_comparison_plot, pandas_sort_time, polars_sort_time):
     create_comparison_plot(pandas_sort_time, polars_sort_time, "Sort Time")
     return
 

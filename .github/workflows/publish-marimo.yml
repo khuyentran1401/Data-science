@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - '*.py'
+      - '*/*.py'
       - '.github/workflows/publish-marimo.yml'
 
 jobs:

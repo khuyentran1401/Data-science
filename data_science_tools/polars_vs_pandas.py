@@ -2,11 +2,14 @@
 # requires-python = ">=3.11"
 # dependencies = [
 #     "marimo",
+#     "matplotlib==3.10.1",
 #     "numpy==2.2.5",
 #     "pandas==2.2.3",
 #     "polars==1.27.1",
+#     "seaborn==0.13.2",
 # ]
 # ///
+
 import marimo
 
 __generated_with = "0.13.0"
@@ -350,6 +353,11 @@ def _(pandas_df, polars_df):
 
     print(f"Pandas DataFrame memory usage: {pandas_memory:.2f} MB")
     print(f"Polars DataFrame estimated size: {polars_memory:.2f} MB")
+    return
+
+
+@app.cell
+def _():
     return
 
 

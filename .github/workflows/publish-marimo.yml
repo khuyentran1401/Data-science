@@ -19,13 +19,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Marimo
-        run: pip install marimo
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv add marimo
 
       - name: Export Marimo Notebook
         run: |
-          marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas.html --sandbox
-          marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html --sandbox
+          uv run marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas.html --sandbox
+          uv run marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html --sandbox
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

@@ -3,6 +3,7 @@
 # dependencies = [
 #     "marimo",
 #     "nest-asyncio==1.6.0",
+#     "numpy==2.2.5",
 #     "openai==1.76.0",
 #     "pandas==2.2.3",
 #     "pydantic==2.11.3",

@@ -24,8 +24,8 @@ jobs:
 
       - name: Export Marimo Notebook
         run: |
-          marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas.html
-          marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html
+          marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas.html --sandbox
+          marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html --sandbox
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

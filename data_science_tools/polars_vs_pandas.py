@@ -86,7 +86,7 @@ def _():
     return (timeit,)
 
 
-@app.function
+@app.cell
 def create_comparison_plot(pandas_time, polars_time, title):
     import matplotlib.pyplot as plt
     import seaborn as sns

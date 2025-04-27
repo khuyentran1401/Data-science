@@ -62,8 +62,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | DagsHub: a GitHub Supplement for Data Scientists and ML Engineers | [🔗](https://towardsdatascience.com/dagshub-a-github-supplement-for-data-scientists-and-ml-engineers-9ecaf49cc505) | [🔗](https://dagshub.com/khuyentran1401/dagshub-demo)
 | 4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python | [🔗](https://codecut.ai/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/precommit_examples) | [🔗](https://youtube.com/playlist?list=PLnK6m_JBRVNqskWiXLxx1QRDDng9O8Fsf)
 | BentoML: Create an ML Powered Prediction Service in Minutes | [🔗](https://towardsdatascience.com/bentoml-create-an-ml-powered-prediction-service-in-minutes-23d135d6ca76) | [🔗](https://github.com/khuyentran1401/customer_segmentation/tree/bentoml_demo) | [🔗](https://youtu.be/7csscNQnbnI)
-| How to Structure a Data Science Project for Maintainability (with DVC) | [🔗](https://codecut.ai/how-to-structure-a-data-science-project-for-readability-and-transparency-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/data-science-template/tree/dvc-poetry) | [🔗](https://youtu.be/TzvcPi3nsdw)
-| How to Structure an ML Project for Reproducibility and Maintainability (with Prefect) | [🔗](https://codecut.ai/how-to-structure-an-ml-project-for-reproducibility-and-maintainability-3/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/data-science-template/tree/prefect)
+| How to Structure a Data Science Project for Maintainability | [🔗](https://codecut.ai/how-to-structure-a-data-science-project-for-readability-and-transparency-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/data-science-template/tree/dvc-poetry) | [🔗](https://youtu.be/TzvcPi3nsdw)
 | GitHub Actions in MLOps: Automatically Check and Deploy Your ML Model | [🔗](https://khuyentran1476.medium.com/github-actions-in-mlops-automatically-check-and-deploy-your-ml-model-9a281d7f3c84) | [🔗](https://github.com/khuyentran1401/employee-future-prediction)
 | Create Robust Data Pipelines with Prefect, Docker, and GitHub | [🔗](https://towardsdatascience.com/create-robust-data-pipelines-with-prefect-docker-and-github-12b231ca6ed2) | [🔗](https://github.com/khuyentran1401/prefect-docker)
 | Create a Maintainable Data Pipeline with Prefect and DVC | [🔗](https://towardsdatascience.com/create-a-maintainable-data-pipeline-with-prefect-and-dvc-1d691ea5bcea) | [🔗](https://github.com/khuyentran1401/prefect-dvc) 
@@ -73,6 +72,11 @@ git clone https://github.com/khuyentran1401/Data-science
 | Build Reliable Machine Learning Pipelines with Continuous Integration | [🔗](https://codecut.ai/build-reliable-machine-learning-pipelines-with-continuous-integration-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/rkg09nNMAhs)
 | Automate Machine Learning Deployment with GitHub Actions | [🔗](https://codecut.ai/automate-machine-learning-deployment-with-github-actions-2/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/cicd-mlops-demo) | [🔗](https://youtu.be/728M0yhI0_M)
 | How to Build a Fully Automated Data Drift Detection Pipeline | [🔗](https://codecut.ai/build-a-fully-automated-data-drift-detection-pipeline/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/detect-data-drift-pipeline) | [🔗](https://youtu.be/4w2ly3WuL40)
+
+## LLM 
+| Title        | Article           | Repository  | Video
+| ------------- |:-------------:| :-----:| :-----:|
+| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/)
 
 ## Data Management Tools
 | Title        | Article           | Repository  | Video
@@ -107,7 +111,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Create Reusable Command-Line | [🔗](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [🔗](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 | Sending Slack Notifications in Python with Prefect| [🔗](https://medium.com/the-prefect-blog/sending-slack-notifications-in-python-with-prefect-840a895f81c) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
-
+| Marimo: A Modern Notebook for Reproducible Data Science | [🔗](https://codecut.ai/marimo-a-modern-notebook-for-reproducible-data-science/)
 
 # Python Helper Tools
 | Title        | Article           | Repository  | Video
@@ -199,7 +203,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 3 Ways to Extract Features from Dates with Python | [🔗](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 | Similarity Encoding for Dirty Categories Using dirty_cat | [🔗](https://towardsdatascience.com/similarity-encoding-for-dirty-categories-using-dirty-cat-d9f0b581a552) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/feature_engineering/dirty_cat_example/employee_salaries.ipynb)
 | Snorkel — A Human-In-The-Loop Platform to Build Training Data | [🔗](https://towardsdatascience.com/snorkel-programmatically-build-training-data-in-python-712fc39649fe) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/feature_engineering/snorkel_example) | [🔗](https://youtu.be/Prr53wXiHfM)
-
+| Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/)
 
 ## Visualization
 

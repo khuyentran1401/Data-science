@@ -147,3 +147,5 @@ dmypy.json
 outputs
 marimo_notebooks
 *.csv
+*.parquet
+*.html

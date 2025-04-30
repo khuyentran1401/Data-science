@@ -1,6 +1,10 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
+#     "langchain==0.3.24",
+#     "langchain-community==0.3.23",
+#     "langchain-core==0.3.56",
+#     "langchain-openai==0.3.14",
 #     "marimo",
 #     "nest-asyncio==1.6.0",
 #     "numpy==2.2.5",
@@ -43,7 +47,7 @@ def _():
 
     response = client.responses.create(
         model="gpt-4o-mini-2024-07-18",
-        instructions="Extract first name, last name, years of experience, and primary skill from the job applicant description.",
+        instructions="Extract name, years of experience, and primary skill from the job applicant description.",
         input="Khuyen Tran is a data scientist with 5 years of experience, skilled in Python and machine learning.",
     )
 
@@ -157,6 +161,69 @@ def _(Agent, UnemploymentDataSource):
 def _(pd, unemployment_result):
     unemployment_df = pd.DataFrame(unemployment_result.output.model_dump())
     unemployment_df
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Comparison with LangChain Structured Output""")
+    return
+
+
+@app.cell
+def _(BaseModel, List):
+    from typing import Optional
+
+    class RecipeExtractor(BaseModel):
+        ingredients: List[str]
+        instructions: str
+        cook_time: Optional[str]
+
+    return (RecipeExtractor,)
+
+
+@app.cell
+def _(Agent, RecipeExtractor):
+    recipe_agent = Agent(
+        "gpt-4o-mini-2024-07-18",
+        system_prompt="Pull ingredients, instructions, and cook time.",
+        output_type=RecipeExtractor,
+    )
+
+    recipe_result = recipe_agent.run_sync(
+        "Sugar, flour, cocoa, eggs, and milk. Mix, bake at 350F for 30 min."
+    )
+    print(recipe_result.output)
+    print(recipe_result.output.cook_time)
+    return
+
+
+@app.cell
+def _(RecipeExtractor):
+    from langchain_core.messages import HumanMessage, SystemMessage
+    from langchain_openai import ChatOpenAI
+
+    # Initialize the chat model
+    model = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0)
+
+    # Bind the response formatter schema
+    model_with_tools = model.bind_tools([RecipeExtractor])
+
+    # Create a list of messages to send to the model
+    messages = [
+        SystemMessage("Pull ingredients, instructions, and cook time."),
+        HumanMessage(
+            "Sugar, flour, cocoa, eggs, and milk. Mix, bake at 350F for 30 min."
+        ),
+    ]
+
+    # Invoke the model with the prepared messages
+    ai_msg = model_with_tools.invoke(messages)
+
+    # Access the tool calls made during the model invocation
+    print(ai_msg.tool_calls[0])
+    print(ai_msg.tool_calls[0]["args"]["cook_time"])
+
     return
 
 

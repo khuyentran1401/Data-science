@@ -6,7 +6,7 @@
 
 Collection of useful data science topics along with articles and videos.
 
-## The Data Scientist’s Toolkit: 100+ Essential Tools for Modern Analytics
+## The Data Scientist's Toolkit: 100+ Essential Tools for Modern Analytics
 
 To receive a condensed overview of these tools and additional resources, sign up for [CodeCut's free PDF guide](https://codecut.ai/data-scientist-toolkit/?utm_source=github&utm_medium=data_science_repo&utm_campaign=free_pdf). This comprehensive 264-page document covers over 100 essential data science tools, providing you with a valuable reference for your work.
  
@@ -76,7 +76,7 @@ git clone https://github.com/khuyentran1401/Data-science
 ## LLM 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
-| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/)
+| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/llm/pydantic_ai_examples.py)
 
 ## Data Management Tools
 | Title        | Article           | Repository  | Video
@@ -111,7 +111,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | How to Create Reusable Command-Line | [🔗](https://towardsdatascience.com/how-to-create-reusable-command-line-f9a2bb356bc9) |
 | How to Strip Outputs and Execute Interactive Code in a Python Script | [🔗](https://towardsdatascience.com/how-to-strip-outputs-and-execute-interactive-code-in-a-python-script-6d4c5da3beb0) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
 | Sending Slack Notifications in Python with Prefect| [🔗](https://medium.com/the-prefect-blog/sending-slack-notifications-in-python-with-prefect-840a895f81c) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/strip_interactive_example.py)
-| Marimo: A Modern Notebook for Reproducible Data Science | [🔗](https://codecut.ai/marimo-a-modern-notebook-for-reproducible-data-science/)
+| Marimo: A Modern Notebook for Reproducible Data Science | [🔗](https://codecut.ai/marimo-a-modern-notebook-for-reproducible-data-science/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/marimo_examples)
 
 # Python Helper Tools
 | Title        | Article           | Repository  | Video
@@ -203,7 +203,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 3 Ways to Extract Features from Dates with Python | [🔗](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 | Similarity Encoding for Dirty Categories Using dirty_cat | [🔗](https://towardsdatascience.com/similarity-encoding-for-dirty-categories-using-dirty-cat-d9f0b581a552) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/feature_engineering/dirty_cat_example/employee_salaries.ipynb)
 | Snorkel — A Human-In-The-Loop Platform to Build Training Data | [🔗](https://towardsdatascience.com/snorkel-programmatically-build-training-data-in-python-712fc39649fe) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/feature_engineering/snorkel_example) | [🔗](https://youtu.be/Prr53wXiHfM)
-| Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/)
+| Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/polars_vs_pandas.py)
 
 ## Visualization
 

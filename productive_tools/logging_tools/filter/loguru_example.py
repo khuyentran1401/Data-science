@@ -1,5 +1,6 @@
 from loguru import logger
 
+logger.remove()
 logger.add("hello.log", filter=lambda x: "Hello" in x["message"], level="INFO")
 
 

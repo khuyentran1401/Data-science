@@ -5,8 +5,8 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(module)s:%(funcName)s:%(lineno)d - %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.FileHandler(filename="info.log", level=logging.INFO),
-        logging.StreamHandler(level=logging.DEBUG),
+        logging.FileHandler(filename="info.log"),
+        logging.StreamHandler(),
     ],
 )
 

@@ -2,7 +2,8 @@ import logging
 
 logging.basicConfig(
     filename="hello.log",
-    format="%(asctime)s | %(levelname)-8s | %(module)s:%(funcName)s:%(lineno)d - %(message)s",
+    format="%(asctime)s | %(levelname)s | %(module)s:%(funcName)s:%(lineno)d - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
     level=logging.INFO,
 )
 
@@ -12,12 +13,9 @@ class CustomFilter(logging.Filter):
         return "Hello" in record.msg
 
 
-# Create a custom logging filter
-custom_filter = CustomFilter()
-
 # Get the root logger and add the custom filter to it
 logger = logging.getLogger()
-logger.addFilter(custom_filter)
+logger.addFilter(CustomFilter())
 
 
 def main():

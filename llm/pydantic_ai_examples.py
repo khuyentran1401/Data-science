@@ -13,12 +13,13 @@
 #     "pydantic==2.11.3",
 #     "pydantic-ai==0.1.4",
 #     "pydantic-ai-slim[duckduckgo]==0.1.4",
+#     "requests==2.32.3",
 # ]
 # ///
 
 import marimo
 
-__generated_with = "0.13.0"
+__generated_with = "0.13.4"
 app = marimo.App(width="medium")
 
 
@@ -45,13 +46,13 @@ def _():
         api_key=os.environ.get("OPENAI_API_KEY"),
     )
 
-    response = client.responses.create(
+    openai_response = client.responses.create(
         model="gpt-4o-mini-2024-07-18",
         instructions="Extract name, years of experience, and primary skill from the job applicant description.",
         input="Khuyen Tran is a data scientist with 5 years of experience, skilled in Python and machine learning.",
     )
 
-    print(response.output_text)
+    print(openai_response.output_text)
     return
 
 
@@ -144,7 +145,6 @@ def _(Agent, UnemploymentDataSource):
     search_agent = Agent(
         "gpt-4o-mini-2024-07-18",
         tools=[duckduckgo_search_tool()],
-        system_prompt="Search DuckDuckGo and return links or resources that match the query.",
         output_type=UnemploymentDataSource,
     )
 

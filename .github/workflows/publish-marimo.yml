@@ -23,7 +23,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        run: uv add marimo
+        run: uv add "marimo==0.13.2" "narwhals==1.36.0"
 
       - name: Export Marimo Notebook
         env:
@@ -32,7 +32,7 @@ jobs:
           uv run marimo export html data_science_tools/polars_vs_pandas.py -o build/data_science_tools/polars_vs_pandas.html --sandbox
           uv run marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html --sandbox
           uv run marimo export html data_science_tools/pandas_api_on_spark.py -o build/data_science_tools/pandas_api_on_spark.html --sandbox
-
+          uv run marimo export html data_science_tools/pyspark_parametrize.py -o build/data_science_tools/pyspark_parametrize.html --sandbox
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:

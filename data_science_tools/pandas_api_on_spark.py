@@ -9,6 +9,7 @@
 #     "pyarrow==20.0.0",
 #     "pyspark==3.5.5",
 #     "scikit-learn==1.6.1",
+#     "narwhals==1.36.0",
 # ]
 # ///
 

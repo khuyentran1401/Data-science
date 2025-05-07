@@ -2,6 +2,7 @@
 # requires-python = ">=3.11"
 # dependencies = [
 #     "marimo",
+#     "narwhals==1.36.0",
 #     "pandas==2.2.3",
 #     "pyspark==3.5.5",
 # ]

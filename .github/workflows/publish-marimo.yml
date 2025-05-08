@@ -23,7 +23,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        run: uv add "marimo==0.13.2" "narwhals==1.36.0"
+        run: uv add marimo
 
       - name: Export Marimo Notebook
         env:

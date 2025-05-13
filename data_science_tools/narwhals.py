@@ -1,16 +1,31 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "duckdb==1.2.2",
+#     "marimo",
+#     "narwhals==1.39.0",
+#     "pandas==2.2.3",
+#     "polars==1.29.0",
+#     "pyarrow==20.0.0",
+#     "pyspark==3.5.5",
+#     "sqlframe==3.32.1",
+# ]
+# ///
+
 import marimo
 
-__generated_with = "0.13.7"
+__generated_with = "0.13.6"
 app = marimo.App(width="medium")
 
 
 @app.cell
 def _():
     import marimo as mo
+
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""
@@ -42,7 +57,7 @@ def monthly_aggregate_bad(user_df):
     return df.resample("MS", on="date")[["price"]].mean()
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""
@@ -56,11 +71,10 @@ def _(mo):
 
 @app.cell
 def _(F):
+    import duckdb
     import pandas as pd
     import polars as pl
-    import duckdb
     import pyspark
-
 
     def monthly_aggregate_unmaintainable(user_df):
         if isinstance(user_df, pd.DataFrame):
@@ -90,10 +104,11 @@ def _(F):
             ).sort("date")
         # TODO: more branches for PyArrow, Dask, etc... :sob:
         return result
+
     return duckdb, pd, pl
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""
@@ -113,7 +128,6 @@ def _():
     import narwhals as nw
     from narwhals.typing import IntoFrameT
 
-
     def monthly_aggregate(user_df: IntoFrameT) -> IntoFrameT:
         return (
             nw.from_native(user_df)
@@ -122,10 +136,11 @@ def _():
             .sort("date")
             .to_native()
         )
+
     return (monthly_aggregate,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""## Demo: let's verify that it works!""")
     return
@@ -161,13 +176,15 @@ def _(data, monthly_aggregate, pl):
 @app.cell
 def _(duckdb, monthly_aggregate):
     # DuckDB
-    rel = duckdb.sql("""
+    rel = duckdb.sql(
+        """
         from values (timestamp '2020-01-01', 1),
                     (timestamp '2020-01-08', 4),
                     (timestamp '2020-02-03', 3)
                     df(date, price)
         select *
-    """)
+    """
+    )
     monthly_aggregate(rel)
     return
 
@@ -182,7 +199,7 @@ def _(data, monthly_aggregate):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""

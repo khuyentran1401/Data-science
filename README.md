@@ -9,7 +9,7 @@ Collection of useful data science topics along with articles and videos.
 ## The Data Scientist's Toolkit: 100+ Essential Tools for Modern Analytics
 
 To receive a condensed overview of these tools and additional resources, sign up for [CodeCut's free PDF guide](https://codecut.ai/data-scientist-toolkit/?utm_source=github&utm_medium=data_science_repo&utm_campaign=free_pdf). This comprehensive 264-page document covers over 100 essential data science tools, providing you with a valuable reference for your work.
- 
+
 ## How to Download the Code in This Repository to Your Local Machine
 
 To download the code in this repo, you can simply use git clone
@@ -93,7 +93,7 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  |  Video
 | ------------- |:-------------:| :-----:| :-----:|
-| Pytest for Data Scientists | [🔗](https://codecut.ai/pytest-for-data-scientists-3/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
+| Pytest for Data Scientists | [🔗](https://codecut.ai/git-for-data-scientists-learn-git-through-practical-examples/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/pytest) | [🔗](https://www.youtube.com/playlist?list=PLnK6m_JBRVNoYEer9hBmTNwkYB3gmbOPO)
 | 4 Lessor-Known Yet Awesome Tips for Pytest | [🔗](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/data_science_tools/advanced_pytest)
 | DeepDiff — Recursively Find and Ignore Trivial Differences Using Python | [🔗](https://towardsdatascience.com/deepdiff-recursively-find-and-ignore-trivial-differences-using-python-231a5524f41d) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/productive_tools/deepdiff_example.ipynb)
 | Checklist — Behavioral Testing of NLP Models | [🔗](https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/nlp/checklist/checklist_examples.ipynb)

@@ -5,15 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "loguru>=0.7.3",
-    "marimo==0.13.6",
-    "narwhals==1.36.0",
-    "nbformat>=5.10.4",
-    "pandas>=2.2.3",
-    "pyspark[sql]>=3.5.5",
+    "marimo>=0.13.7",
+    "pre-commit>=4.2.0",
 ]
 
 [dependency-groups]
-dev = [
-    "pytest>=8.3.5",
-]
+dev = []

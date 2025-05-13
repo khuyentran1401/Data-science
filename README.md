@@ -9,7 +9,7 @@ Collection of useful data science topics along with articles and videos.
 ## The Data Scientist's Toolkit: 100+ Essential Tools for Modern Analytics
 
 To receive a condensed overview of these tools and additional resources, sign up for [CodeCut's free PDF guide](https://codecut.ai/data-scientist-toolkit/?utm_source=github&utm_medium=data_science_repo&utm_campaign=free_pdf). This comprehensive 264-page document covers over 100 essential data science tools, providing you with a valuable reference for your work.
- 
+
 ## How to Download the Code in This Repository to Your Local Machine
 
 To download the code in this repo, you can simply use git clone

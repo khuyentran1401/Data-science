@@ -27,6 +27,34 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
+    mo.md(r"""# Motivation""")
+    return
+
+
+@app.cell
+def _():
+    from datetime import datetime
+    import pandas as pd 
+
+    df = pd.DataFrame({
+        "date": [datetime(2020, 1, 1), datetime(2020, 1, 8), datetime(2020, 2, 3)],
+        "price": [1, 4, 3],
+    })
+    df
+    return datetime, df, pd
+
+
+@app.cell
+def _(df):
+    def monthly_aggregate_pandas(user_df):
+        return user_df.resample("MS", on="date")[["price"]].mean()
+
+    monthly_aggregate_pandas(df)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
     mo.md(
         r"""
     # Dataframe-agnostic data science
@@ -46,15 +74,69 @@ def _(mo):
     return
 
 
-@app.function
-def monthly_aggregate_bad(user_df):
-    if hasattr(user_df, "to_pandas"):
-        df = user_df.to_pandas()
-    elif hasattr(user_df, "toPandas"):
-        df = user_df.toPandas()
-    elif hasattr(user_df, "_to_pandas"):
-        df = user_df._to_pandas()
-    return df.resample("MS", on="date")[["price"]].mean()
+@app.cell
+def _():
+    import polars as pl
+    import duckdb
+    import pyarrow as pa
+    import pyspark
+    import pyspark.sql.functions as F
+    from pyspark.sql import SparkSession
+    return F, SparkSession, duckdb, pa, pl, pyspark
+
+
+@app.cell
+def _(duckdb, pa, pd, pl, pyspark):
+    def monthly_aggregate_bad(user_df):
+        if isinstance(user_df, pd.DataFrame):
+            df = user_df
+        elif isinstance(user_df, pl.DataFrame):
+            df = user_df.to_pandas()
+        elif isinstance(user_df, duckdb.DuckDBPyRelation):
+            df = user_df.df()
+        elif isinstance(user_df, pa.Table):
+            df = user_df.to_pandas()
+        elif isinstance(user_df, pyspark.sql.dataframe.DataFrame):
+            df = user_df.toPandas()
+        else:
+            raise TypeError("Unsupported DataFrame type: cannot convert to pandas")
+
+        return df.resample("MS", on="date")[["price"]].mean()
+    return (monthly_aggregate_bad,)
+
+
+@app.cell
+def _(datetime):
+    data = {
+        "date": [datetime(2020, 1, 1), datetime(2020, 1, 8), datetime(2020, 2, 3)],
+        "price": [1, 4, 3],
+    }
+    return (data,)
+
+
+@app.cell
+def _(SparkSession, data, duckdb, monthly_aggregate_bad, pa, pd, pl):
+    # pandas
+    pandas_df = pd.DataFrame(data)
+    monthly_aggregate_bad(pandas_df)
+
+    # polars
+    polars_df = pl.DataFrame(data)
+    monthly_aggregate_bad(polars_df)
+
+    # duckdb
+    duckdb_df = duckdb.from_df(pandas_df)
+    monthly_aggregate_bad(duckdb_df)
+
+    # pyspark
+    spark = SparkSession.builder.getOrCreate()
+    spark_df = spark.createDataFrame(pandas_df)
+    monthly_aggregate_bad(spark_df)
+
+    # pyarrow
+    arrow_table = pa.table(data)
+    monthly_aggregate_bad(arrow_table)
+    return arrow_table, duckdb_df, pandas_df, polars_df, spark_df
 
 
 @app.cell(hide_code=True)
@@ -70,12 +152,7 @@ def _(mo):
 
 
 @app.cell
-def _(F):
-    import duckdb
-    import pandas as pd
-    import polars as pl
-    import pyspark
-
+def _(F, pd, pl, pyspark):
     def monthly_aggregate_unmaintainable(user_df):
         if isinstance(user_df, pd.DataFrame):
             result = user_df.resample("MS", on="date")[["price"]].mean()
@@ -87,25 +164,28 @@ def _(F):
             )
         elif isinstance(user_df, pyspark.sql.dataframe.DataFrame):
             result = (
-                user_df.groupBy(F.date_trunc("month", F.col("date")))
-                .agg(F.mean("price"))
-                .orderBy("date")
+                user_df.withColumn("date_month", F.date_trunc("month", F.col("date")))
+               .groupBy("date_month")
+               .agg(F.mean("price").alias("price_mean"))
+               .orderBy("date_month")
             )
-        elif isinstance(user_df, duckdb.DuckDBPyRelation):
-            result = user_df.aggregate(
-                [
-                    duckdb.FunctionExpression(
-                        "time_bucket",
-                        duckdb.ConstantExpression("1 month"),
-                        duckdb.FunctionExpression("date"),
-                    ).alias("date"),
-                    duckdb.FunctionExpression("mean", "price").alias("price"),
-                ],
-            ).sort("date")
-        # TODO: more branches for PyArrow, Dask, etc... :sob:
+        # TODO: more branches for DuckDB, PyArrow, Dask, etc... :sob:
         return result
 
-    return duckdb, pd, pl
+    return (monthly_aggregate_unmaintainable,)
+
+
+@app.cell
+def _(monthly_aggregate_unmaintainable, pandas_df, polars_df, spark_df):
+    # pandas
+    monthly_aggregate_unmaintainable(pandas_df)
+
+    # polars
+    monthly_aggregate_unmaintainable(polars_df)
+
+    # pyspark
+    monthly_aggregate_unmaintainable(spark_df)
+    return
 
 
 @app.cell(hide_code=True)
@@ -140,62 +220,29 @@ def _():
     return (monthly_aggregate,)
 
 
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## Demo: let's verify that it works!""")
-    return
-
-
 @app.cell
-def _():
-    from datetime import datetime
-
-    data = {
-        "date": [datetime(2020, 1, 1), datetime(2020, 1, 8), datetime(2020, 2, 3)],
-        "price": [1, 4, 3],
-    }
-    return (data,)
-
-
-@app.cell
-def _(data, monthly_aggregate, pd):
+def _(
+    arrow_table,
+    duckdb_df,
+    monthly_aggregate,
+    pandas_df,
+    polars_df,
+    spark_df,
+):
     # pandas
-    df_pd = pd.DataFrame(data)
-    monthly_aggregate(df_pd)
-    return (df_pd,)
+    monthly_aggregate(pandas_df)
 
+    # polars
+    monthly_aggregate(polars_df)
 
-@app.cell
-def _(data, monthly_aggregate, pl):
-    # Polars
-    df_pl = pl.DataFrame(data)
-    monthly_aggregate(df_pl)
-    return
+    # duckdb
+    monthly_aggregate(duckdb_df)
 
+    # pyarrow
+    monthly_aggregate(arrow_table)
 
-@app.cell
-def _(duckdb, monthly_aggregate):
-    # DuckDB
-    rel = duckdb.sql(
-        """
-        from values (timestamp '2020-01-01', 1),
-                    (timestamp '2020-01-08', 4),
-                    (timestamp '2020-02-03', 3)
-                    df(date, price)
-        select *
-    """
-    )
-    monthly_aggregate(rel)
-    return
-
-
-@app.cell
-def _(data, monthly_aggregate):
-    # PyArrow
-    import pyarrow as pa
-
-    tbl = pa.table(data)
-    monthly_aggregate(tbl)
+    # pyspark
+    monthly_aggregate(spark_df)
     return
 
 
@@ -212,11 +259,11 @@ def _(mo):
 
 
 @app.cell
-def _(df_pd, monthly_aggregate):
+def _(monthly_aggregate, pandas_df):
     from sqlframe.duckdb import DuckDBSession
 
     sqlframe = DuckDBSession()
-    sqlframe_df = sqlframe.createDataFrame(df_pd)
+    sqlframe_df = sqlframe.createDataFrame(pandas_df)
     sqlframe_result = monthly_aggregate(sqlframe_df)
     print(sqlframe_result.sql(dialect="databricks"))
     return

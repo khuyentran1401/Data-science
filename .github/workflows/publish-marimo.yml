@@ -33,6 +33,7 @@ jobs:
           uv run marimo export html llm/pydantic_ai_examples.py -o build/llm/pydantic_ai_examples.html --sandbox
           uv run marimo export html data_science_tools/pandas_api_on_spark.py -o build/data_science_tools/pandas_api_on_spark.html --sandbox
           uv run marimo export html data_science_tools/pyspark_parametrize.py -o build/data_science_tools/pyspark_parametrize.html --sandbox
+          uv run marimo export html data_science_tools/narwhals.py -o build/data_science_tools/narwhals.html --sandbox
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -7,5 +7,5 @@ pandas==1.3.3
 plotly==5.5.0
 pydash==5.1.0
 python-dotenv==0.19.2
-requests==2.26.0
+requests==2.32.2
 yarl==1.7.0

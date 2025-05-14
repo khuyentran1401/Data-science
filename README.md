@@ -52,6 +52,7 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
+| Goodbye Pip and Poetry. Why UV Might Be All You Need | [🔗](https://codecut.ai/why-uv-might-all-you-need/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | |
 | Stop Hard Coding in a Data Science Project – Use Configuration Files Instead | [🔗](https://codecut.ai/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/hydra-demo) | [🔗](https://youtu.be/jaX9zrC7y4Y)
 | Poetry: A Better Way to Manage Python Dependencies | [🔗](https://codecut.ai/poetry-a-better-way-to-manage-python-dependencies/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | | [🔗](https://youtu.be/-QSUyDvHQGY)
 | Git for Data Scientists: Learn Git through Practical Examples  | [🔗](https://codecut.ai/git-deep-dive-for-data-scientists/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | | [🔗](https://youtu.be/UKCTvrJSoL0)
@@ -75,7 +76,7 @@ git clone https://github.com/khuyentran1401/Data-science
 ## LLM 
 | Title        | Article           | Repository  | Video
 | ------------- |:-------------:| :-----:| :-----:|
-| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/llm/pydantic_ai_examples.py)
+| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://khuyentran1401.github.io/Data-science/llm/pydantic_ai_examples.html)
 
 ## Data Management Tools
 | Title        | Article           | Repository  | Video
@@ -134,6 +135,7 @@ git clone https://github.com/khuyentran1401/Data-science
 
 | Title        | Article           | Repository  |
 | ------------- |:-------------:| :-----:|
+| Writing Safer PySpark Queries with Parameters | [🔗](https://codecut.ai/pyspark-sql-enhancing-reusability-with-parameterized-queries/) | [🔗](https://khuyentran1401.github.io/Data-science/data_science_tools/pandas_api_on_spark.html)
 | Cython-A Speed-Up Tool for your Python Function | [🔗](https://towardsdatascience.com/cython-a-speed-up-tool-for-your-python-function-9bab64364bfd) | [🔗](https://github.com/khuyentran1401/Cython) |
 | Train your Machine Learning Model 150x Faster with cuML | [🔗](https://towardsdatascience.com/train-your-machine-learning-model-150x-faster-with-cuml-69d0768a047a) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/machine-learning/cuml)
 
@@ -202,7 +204,7 @@ git clone https://github.com/khuyentran1401/Data-science
 | 3 Ways to Extract Features from Dates with Python | [🔗](https://towardsdatascience.com/3-ways-to-extract-features-from-dates-927bd89cd5b9) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/time_series/extract_features/extract_features_from_dates.ipynb)
 | Similarity Encoding for Dirty Categories Using dirty_cat | [🔗](https://towardsdatascience.com/similarity-encoding-for-dirty-categories-using-dirty-cat-d9f0b581a552) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/feature_engineering/dirty_cat_example/employee_salaries.ipynb)
 | Snorkel — A Human-In-The-Loop Platform to Build Training Data | [🔗](https://towardsdatascience.com/snorkel-programmatically-build-training-data-in-python-712fc39649fe) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/feature_engineering/snorkel_example) | [🔗](https://youtu.be/Prr53wXiHfM)
-| Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/blob/master/data_science_tools/polars_vs_pandas.py)
+| Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://khuyentran1401.github.io/Data-science/data_science_tools/polars_vs_pandas.html)
 
 ## Visualization
 

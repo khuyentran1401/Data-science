@@ -42,20 +42,32 @@ uv run marimo edit notebook.py --sandbox
 
 ### Publishing Notebooks
 
-Add the following workflow to `.github/workflows/publish-marimo.yml`:
+To export your marimo notebooks to HTML locally:
 
-```yaml
-...
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      ...
-      - name: Export notebook
-        run: |
-          uv run marimo export html notebook.py -o build/notebook.html --sandbox
-      ...
-```
+1. Make sure the `export_notebook.sh` script is executable:
+
+   ```bash
+   chmod +x export_notebook.sh
+   ```
+
+2. Run the script with your notebook name:
+
+   ```bash
+   # For notebooks in the root directory
+   ./export_notebook.sh notebook_name
+
+   # For notebooks in subdirectories
+   ./export_notebook.sh path/to/notebook_name
+   ```
+
+   For example:
+
+   ```bash
+   ./export_notebook.sh data_science_tools/polars_vs_pandas
+   ./export_notebook.sh llm/pydantic_ai_examples
+   ```
+
+The exported HTML files will be automatically deployed to GitHub Pages through the GitHub Actions workflow.
 
 ## Pull Request Process
 
@@ -63,3 +75,4 @@ jobs:
 2. Create a new branch for your feature
 3. Make your changes
 4. Submit a pull request with a clear description of changes
+

@@ -14,16 +14,16 @@ notebook_name=${1%.py}
 dir_path=$(dirname "$notebook_name")
 notebook_base=$(basename "$notebook_name")
 
-# Create build directory and subdirectories if they don't exist
-mkdir -p "build/$dir_path"
+# Create public directory and subdirectories if they don't exist
+mkdir -p "public/$dir_path"
 
 # Export the notebook to HTML
 echo "Exporting $notebook_name.py to HTML..."
-uv run marimo export html "$notebook_name.py" -o "build/$notebook_name.html" --sandbox
+uv run marimo export html "$notebook_name.py" -o "public/$notebook_name.html" --sandbox
 
 # Check if the export was successful
 if [ $? -eq 0 ]; then
-    echo "Successfully exported $notebook_name.py to build/$notebook_name.html"
+    echo "Successfully exported $notebook_name.py to public/$notebook_name.html"
 else
     echo "Error: Failed to export notebook"
     exit 1

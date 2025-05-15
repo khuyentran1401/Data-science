@@ -14,6 +14,8 @@ This repository is a curated collection of data science articles from CodeCut, c
 6. [Visualization](#visualization)
 7. [Python](#python)
 8. [Logging and Debugging](#logging-and-debugging)
+9. [LLM](#llm)
+10. [Speed-up Tools](#speed-up-tools)
 
 ## MLOps
 
@@ -74,6 +76,18 @@ This repository is a curated collection of data science articles from CodeCut, c
 | Title | Article | Repository | Video |
 |-------|---------|------------|--------|
 | Loguru: Simple as Print, Flexible as Logging | [🔗](https://codecut.ai/simplify-your-python-logging-with-loguru/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://github.com/khuyentran1401/Data-science/tree/master/productive_tools/logging_tools) | [🔗](https://youtu.be/XY_OrUoR-HU)
+
+## LLM
+
+| Title | Article | Repository | Video |
+|-------|---------|------------|--------|
+| Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://khuyentran1401.github.io/Data-science/llm/pydantic_ai_examples.html) |
+
+## Speed-up Tools
+
+| Title | Article | Repository | Video |
+|-------|---------|------------|--------|
+| Writing Safer PySpark Queries with Parameters | [🔗](https://codecut.ai/pyspark-sql-enhancing-reusability-with-parameterized-queries/) | [🔗](https://khuyentran1401.github.io/Data-science/data_science_tools/pandas_api_on_spark.html) |
 
 ## Contributing
 

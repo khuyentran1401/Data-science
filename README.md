@@ -91,7 +91,7 @@ This repository is a curated collection of data science articles from CodeCut, c
 
 ## Contributing
 
-CodeCut focuses on writing about open-source tools for data and LLM in Python that are tailored to data scientists. We welcome contributions!
+If you're passionate about data science and want to share your knowledge about open-source tools for data processing and LLM applications in Python, we'd love to have you contribute!
 
 To contribute:
 

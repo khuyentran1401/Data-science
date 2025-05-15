@@ -1,6 +1,6 @@
 # Data Science Articles from CodeCut
 
-[CodeCut](https://codecut.ai) is a platform dedicated to helping busy data scientists write better code through concise, practical tutorials, best practices, and tool recommendations. We focus on open-source tools and techniques that make data science workflows more efficient and maintainable, saving you time and reducing technical debt.
+[CodeCut](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=introduction) is a platform dedicated to helping busy data scientists write better code through concise, practical tutorials, best practices, and tool recommendations. We focus on open-source tools and techniques that make data science workflows more efficient and maintainable, saving you time and reducing technical debt.
 
 This repository is a curated collection of data science articles from CodeCut, covering topics like MLOps, data management, testing, visualization, and more. Each article comes with practical examples, code repositories, and video tutorials to help you quickly implement these tools and practices in your own projects.
 

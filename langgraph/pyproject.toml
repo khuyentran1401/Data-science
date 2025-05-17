@@ -1,0 +1,42 @@
+[project]
+name = "landgraph-pydantic-mvp"
+version = "0.1.0"
+description = "A minimal agentic example with LangGraph and Pydantic"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "fastapi-cli>=0.0.5",
+    "httpx>=0.28.1",
+    "langchain>=0.3.24",
+    "langgraph>=0.4.1",
+    "openai>=1.76.2",
+    "pydantic-ai>=0.1.8",
+    "uvicorn[standard]>=0.22.0",
+    "langgraph-supervisor>=0.0.20",
+    "langchain-openai>=0.3.16",
+    "word2number>=1.1",
+    "sympy>=1.14.0",
+    "scipy>=1.15.2",
+    "faker>=37.1.0",
+    "duckdb>=1.2.2",
+    "pandas>=2.2.3",
+    "pyarrow>=20.0.0",
+    "fastparquet>=2024.11.0",
+    "polars>=1.29.0",
+    "fastavro>=1.10.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+    "ruff>=0.6.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/main"]
+

@@ -57,6 +57,7 @@ This repository is a curated collection of data science articles from CodeCut, c
 
 | Title | Article | Repository | Video |
 |-------|---------|------------|--------|
+| Narwhals: Unified DataFrame Functions for pandas, Polars, and PySpark | [🔗](https://codecut.ai/unified-dataframe-functions-pandas-polars-pyspark/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://khuyentran1401.github.io/Data-science/data_science_tools/narwhals.html) |
 | Polars vs. Pandas: A Fast, Multi-Core Alternative for DataFrames | [🔗](https://codecut.ai/polars-vs-pandas-a-fast-multi-core-alternative-for-dataframes/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://khuyentran1401.github.io/Data-science/data_science_tools/polars_vs_pandas.html)
 
 ## Visualization

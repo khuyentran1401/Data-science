@@ -12,7 +12,7 @@
 
 import marimo
 
-__generated_with = "0.13.0"
+__generated_with = "0.13.7"
 app = marimo.App()
 
 
@@ -258,9 +258,9 @@ def _(mo):
 
 
 @app.cell
-def _(pl, polars_df):
+def _(pl):
     query = (
-        polars_df.lazy()
+        pl.read_csv("large_file.csv").lazy()
         .group_by("category")
         .agg(pl.col("value").mean().alias("avg_value"))
         .filter(pl.col("avg_value") > 100)

@@ -1,6 +1,7 @@
 from typing import TypedDict
 
 from langgraph.graph import StateGraph
+from langgraph.checkpoint.memory import MemorySaver
 
 from src.ai.agents.supervisor import supervisor
 
@@ -26,4 +27,4 @@ workflow.add_node("supervisor", supervisor)
 workflow.set_entry_point("supervisor")
 
 # Compile o fluxo de trabalho
-corp_workflow = workflow.compile() 
+corp_workflow = workflow.compile(checkpointer=MemorySaver()) 

@@ -4,20 +4,6 @@
 
 This repository is a curated collection of data science articles from CodeCut, covering topics like MLOps, data management, testing, visualization, and more. Each article comes with practical examples, code repositories, and video tutorials to help you quickly implement these tools and practices in your own projects.
 
-## Table of Contents
-
-1. [MLOps](#mlops)
-2. [Data Management Tools](#data-management-tools)
-3. [Testing](#testing)
-4. [Python Helper Tools](#python-helper-tools)
-5. [Feature Engineering](#feature-engineering)
-6. [Visualization](#visualization)
-7. [Python](#python)
-8. [Logging and Debugging](#logging-and-debugging)
-9. [LLM](#llm)
-10. [Speed-up Tools](#speed-up-tools)
-
-
 
 | Category              | Title                                                                           | Article                                                                                                                                                                     | Repository                                                                                                                | Video                                                                          |
 | --------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |

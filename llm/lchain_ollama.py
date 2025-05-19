@@ -47,9 +47,21 @@ def _(mo):
     Before diving into integration steps, let's understand the two key technologies we'll be working with in this tutorial.
 
     ### What is Ollama?
+    """
+    )
+    return
 
-    ![Ollama logo](https://ollama.com/public/blog/embedding-models.png)
 
+@app.cell
+def _(mo):
+    mo.image(src="images/ollama.png", alt="Ollama logo")
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(
+        r"""
     Ollama is an open-source framework designed to run large language models locally on your machine. It provides a simplified interface for downloading, running, and interacting with various open-source LLMs without needing extensive technical setup. Ollama handles the complex infrastructure requirements so developers can focus on using LLMs rather than managing them.
 
     - Provides a simple CLI and REST API for running models locally
@@ -165,10 +177,22 @@ def _(mo):
     - Large models (70B+) typically require a dedicated GPU with 24GB+ VRAM
 
     For a full list of models you can serve locally, check out [the Ollama model library](https://ollama.com/search). Before pulling a model and potentially waste your hardware resources, check out [the VRAM calculator](https://apxml.com/tools/vram-calculator) that tells you if you can run a specific model on your machine:
+    """
+    )
+    return
 
-    ![VRAM Calculator showing memory requirements for different LLM models across various quantization levels](images/vram.png)
 
-    ### Basic Chat Integration - continue from here
+@app.cell
+def _(mo):
+    mo.image(src="images/vram.png", alt="VRAM Calculator showing memory requirements for different LLM models across various quantization levels")
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(
+        r"""
+    ### Basic Chat Integration
 
     LangChain provides dedicated classes for working with Ollama chat models:
 

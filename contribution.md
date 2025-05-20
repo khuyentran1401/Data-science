@@ -103,9 +103,8 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 
 ### Writing Style Guidelines
 
-#### General Writing Style
+#### Tone and Structure
 
-- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
 - Use direct, conversational language
 - Keep paragraphs short (2-4 sentences maximum)
 - Prioritize comprehensive but concise explanations without repetition
@@ -113,6 +112,13 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 
 #### Data Science Focus
 
-- Begin with a real data science problem and its solution
-- Focus on features that directly benefit data scientists
-- Explain the practical value of each feature
+- Begin with a real, practical data science problem before introducing the tool
+- Focus on how each tool or feature helps solve that problem
+- Always explain the **practical value** of a feature (e.g., saves time, reduces costs, enables offline workflows)
+- Avoid tool-first framing. Tools should support a use case, not be the center of the article
+
+#### Reader Experience Assumptions
+
+- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
+- Write for readers who scan, not follow step-by-step; they want to *understand*, not necessarily *run* the code
+- When mentioning install commands or configuration flags, keep them minimal and link out to official docs for details

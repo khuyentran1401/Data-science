@@ -103,10 +103,16 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 
 ### Writing Style Guidelines
 
-When writing content, please follow these guidelines:
+#### General Writing Style
 
 - Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
 - Use direct, conversational language
 - Keep paragraphs short (2-4 sentences maximum)
 - Prioritize comprehensive but concise explanations without repetition
 - Maintain a balanced ratio of explanation to code (approximately 50/50)
+
+#### Data Science Focus
+
+- Begin with a real data science problem and its solution
+- Focus on features that directly benefit data scientists
+- Explain the practical value of each feature

@@ -32,6 +32,10 @@ As a writer for CodeCut, your role is to:
 
 ## Writing Checklist
 
+To check off an item, replace `[ ]` with `[x]`. For example:
+- [ ] Unchecked item
+- [x] Checked item
+
 ### Writing Style Checklist
 
 - [ ] Use action verbs instead of passive voice

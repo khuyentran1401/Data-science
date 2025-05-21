@@ -6,27 +6,28 @@
 - [Write Article Draft](#write-article-draft)
 - [Write Code](#write-code)
 
-## Style Guidelines
+## Writing Checklist
 
-### Tone and Structure
+### Writing Style Checklist
 
-- Use direct, conversational language
-- Keep paragraphs short (2-4 sentences maximum)
-- Prioritize comprehensive but concise explanations without repetition
-- Maintain a balanced ratio of explanation to code (approximately 50/50)
+- [ ] Use action verbs instead of passive voice
+- [ ] Limit paragraphs to 2-4 sentences
+- [ ] For every major code block, provide a clear explanation of what it does and why it matters.
+- [ ] Structure content for quick scanning with clear headings and bullet points
 
-### Data Science Focus
+### Data Science-Focused Writing Checklist
 
-- Begin with a real, practical data science problem before introducing the tool
-- Focus on how each tool or feature helps solve that problem
-- Always explain the **practical value** of a feature (e.g., saves time, reduces costs, enables offline workflows)
-- Avoid tool-first framing. Tools should support a use case, not be the center of the article
+- [ ] Write for data scientists comfortable with Python but unfamiliar with this specific tool or library.
+- [ ] Use examples that align with common data science workflows or problems
+- [ ] Highlight **only** the features that matter to a data science audience
 
-### Reader Experience Assumptions
+### Structure Checklist
 
-- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
-- Write for readers who scan, not follow step-by-step; they want to *understand*, not necessarily *run* the code
-- When mentioning install commands or configuration flags, keep them minimal and link out to official docs for details
+- [ ] Start with a real, practical data science problem
+- [ ] Explain how each tool solves the problem
+- [ ] Use diagrams or charts to explain complex ideas, when appropriate.
+- [ ] Define new concepts and terminology
+- [ ] Only include the essential setup steps needed to run the examples. For anything beyond that, link to the official documentation.
 
 ## Write Article Draft
 

@@ -2,7 +2,9 @@
 
 ## Table of Contents
 
-- [Style Guidelines](#style-guidelines)
+- [CodeCut Mission](#codecut-mission)
+- [Your Responsibility as a Writer](#your-responsibility-as-a-writer)
+- [Writing Checklist](#writing-checklist)
 - [Write Article Draft](#write-article-draft)
 - [Write Code](#write-code)
 

@@ -2,21 +2,38 @@
 
 ## Table of Contents
 
-### Writing Code
-- [Environment Setup](#environment-setup)
-  - [Install uv](#install-uv)
-  - [Install Dependencies](#install-dependencies)
-  - [Install Pre-commit Hooks](#install-pre-commit-hooks)
-- [Working with Marimo Notebooks](#working-with-marimo-notebooks)
-  - [Creating a New Notebook](#creating-a-new-notebook)
-  - [Publishing Notebooks](#publishing-notebooks)
-- [Pull Request Process](#pull-request-process)
+- [Style Guidelines](#style-guidelines)
+- [Write Article Draft](#write-article-draft)
+- [Write Code](#write-code)
 
-### Writing Blog
-- [Using HackMD](#using-hackmd)
-- [Writing Style Guidelines](#writing-style-guidelines)
+## Style Guidelines
 
-## Writing Code
+### Tone and Structure
+
+- Use direct, conversational language
+- Keep paragraphs short (2-4 sentences maximum)
+- Prioritize comprehensive but concise explanations without repetition
+- Maintain a balanced ratio of explanation to code (approximately 50/50)
+
+### Data Science Focus
+
+- Begin with a real, practical data science problem before introducing the tool
+- Focus on how each tool or feature helps solve that problem
+- Always explain the **practical value** of a feature (e.g., saves time, reduces costs, enables offline workflows)
+- Avoid tool-first framing. Tools should support a use case, not be the center of the article
+
+### Reader Experience Assumptions
+
+- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
+- Write for readers who scan, not follow step-by-step; they want to *understand*, not necessarily *run* the code
+- When mentioning install commands or configuration flags, keep them minimal and link out to official docs for details
+
+## Write Article Draft
+
+1. Create your blog post in [HackMD](https://hackmd.io)
+2. Follow [these instructions](https://hackmd.io/c/tutorials/%2F%40docs%2Finvite-others-to-a-private-note-en) to share your draft with khuyentran@codecut.ai for review
+
+## Write Code
 
 ### Environment Setup
 
@@ -94,31 +111,3 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 3. Make your changes
 4. Submit a pull request with a clear description of changes
 
-## Writing Blog
-
-### Using HackMD
-
-1. Create your blog post in [HackMD](https://hackmd.io)
-2. Follow [these instructions](https://hackmd.io/c/tutorials/%2F%40docs%2Finvite-others-to-a-private-note-en) to share your draft with khuyentran@codecut.ai for review
-
-### Writing Style Guidelines
-
-#### Tone and Structure
-
-- Use direct, conversational language
-- Keep paragraphs short (2-4 sentences maximum)
-- Prioritize comprehensive but concise explanations without repetition
-- Maintain a balanced ratio of explanation to code (approximately 50/50)
-
-#### Data Science Focus
-
-- Begin with a real, practical data science problem before introducing the tool
-- Focus on how each tool or feature helps solve that problem
-- Always explain the **practical value** of a feature (e.g., saves time, reduces costs, enables offline workflows)
-- Avoid tool-first framing. Tools should support a use case, not be the center of the article
-
-#### Reader Experience Assumptions
-
-- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
-- Write for readers who scan, not follow step-by-step; they want to *understand*, not necessarily *run* the code
-- When mentioning install commands or configuration flags, keep them minimal and link out to official docs for details

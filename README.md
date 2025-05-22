@@ -2,15 +2,9 @@
 
 ## About CodeCut
 
-[CodeCut](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=introduction) exists to help data scientists stay productive and up-to-date by delivering short, focused, and practical code examples that showcase modern tools in action. Our mission is to make complex concepts simple and actionable—not through lengthy explanations, but by showing how things work with clarity and precision.
+[CodeCut](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=introduction) exists to help data scientists stay productive and up-to-date by delivering short, focused, and practical code examples that showcase modern tools in action.
 
-We strive to:
-
-- Help readers quickly understand what a tool does
-- Show how it fits into real-world data science workflows
-- Provide just enough to empower readers to try it on their own
-
-We want CodeCut to feel like the resource you wish you had when exploring a new library: clean, concise, and immediately useful.
+CodeCut aims to be the resource you wish you had when exploring a new library: clean, concise, and immediately useful.
 
 ## Article Collection
 

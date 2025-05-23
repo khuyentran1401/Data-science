@@ -30,11 +30,9 @@ As a writer for CodeCut, your role is to:
 
 ## Writing Checklist
 
-To check off an item, replace `[ ]` with `[x]`. For example:
-- [ ] Unchecked item
-- [x] Checked item
+To check off an item, replace `[ ]` with `[x]`.
 
-You can check off these items directly in your Markdown file using a Markdown reader or preview feature in your IDE (such as VS Code, PyCharm, or others).
+You can check off these items directly in your IDE (such as VS Code, PyCharm, or others).
 
 ### Writing Style Checklist
 

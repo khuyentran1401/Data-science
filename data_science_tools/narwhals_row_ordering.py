@@ -1,6 +1,18 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "duckdb==1.3.0",
+#     "marimo",
+#     "narwhals==1.40.0",
+#     "pandas==2.2.3",
+#     "polars==1.30.0",
+#     "pyarrow==20.0.0",
+# ]
+# ///
+
 import marimo
 
-__generated_with = "0.13.11"
+__generated_with = "0.13.7"
 app = marimo.App(width="medium")
 
 
@@ -10,11 +22,9 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-    	r"""# Eager vs Lazy DataFrames: One Fix to Make Your Code Work Anywhere"""
-    )
+    mo.md(r"""# Eager vs Lazy DataFrames: One Fix to Make Your Code Work Anywhere""")
     return
 
 
@@ -44,7 +54,7 @@ def _():
     return (data,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""## Eager-only solution""")
     return
@@ -70,9 +80,8 @@ def _():
 
 @app.cell
 def _(agnostic_ffill_by_store, data):
-    import polars as pl
     import pandas as pd
-    import pyarrow as pa
+    import polars as pl
 
     # pandas.DataFrame
     df_pandas = pd.DataFrame(data)
@@ -93,7 +102,7 @@ def _():
     return (duckdb_rel,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""## Eager and lazy solution""")
     return
@@ -125,11 +134,6 @@ def _(agnostic_ffill_by_store_improved, duckdb_rel):
 def _(agnostic_ffill_by_store_improved, df_pandas):
     # Note that it still supports pandas
     agnostic_ffill_by_store_improved(df_pandas)
-    return
-
-
-@app.cell
-def _():
     return
 
 

@@ -1,0 +1,81 @@
+name: Publish Marimo Notebooks
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '**/*.py'  # Trigger on Python file changes
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install marimo
+          # Install any other dependencies needed by your notebooks
+          pip install pandas numpy polars
+
+      - name: Find and export marimo notebooks
+        run: |
+          mkdir -p _site
+          
+          # Find all marimo notebooks (Python files with marimo imports)
+          MARIMO_FILES=$(grep -l "import marimo" $(find . -name "*.py" ! -path "./venv/*" ! -path "./.github/*") || echo "")
+          
+          if [ -z "$MARIMO_FILES" ]; then
+            echo "No marimo notebooks found."
+            exit 0
+          fi
+          
+          # Export each notebook to HTML
+          for file in $MARIMO_FILES; do
+            echo "Processing $file"
+            # Extract directory and filename
+            filename=$(basename "$file" .py)
+            directory=$(dirname "$file")
+            output_dir="_site/${directory#./}"
+            
+            # Create output directory
+            mkdir -p "$output_dir"
+            
+            # Export to HTML
+            marimo export "$file" --format html --output "$output_dir/$filename.html"
+            
+            # If this is in the root directory, create a copy for easy access
+            if [ "$directory" = "." ]; then
+              cp "$output_dir/$filename.html" "_site/$filename.html"
+            fi
+          done
+          
+          # Create an index.html that lists all exported notebooks
+          echo "<html><head><title>Marimo Notebooks</title><style>body{font-family:sans-serif;max-width:800px;margin:0 auto;padding:20px}h1{color:#0066cc}ul{list-style-type:none;padding:0}li{margin:10px 0;padding:10px;border:1px solid #eee;border-radius:5px}a{color:#0066cc;text-decoration:none}a:hover{text-decoration:underline}</style></head><body><h1>Marimo Notebooks</h1><ul>" > _site/index.html
+          
+          find _site -name "*.html" ! -name "index.html" | sort | while read notebook; do
+            rel_path="${notebook#_site/}"
+            name=$(basename "$notebook" .html)
+            dir=$(dirname "$rel_path")
+            if [ "$dir" = "." ]; then
+              dir="Root"
+            fi
+            echo "<li><strong>$dir/</strong> <a href=\"$rel_path\">$name</a></li>" >> _site/index.html
+          done
+          
+          echo "</ul></body></html>" >> _site/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: gh-pages

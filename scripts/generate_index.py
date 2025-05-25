@@ -53,7 +53,7 @@ def generate_index():
         .notebook-item {{
             margin-bottom: 2rem;
             padding: 1rem;
-            border: 1px solid white;
+            border: 2px solid white;
             border-radius: 8px;
             transition: transform 0.2s;
         }}
@@ -77,12 +77,14 @@ def generate_index():
             color: #2F2D2E;
             text-decoration: none;
             border-radius: 4px;
-            transition: background-color 0.2s;
-            border: 1px solid white;
+            transition: all 0.2s;
+            border: 2px solid white;
+            font-weight: 600;
         }}
         .notebook-link:hover {{
             background-color: #5AA8E8;
-            border: 1px solid white;
+            border: 2px solid white;
+            transform: translateY(-2px);
         }}
     </style>
 </head>
@@ -103,7 +105,7 @@ def generate_index():
         relative_path = html_file.relative_to(public_dir)
         notebook_items.append(f"""        <li class="notebook-item">
             <h2 class="notebook-title">{title}</h2>
-            <a href="{relative_path}" class="notebook-link">View Notebooks</a>
+            <a href="{relative_path}" class="notebook-link">View the notebook</a>
         </li>""")
 
     # Generate final HTML

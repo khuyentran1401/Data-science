@@ -20,7 +20,6 @@ jobs:
         with:
           name: public
           path: ./public
-          retention-days: 1
 
   deploy:
     runs-on: ubuntu-latest

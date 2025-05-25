@@ -36,6 +36,7 @@ This repository is a curated collection of data science articles from CodeCut, c
 | LLM | Enforce Structured Outputs from LLMs with PydanticAI | [🔗](https://codecut.ai/enforce-structured-outputs-from-llms-with-pydanticai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=blog) | [🔗](https://codecuttech.github.io/Data-science/llm/pydantic_ai_examples.html) | |
 | Speed-up Tools | Writing Safer PySpark Queries with Parameters | [🔗](https://codecut.ai/pyspark-sql-enhancing-reusability-with-parameterized-queries/) | [🔗](https://codecuttech.github.io/Data-science/data_science_tools/pyspark_parametrize.html) | |
 | Speed-up Tools | Narwhals: Unified DataFrame Functions for pandas, Polars, and PySpark | [🔗](https://codecut.ai/unified-dataframe-functions-pandas-polars-pyspark/) | [🔗](https://codecuttech.github.io/Data-science/data_science_tools/narwhals.html) | |
+| Speed-up Tools | Eager to Lazy DataFrames with Narwhals | [🔗](https://codecut.ai/eager-to-lazy-dataframes-with-narwhals/) | [🔗](https://codecuttech.github.io/Data-science/data_science_tools/narwhals_row_ordering.html) | |
 | Speed-up Tools | Scaling Pandas Workflows with PySpark's Pandas API | [🔗](https://codecut.ai/scaling-pandas-workflows-with-pysparks-pandas-api/) | [🔗](https://codecuttech.github.io/Data-science/data_science_tools/pandas_api_on_spark.html) | |
 
 ## Contributing

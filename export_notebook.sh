@@ -24,6 +24,9 @@ uv run marimo export html "$notebook_name.py" -o "public/$notebook_name.html" --
 # Check if the export was successful
 if [ $? -eq 0 ]; then
     echo "Successfully exported $notebook_name.py to public/$notebook_name.html"
+    # Generate index.html
+    echo "Generating index.html..."
+    uv run scripts/generate_index.py
 else
     echo "Error: Failed to export notebook"
     exit 1

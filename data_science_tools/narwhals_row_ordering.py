@@ -29,6 +29,12 @@ def _(mo):
 
 
 @app.cell
+def _(mo):
+    mo.md(r"""## Motivation""")
+    return
+
+
+@app.cell
 def _():
     from datetime import datetime
 
@@ -52,6 +58,24 @@ def _():
     	"sales": [1100, None, 1450, 501, 500, None],
     }
     return (data,)
+
+
+@app.cell
+def _(data, pd):
+    pdf = pd.DataFrame(data)
+    pdf["sales"] = pdf.groupby("store")["sales"].ffill()
+    pdf
+    return
+
+
+@app.cell
+def _(data, pl):
+    lazy_df = pl.DataFrame(data).lazy()
+    lazy_df.with_columns(
+        pl.col("sales").fill_null(strategy="forward").over("store")
+    ).collect()
+    # ⚠️ This may not work as expected unless you specify order_by="sale_date"
+    return
 
 
 @app.cell(hide_code=True)
@@ -90,7 +114,7 @@ def _(agnostic_ffill_by_store, data):
     # polars.DataFrame
     df_polars = pl.DataFrame(data)
     agnostic_ffill_by_store(df_polars)
-    return (df_pandas,)
+    return df_pandas, df_polars, pd, pl
 
 
 @app.cell
@@ -100,6 +124,13 @@ def _():
     duckdb_rel = duckdb.table("df_polars")
     duckdb_rel
     return (duckdb_rel,)
+
+
+@app.cell
+def _():
+    # agnostic_ffill_by_store(duckdb_rel)
+    # Error: narwhals.exceptions.OrderDependentExprError: Order-dependent expressions are not supported for use in LazyFrame.
+    return
 
 
 @app.cell(hide_code=True)
@@ -127,6 +158,12 @@ def _(IntoFrameT, nw):
 @app.cell
 def _(agnostic_ffill_by_store_improved, duckdb_rel):
     agnostic_ffill_by_store_improved(duckdb_rel)
+    return
+
+
+@app.cell
+def _(agnostic_ffill_by_store_improved, df_polars):
+    agnostic_ffill_by_store_improved(df_polars.lazy()).collect()
     return
 
 

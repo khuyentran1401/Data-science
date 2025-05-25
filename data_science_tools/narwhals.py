@@ -71,7 +71,7 @@ def _(mo):
     - It doesn't return to the user the same class they started with.
     - It kills lazy execution.
     - It kills GPU acceleration.
-    - If forces pandas as a required dependency
+    - If forces pandas as a required dependency.
     """
     )
     return

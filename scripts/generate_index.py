@@ -89,7 +89,7 @@ def generate_index():
     </style>
 </head>
 <body>
-    <h1>CodeCut Blog Examples</h1>
+    <h1>CodeCut Marimo Notebook</h1>
     <ul class="notebook-list">
 {notebook_items}
     </ul>

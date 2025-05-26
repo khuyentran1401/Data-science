@@ -38,6 +38,50 @@ def _(mo):
 def _():
     from datetime import datetime
 
+    import pandas as pd
+    import polars as pl
+
+    data1 = {"store": [1, 1, 2], "date_id": [4, 5, 6]}
+    data2 = {"store": [1, 2], "sales": [7, 8]}
+
+    pandas_df1 = pd.DataFrame(data1)
+    pandas_df2 = pd.DataFrame(data2)
+
+    # The outputs are  the same
+    for _ in range(5):
+        # Left join
+        pandas_df = pd.merge(pandas_df1, pandas_df2, on="store", how="left")
+
+        # Cumulative sum of sales within each store
+        pandas_df["cumulative_sales"] = pandas_df.groupby("store")["sales"].cumsum()
+
+        print(pandas_df)
+    return data1, data2, datetime, pd, pl
+
+
+@app.cell
+def _(data1, data2, pl):
+    polars_df1 = pl.DataFrame(data1).lazy()
+    polars_df2 = pl.DataFrame(data2).lazy()
+
+    # The outputs are not the same
+    for _ in range(5):
+        print(
+            polars_df1.join(polars_df2, on="store", how="left")
+            .with_columns(cumulative_sales=pl.col("sales").cum_sum().over("store"))
+            .collect(engine="streaming")
+        )
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Eager-only solution""")
+    return
+
+
+@app.cell
+def _(datetime, pd):
     data = {
     	"sale_date": [
     		datetime(2025, 5, 22),
@@ -57,31 +101,10 @@ def _():
     	],
     	"sales": [1100, None, 1450, 501, 500, None],
     }
-    return (data,)
 
-
-@app.cell
-def _(data, pd):
     pdf = pd.DataFrame(data)
-    pdf["sales"] = pdf.groupby("store")["sales"].ffill()
-    pdf
-    return
-
-
-@app.cell
-def _(data, pl):
-    lazy_df = pl.DataFrame(data).lazy()
-    lazy_df.with_columns(
-        pl.col("sales").fill_null(strategy="forward").over("store")
-    ).collect()
-    # ⚠️ This may not work as expected unless you specify order_by="sale_date"
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## Eager-only solution""")
-    return
+    print(pdf)
+    return (data,)
 
 
 @app.cell
@@ -103,18 +126,19 @@ def _():
 
 
 @app.cell
-def _(agnostic_ffill_by_store, data):
-    import pandas as pd
-    import polars as pl
-
+def _(agnostic_ffill_by_store, data, pd):
     # pandas.DataFrame
     df_pandas = pd.DataFrame(data)
     agnostic_ffill_by_store(df_pandas)
+    return (df_pandas,)
 
+
+@app.cell
+def _(agnostic_ffill_by_store, data, pl):
     # polars.DataFrame
     df_polars = pl.DataFrame(data)
     agnostic_ffill_by_store(df_polars)
-    return df_pandas, df_polars, pd, pl
+    return (df_polars,)
 
 
 @app.cell
@@ -170,7 +194,12 @@ def _(agnostic_ffill_by_store_improved, df_polars):
 @app.cell
 def _(agnostic_ffill_by_store_improved, df_pandas):
     # Note that it still supports pandas
-    agnostic_ffill_by_store_improved(df_pandas)
+    print(agnostic_ffill_by_store_improved(df_pandas))
+    return
+
+
+@app.cell
+def _():
     return
 
 

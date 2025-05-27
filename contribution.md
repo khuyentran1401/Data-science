@@ -2,21 +2,65 @@
 
 ## Table of Contents
 
-### Writing Code
-- [Environment Setup](#environment-setup)
-  - [Install uv](#install-uv)
-  - [Install Dependencies](#install-dependencies)
-  - [Install Pre-commit Hooks](#install-pre-commit-hooks)
-- [Working with Marimo Notebooks](#working-with-marimo-notebooks)
-  - [Creating a New Notebook](#creating-a-new-notebook)
-  - [Publishing Notebooks](#publishing-notebooks)
-- [Pull Request Process](#pull-request-process)
+- [CodeCut Mission](#codecut-mission)
+- [Your Responsibility as a Writer](#your-responsibility-as-a-writer)
+- [Writing Checklist](#writing-checklist)
+- [Write Article Draft](#write-article-draft)
+- [Write Code](#write-code)
 
-### Writing Blog
-- [Using HackMD](#using-hackmd)
-- [Writing Style Guidelines](#writing-style-guidelines)
+## CodeCut Mission
 
-## Writing Code
+CodeCut exists to help data scientists stay productive and up-to-date by delivering short, focused, and practical code examples that showcase modern tools in action.
+
+We strive to:
+
+- Help readers quickly understand what a tool does
+- Show how it fits into real-world data science workflows
+- Provide just enough to empower readers to try it on their own
+
+## Your Responsibility as a Writer
+
+As a writer for CodeCut, your role is to:
+
+- Break down complex tools and workflows into clear, digestible pieces
+- Focus on practical value over theoretical depth
+- Maintain a tone that is approachable, confident, and helpful
+- Write only about topics you are genuinely interested in
+- Enjoy the writing process—we want this to be fun for you, too
+
+## Writing Checklist
+
+To check off an item, replace `[ ]` with `[x]`.
+
+You can check off these items directly in your IDE (such as VS Code, PyCharm, or others).
+
+### Writing Style Checklist
+
+- [ ] Use action verbs instead of passive voice
+- [ ] Limit paragraphs to 2-4 sentences
+- [ ] For every major code block, provide a clear explanation of what it does and why it matters.
+- [ ] Structure content for quick scanning with clear headings and bullet points
+
+### Data Science-Focused Writing Checklist
+
+- [ ] Write for data scientists comfortable with Python but unfamiliar with this specific tool or library.
+- [ ] Use examples that align with common data science workflows or problems
+- [ ] Highlight **only** the features that matter to a data science audience
+
+### Structure Checklist
+
+- [ ] Start with a real, practical data science problem
+- [ ] Explain how each tool solves the problem
+- [ ] Use diagrams or charts to explain complex ideas, when appropriate.
+- [ ] Define new concepts and terminology
+- [ ] Only include the essential setup steps needed to run the examples. For anything beyond that, link to the official documentation.
+
+## Write Article Draft
+
+1. Create your blog post in [HackMD](https://hackmd.io)
+2. Follow [these instructions](https://hackmd.io/c/tutorials/%2F%40docs%2Finvite-others-to-a-private-note-en) to share your draft with khuyentran@codecut.ai for review
+
+## Write Code
 
 ### Environment Setup
 
@@ -94,19 +138,3 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 3. Make your changes
 4. Submit a pull request with a clear description of changes
 
-## Writing Blog
-
-### Using HackMD
-
-1. Create your blog post in [HackMD](https://hackmd.io)
-2. Follow [these instructions](https://hackmd.io/c/tutorials/%2F%40docs%2Finvite-others-to-a-private-note-en) to share your draft with khuyentran@codecut.ai for review
-
-### Writing Style Guidelines
-
-When writing content, please follow these guidelines:
-
-- Assume readers are data scientists who have basic programming knowledge but may be new to specific tools
-- Use direct, conversational language
-- Keep paragraphs short (2-4 sentences maximum)
-- Prioritize comprehensive but concise explanations without repetition
-- Maintain a balanced ratio of explanation to code (approximately 50/50)

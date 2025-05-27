@@ -123,7 +123,7 @@ def _():
     """
     completion_response = llm.invoke(text)
     print(completion_response)
-    return OllamaLLM, llm, text
+    return (OllamaLLM,)
 
 
 @app.cell(hide_code=True)
@@ -133,9 +133,9 @@ def _(mo):
 
 
 @app.cell
-def _(llm, text):
-    for chunk in llm.stream(text):
-        print(chunk, end="", flush=True)
+def _():
+    # for chunk in llm.stream(text):
+    #     print(chunk, end="", flush=True)
     return
 
 
@@ -273,12 +273,7 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
-    ### Working with Embeddings
-
-    """
-    )
+    mo.md(r"""### Working with Embeddings""")
     return
 
 
@@ -369,9 +364,9 @@ def _(PromptTemplate):
         Use the following context to answer the question. If the answer isn't in the context, say so.
         Context:
         {context}
-    
+
         Question: {question}
-    
+
         Answer:
     """)
     return (rag_prompt,)

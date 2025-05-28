@@ -53,5 +53,5 @@ skip-magic-trailing-comma = false
 [tool.ruff.lint.mccabe]
 max-complexity = 10
 
-[tool.mypy]
-ignore_missing_imports = true
+[tool.marimo.runtime]
+dotenv = [".env"]

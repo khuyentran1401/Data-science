@@ -81,7 +81,7 @@ def _():
         ),
         HumanMessage(
             content=(
-                "Given a DataFrame with columns 'product', 'year', and 'sales', calculates the total sales for each product over the specified years. ")
+                "Given a DataFrame with columns 'product' and 'sales', calculates the total sales for each product.")
         ),
     ]
 

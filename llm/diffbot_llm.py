@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "langchain-core==0.3.63",
+#     "langchain-openai==0.3.18",
+#     "marimo",
+#     "openai==1.82.1",
+# ]
+# ///
 import marimo
 
 __generated_with = "0.13.7"

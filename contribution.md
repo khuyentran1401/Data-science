@@ -134,7 +134,31 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
 ### Pull Request Process
 
 1. Fork the repository
+   ```bash
+   # Click the "Fork" button on the repository's GitHub page
+   # Then clone your forked repository
+   git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+   cd REPOSITORY-NAME
+   ```
+
 2. Create a new branch for your feature
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
 3. Make your changes
-4. Submit a pull request with a clear description of changes
+   ```bash
+   # Make your code changes
+   # Add your changes to staging
+   git add .
+   # Commit your changes
+   git commit -m "Description of your changes"
+   ```
+
+4. Submit a pull request
+   ```bash
+   # Push your changes to your fork
+   git push origin feature/your-feature-name
+   # Then go to GitHub and click "Create Pull Request"
+   ```
 

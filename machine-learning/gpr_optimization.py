@@ -17,10 +17,11 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    import numpy as np
     import matplotlib.pyplot as plt
+    import numpy as np
     from sklearn.gaussian_process import GaussianProcessRegressor
-    from sklearn.gaussian_process.kernels import Matern, WhiteKernel, ConstantKernel as C
+    from sklearn.gaussian_process.kernels import ConstantKernel as C
+    from sklearn.gaussian_process.kernels import Matern, WhiteKernel
 
     def black_box_function(x):
         return - (np.sin(3*x) + 0.5 * x)
@@ -81,10 +82,10 @@ def _(X, X_sample, gpr, plt, y, y_sample):
 
     # Plot the result
     plt.figure(figsize=(10, 5))
-    plt.plot(X, y, 'k--', label="True function")
-    plt.plot(X, mu, 'b-', label="GPR mean")
+    plt.plot(X, y, "k--", label="True function")
+    plt.plot(X, mu, "b-", label="GPR mean")
     plt.fill_between(X.ravel(), mu - std, mu + std, alpha=0.3, label="Uncertainty")
-    plt.scatter(X_sample, y_sample, c='red', label="Samples")
+    plt.scatter(X_sample, y_sample, c="red", label="Samples")
     plt.legend()
     plt.title("Gaussian Process Fit")
     plt.xlabel("x")
@@ -101,7 +102,7 @@ def _(np):
         mu, std = model.predict(X, return_std=True)
         mu_sample_opt = np.min(y_sample)
 
-        with np.errstate(divide='warn'):
+        with np.errstate(divide="warn"):
             imp = mu_sample_opt - mu - xi  # because we are minimizing
             Z = imp / std
             ei = imp * norm.cdf(Z) + std * norm.pdf(Z)
@@ -118,7 +119,7 @@ def _(X, X_sample, expected_improvement, gpr, np, plt, y_sample):
 
     plt.figure(figsize=(10, 4))
     plt.plot(X, ei, label="Expected Improvement")
-    plt.axvline(X[np.argmax(ei)], color='r', linestyle='--', label="Next sample point")
+    plt.axvline(X[np.argmax(ei)], color="r", linestyle="--", label="Next sample point")
     plt.title("Acquisition Function (Expected Improvement)")
     plt.xlabel("x")
     plt.ylabel("EI(x)")
@@ -135,7 +136,7 @@ def _(X, black_box_function, expected_improvement, gpr, np):
         X_sample = np.array([[1.0], [2.5], [4.0]])
         y_sample = black_box_function(X_sample)
 
-        for i in range(n_iter):
+        for _ in range(n_iter):
             gpr.fit(X_sample, y_sample)
             ei = expected_improvement(X, X_sample, y_sample, gpr)
             x_next = X[np.argmax(ei)].reshape(-1, 1)
@@ -161,8 +162,8 @@ def _(bayesian_optimization):
 @app.cell
 def _(X, X_opt, black_box_function, plt, y_opt):
     # Plot final sampled points
-    plt.plot(X, black_box_function(X), 'k--', label="True function")
-    plt.scatter(X_opt, y_opt, c='red', label="Sampled Points")
+    plt.plot(X, black_box_function(X), "k--", label="True function")
+    plt.scatter(X_opt, y_opt, c="red", label="Sampled Points")
     plt.title("Bayesian Optimization with Gaussian Process")
     plt.xlabel("x")
     plt.ylabel("f(x)")

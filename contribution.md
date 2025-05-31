@@ -25,8 +25,7 @@ As a writer for CodeCut, your role is to:
 - Break down complex tools and workflows into clear, digestible pieces
 - Focus on practical value over theoretical depth
 - Maintain a tone that is approachable, confident, and helpful
-- Write only about topics you are genuinely interested in
-- Enjoy the writing process—we want this to be fun for you, too
+- Show rather than tell - use code snippets, visuals, or graphs to demonstrate your points
 
 ## Writing Checklist
 
@@ -37,7 +36,7 @@ You can check off these items directly in your IDE (such as VS Code, PyCharm, or
 ### Writing Style Checklist
 
 - [ ] Use action verbs instead of passive voice
-- [ ] Limit paragraphs to 2-4 sentences
+- [ ] Limit paragraphs to 2 sentences. If the paragraph explains a code snippet or workflow, consider using bullet points to make it easier to follow.
 - [ ] For every major code block, provide a clear explanation of what it does and why it matters.
 - [ ] Structure content for quick scanning with clear headings and bullet points
 
@@ -167,4 +166,3 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
    git push origin feature/your-feature-name
    # Then go to GitHub and click "Create Pull Request"
    ```
-

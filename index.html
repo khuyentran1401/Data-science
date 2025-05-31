@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCut Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: white;
+            background-color: #2F2D2E;
+        }
+        h1 {
+            color: white;
+            border-bottom: 2px solid white;
+            padding-bottom: 0.5rem;
+        }
+        .notebook-list {
+            list-style: none;
+            padding: 0;
+        }
+        .notebook-item {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 2px solid white;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .notebook-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+        .notebook-title {
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem 0;
+            color: white;
+        }
+        .notebook-description {
+            color: #CCCCCC;
+            margin-bottom: 1rem;
+        }
+        .notebook-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #72BEFA;
+            color: #2F2D2E;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.2s;
+            border: 2px solid white;
+            font-weight: 600;
+        }
+        .notebook-link:hover {
+            background-color: #5AA8E8;
+            border: 2px solid white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <h1>CodeCut Marimo Notebook</h1>
+    <ul class="notebook-list">
+        <li class="notebook-item">
+            <h2 class="notebook-title">narwhals</h2>
+            <a href="data_science_tools/narwhals.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">narwhals row ordering</h2>
+            <a href="data_science_tools/narwhals_row_ordering.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">pandas api on spark</h2>
+            <a href="data_science_tools/pandas_api_on_spark.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">polars vs pandas</h2>
+            <a href="data_science_tools/polars_vs_pandas.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">pyspark parametrize</h2>
+            <a href="data_science_tools/pyspark_parametrize.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">diffbot llm</h2>
+            <a href="llm/diffbot_llm.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">lchain deepseek</h2>
+            <a href="llm/lchain_deepseek.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">lchain ollama</h2>
+            <a href="llm/lchain_ollama.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">pydantic ai examples</h2>
+            <a href="llm/pydantic_ai_examples.html" class="notebook-link">View the notebook</a>
+        </li>
+        <li class="notebook-item">
+            <h2 class="notebook-title">gpr optimization</h2>
+            <a href="machine-learning/gpr_optimization.html" class="notebook-link">View the notebook</a>
+        </li>
+    </ul>
+</body>
+</html>

@@ -155,7 +155,13 @@ The exported HTML files will be automatically deployed to GitHub Pages through t
    git commit -m "Description of your changes"
    ```
 
-4. Submit a pull request
+4. Pull the latest changes
+   ```bash
+   # Pull the latest changes
+   git pull origin main
+   ```
+
+5. Submit a pull request
    ```bash
    # Push your changes to your fork
    git push origin feature/your-feature-name

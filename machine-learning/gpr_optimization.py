@@ -17,23 +17,52 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
+    import random
+    import time
+
+    def train_model(epochs, batch_size):
+        # Simulate training by producing a score based on epochs and batch size
+        time.sleep(0.5)  # 0.5 second delay to mimic compute time
+        random.seed(epochs + batch_size)
+        return {"score": random.uniform(0.7, 0.95)}
+
+    def evaluate_model(model):
+        return model["score"]
+
+    best_score = float("-inf")
+    best_params = None
+
+    for epochs in [10, 50, 100]:
+        for batch_size in [16, 32, 64]:
+            print(f"Training model with epochs={epochs}, batch_size={batch_size}...")
+            model = train_model(epochs=epochs, batch_size=batch_size)
+            score = evaluate_model(model)
+            print(f"--> Score: {score:.4f}")
+            if score > best_score:
+                best_score = score
+                best_params = {"epochs": epochs, "batch_size": batch_size}
+                print(f"--> New best score! Updated best_params: {best_params}")
+
+    print("Best score:", best_score)
+    print("Best params:", best_params)
+    return (time,)
+
+
+@app.cell
+def _():
     import matplotlib.pyplot as plt
     import numpy as np
     from sklearn.gaussian_process import GaussianProcessRegressor
     from sklearn.gaussian_process.kernels import ConstantKernel as C
     from sklearn.gaussian_process.kernels import Matern, WhiteKernel
+    return C, GaussianProcessRegressor, Matern, WhiteKernel, np, plt
 
+
+@app.cell
+def _(np):
     def black_box_function(x):
         return - (np.sin(3*x) + 0.5 * x)
-    return (
-        C,
-        GaussianProcessRegressor,
-        Matern,
-        WhiteKernel,
-        black_box_function,
-        np,
-        plt,
-    )
+    return (black_box_function,)
 
 
 @app.cell
@@ -53,6 +82,26 @@ def _(black_box_function, np):
     X_grid = np.linspace(0, 2, 100).reshape(-1, 1)
     y_grid = black_box_function(X_grid)
     x_best = X_grid[np.argmax(y_grid)]
+    return
+
+
+@app.cell
+def _(black_box_function, np, time):
+    def train(epochs):
+        time.sleep(0.1)  # Simulate a slow training step
+        return black_box_function(epochs)
+
+    search_space = np.linspace(0, 5, 1000)
+    results = []
+
+    start = time.time()
+    for x in search_space:
+        loss = train(x)
+        results.append((x, loss))
+    end = time.time()
+
+    print("Best x:", search_space[np.argmin([r[1] for r in results])])
+    print("Time taken:", round(end - start, 2), "seconds")
     return
 
 

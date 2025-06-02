@@ -123,12 +123,13 @@ def _():
     """
     completion_response = llm.invoke(text)
     print(completion_response)
-    return (OllamaLLM,)
+    return OllamaLLM, llm
 
 
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""For streaming responses (showing tokens as they're generated):""")
+@app.cell
+def _(llm):
+    completion_response_1 = llm.invoke("Create unit tests for the `calculate_total_sales` function")
+    print(completion_response_1)
     return
 
 

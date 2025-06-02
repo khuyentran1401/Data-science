@@ -15,6 +15,44 @@ __generated_with = "0.13.7"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _():
+    import matplotlib.pyplot as plt
+
+    def apply_codecut_style(ax=None):
+        """
+        Apply CodeCut plot styling to a given Matplotlib Axes.
+        If no Axes is provided, use the current active Axes.
+        """
+        if ax is None:
+            ax = plt.gca()
+
+        # Set global figure facecolor
+        plt.figure(facecolor="#2F2D2E")
+
+        # Background colors
+        fig = ax.figure
+        fig.patch.set_facecolor("#2F2D2E")
+        ax.set_facecolor("#2F2D2E")
+
+        # Line and text colors
+        ax.title.set_color("white")
+        ax.xaxis.label.set_color("white")
+        ax.yaxis.label.set_color("white")
+        ax.tick_params(axis="x", colors="white")
+        ax.tick_params(axis="y", colors="white")
+
+        # Spine colors
+        for spine in ax.spines.values():
+            spine.set_color("white")
+
+        # Optional: turn off grid
+        ax.grid(False)
+
+        return ax
+    return apply_codecut_style, plt
+
+
 @app.cell
 def _():
     import random
@@ -45,17 +83,16 @@ def _():
 
     print("Best score:", best_score)
     print("Best params:", best_params)
-    return (time,)
+    return
 
 
 @app.cell
 def _():
-    import matplotlib.pyplot as plt
     import numpy as np
     from sklearn.gaussian_process import GaussianProcessRegressor
     from sklearn.gaussian_process.kernels import ConstantKernel as C
     from sklearn.gaussian_process.kernels import Matern, WhiteKernel
-    return C, GaussianProcessRegressor, Matern, WhiteKernel, np, plt
+    return C, GaussianProcessRegressor, Matern, WhiteKernel, np
 
 
 @app.cell
@@ -66,15 +103,20 @@ def _(np):
 
 
 @app.cell
-def _(black_box_function, np, plt):
+def _(black_box_function, np):
     X = np.linspace(0, 5.5, 1000).reshape(-1, 1)
     y = black_box_function(X)
-    plt.plot(X, y)
+    return X, y
+
+
+@app.cell
+def _(X, apply_codecut_style, plt, y):
+    plt.plot(X, y, "--", color="white")
     plt.title("Black-box function")
     plt.xlabel("x")
     plt.ylabel("f(x)")
-    plt.show()
-    return X, y
+    apply_codecut_style()
+    return
 
 
 @app.cell
@@ -86,22 +128,23 @@ def _(black_box_function, np):
 
 
 @app.cell
-def _(black_box_function, np, time):
-    def train(epochs):
-        time.sleep(0.1)  # Simulate a slow training step
-        return black_box_function(epochs)
+def _():
+    # def train(epochs):
+    #     time.sleep(0.1)  # Simulate a slow training step
+    #     return black_box_function(epochs)
 
-    search_space = np.linspace(0, 5, 1000)
-    results = []
+    # search_space = np.linspace(0, 5, 1000)
+    # results = []
 
-    start = time.time()
-    for x in search_space:
-        loss = train(x)
-        results.append((x, loss))
-    end = time.time()
+    # start = time.time()
+    # for x in search_space:
+    #     loss = train(x)
+    #     results.append((x, loss))
+    # end = time.time()
 
-    print("Best x:", search_space[np.argmin([r[1] for r in results])])
-    print("Time taken:", round(end - start, 2), "seconds")
+    # best_x = search_space[np.argmin([r[1] for r in results])]
+    # print(f"Best x: {best_x}")
+    # print("Time taken:", round(end - start, 2), "seconds")
     return
 
 
@@ -125,21 +168,21 @@ def _(C, GaussianProcessRegressor, Matern, WhiteKernel, X_sample, y_sample):
 
 
 @app.cell
-def _(X, X_sample, gpr, plt, y, y_sample):
+def _(X, X_sample, apply_codecut_style, gpr, plt, y, y_sample):
     # Predict across the domain
     mu, std = gpr.predict(X, return_std=True)
 
     # Plot the result
     plt.figure(figsize=(10, 5))
-    plt.plot(X, y, "k--", label="True function")
-    plt.plot(X, mu, "b-", label="GPR mean")
+    plt.plot(X, y, "--", label="True function", color="white")
+    plt.plot(X, mu, "-", label="GPR mean", color="#72BEFA")
     plt.fill_between(X.ravel(), mu - std, mu + std, alpha=0.3, label="Uncertainty")
-    plt.scatter(X_sample, y_sample, c="red", label="Samples")
+    plt.scatter(X_sample, y_sample, c="#E583B6", label="Samples")
     plt.legend()
     plt.title("Gaussian Process Fit")
     plt.xlabel("x")
     plt.ylabel("f(x)")
-    plt.show()
+    apply_codecut_style()
     return
 
 
@@ -163,18 +206,26 @@ def _(np):
 
 
 @app.cell
-def _(X, X_sample, expected_improvement, gpr, np, plt, y_sample):
+def _(
+    X,
+    X_sample,
+    apply_codecut_style,
+    expected_improvement,
+    gpr,
+    np,
+    plt,
+    y_sample,
+):
     ei = expected_improvement(X, X_sample, y_sample, gpr)
 
     plt.figure(figsize=(10, 4))
-    plt.plot(X, ei, label="Expected Improvement")
-    plt.axvline(X[np.argmax(ei)], color="r", linestyle="--", label="Next sample point")
+    plt.plot(X, ei, label="Expected Improvement", color="#72BEFA")
+    plt.axvline(X[np.argmax(ei)], color="#E583B6", linestyle="--", label="Next sample point")
     plt.title("Acquisition Function (Expected Improvement)")
     plt.xlabel("x")
     plt.ylabel("EI(x)")
     plt.legend()
-    plt.show()
-
+    apply_codecut_style()
     return
 
 
@@ -209,21 +260,15 @@ def _(bayesian_optimization):
 
 
 @app.cell
-def _(X, X_opt, black_box_function, plt, y_opt):
+def _(X, X_opt, apply_codecut_style, black_box_function, plt, y_opt):
     # Plot final sampled points
-    plt.plot(X, black_box_function(X), "k--", label="True function")
-    plt.scatter(X_opt, y_opt, c="red", label="Sampled Points")
+    plt.plot(X, black_box_function(X), "--", label="True function", color="white")
+    plt.scatter(X_opt, y_opt, c="#E583B6", label="Sampled Points")
     plt.title("Bayesian Optimization with Gaussian Process")
     plt.xlabel("x")
     plt.ylabel("f(x)")
     plt.legend()
-    plt.show()
-
-    return
-
-
-@app.cell
-def _():
+    apply_codecut_style()
     return
 
 

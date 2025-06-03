@@ -53,6 +53,12 @@ def _():
     return apply_codecut_style, plt
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Motivation""")
+    return
+
+
 @app.cell
 def _():
     import random
@@ -83,6 +89,12 @@ def _():
 
     print("Best score:", best_score)
     print("Best params:", best_params)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Setup""")
     return
 
 
@@ -119,11 +131,31 @@ def _(X, apply_codecut_style, plt, y):
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Brute force hyperparameter search""")
+    return
+
+
 @app.cell
 def _(black_box_function, np):
     X_grid = np.linspace(0, 2, 100).reshape(-1, 1)
     y_grid = black_box_function(X_grid)
     x_best = X_grid[np.argmax(y_grid)]
+    return X_grid, x_best, y_grid
+
+
+@app.cell
+def _(X_grid, apply_codecut_style, black_box_function, plt, x_best, y_grid):
+    plt.plot(X_grid, y_grid, "--", color="white", label="True function")
+    plt.scatter(X_grid, y_grid, c="#E583B6", label="Evaluated Points")
+    plt.scatter(x_best, black_box_function(x_best), c="#72BEFA", s=80, edgecolors="black", label="Best Point")
+
+    plt.title("Brute Force Search Over Full Range")
+    plt.xlabel("x")
+    plt.ylabel("f(x)")
+    plt.legend()
+    apply_codecut_style()
     return
 
 
@@ -145,6 +177,12 @@ def _():
     # best_x = search_space[np.argmin([r[1] for r in results])]
     # print(f"Best x: {best_x}")
     # print("Time taken:", round(end - start, 2), "seconds")
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Introducing Gaussian Process Regression""")
     return
 
 
@@ -183,6 +221,12 @@ def _(X, X_sample, apply_codecut_style, gpr, plt, y, y_sample):
     plt.xlabel("x")
     plt.ylabel("f(x)")
     apply_codecut_style()
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Bayesian Optimization Step""")
     return
 
 
@@ -229,6 +273,12 @@ def _(
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Hypeparameter Search Loop""")
+    return
+
+
 @app.cell
 def _(X, black_box_function, expected_improvement, gpr, np):
     def bayesian_optimization(n_iter=10):
@@ -270,6 +320,12 @@ def _(X, X_opt, apply_codecut_style, black_box_function, plt, y_opt):
     plt.legend()
     apply_codecut_style()
     return
+
+
+@app.cell
+def _():
+    import marimo as mo
+    return (mo,)
 
 
 if __name__ == "__main__":

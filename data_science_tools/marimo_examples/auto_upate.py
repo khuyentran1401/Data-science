@@ -1,6 +1,13 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "marimo",
+# ]
+# ///
+
 import marimo
 
-__generated_with = "0.13.0"
+__generated_with = "0.13.7"
 app = marimo.App(width="medium")
 
 

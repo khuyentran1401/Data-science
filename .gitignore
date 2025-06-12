@@ -148,3 +148,4 @@ outputs
 marimo_notebooks
 *.csv
 *.parquet
+__marimo__/

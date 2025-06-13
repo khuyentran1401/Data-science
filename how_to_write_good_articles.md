@@ -47,23 +47,18 @@ Graphics and code snippets are more effective than text. Whenever possible, use 
 
 ❌ Don't: Use only text to explain.
 
-```
-DuckDB is a fast, in-process SQL OLAP database management system. It supports standard SQL queries on Parquet and CSV files, and provides seamless integration with Python DataFrames. DuckDB is useful for analytics workloads on local data without needing a server.
-```
+> DuckDB is a fast, in-process SQL OLAP database management system. It supports standard SQL queries on Parquet and CSV files, and provides seamless integration with Python DataFrames. DuckDB is useful for analytics workloads on local data without needing a server.
 
 ✅ Do: Use both text and code snippets to explain.
 
-```
-You can query a Parquet file directly using DuckDB with a single line of SQL:
-
-```python
-import duckdb
-
-duckdb.query("SELECT COUNT(*) FROM 'data.parquet'").show()
-```
-
-This runs a SQL query on a local Parquet file without needing to load it into memory first.
-```
+> You can query a Parquet file directly using DuckDB with a single line of SQL:
+>
+>```python
+>import duckdb
+>duckdb.query("SELECT COUNT(*) FROM 'data.parquet'").show()
+>```
+>
+> This runs a SQL query on a local Parquet file without needing to load it into memory first.
 
 ### Keep Paragraphs Short
 

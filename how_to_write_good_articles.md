@@ -170,6 +170,6 @@ Write things out. The cost to experts is low and the benefit to beginners is hig
 
 ## About This Guideline
 
-This guideline is written by [Khuyen Tran](https://www.linkedin.com/in/khuyen-tran-1401/), the founder of [CodeCut](https://codecut.ai). She has written hundreds of articles on data science and machine learning.
+This guideline is written by [Khuyen Tran](https://www.linkedin.com/in/khuyen-tran-1401/), the founder of [CodeCut](https://codecut.ai/?utm_source=github&utm_medium=data_science_repo&utm_campaign=how_to_write_good_articles). She has written hundreds of articles on data science and machine learning.
 
 If you are interested in contributing to CodeCut, please refer to [Contribution Guidelines](contribution.md).

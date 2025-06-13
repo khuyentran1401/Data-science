@@ -1,4 +1,4 @@
-# Contribution Guidelines
+<file name=1 path=/Users/khuyentran/Data-science/contribution.md># Contribution Guidelines
 
 ## Table of Contents
 
@@ -27,32 +27,15 @@ As a writer for CodeCut, your role is to:
 - Maintain a tone that is approachable, confident, and helpful
 - Show rather than tell - use code snippets, visuals, or graphs to demonstrate your points
 
-## Writing Checklist
+## How to Write a Good Article
 
-To check off an item, replace `[ ]` with `[x]`.
+Good technical articles are:
 
-You can check off these items directly in your IDE (such as VS Code, PyCharm, or others).
+- Easy to skim
+- Broadly helpful
+- Clear and concise
 
-### Writing Style Checklist
-
-- [ ] Use action verbs instead of passive voice
-- [ ] Limit paragraphs to 2 sentences. If the paragraph explains a code snippet or workflow, consider using bullet points to make it easier to follow.
-- [ ] For every major code block, provide a clear explanation of what it does and why it matters.
-- [ ] Structure content for quick scanning with clear headings and bullet points
-
-### Data Science-Focused Writing Checklist
-
-- [ ] Write for data scientists comfortable with Python but unfamiliar with this specific tool or library.
-- [ ] Use examples that align with common data science workflows or problems
-- [ ] Highlight **only** the features that matter to a data science audience
-
-### Structure Checklist
-
-- [ ] Start with a real, practical data science problem
-- [ ] Explain how each tool solves the problem
-- [ ] Use diagrams or charts to explain complex ideas, when appropriate.
-- [ ] Define new concepts and terminology
-- [ ] Only include the essential setup steps needed to run the examples. For anything beyond that, link to the official documentation.
+Follow the tips highlighted in [How to Write Good Technical Articles](how_to_write_good_articles.md) to write a good article.
 
 ## Write Article Draft
 

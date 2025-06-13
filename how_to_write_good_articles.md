@@ -10,37 +10,6 @@ Articles put useful information inside other people's heads. Follow these tips t
 
 ## General Tips
 
-### Know Your Audience
-
-Understanding your audience is crucial for effective technical writing. Before writing, consider:
-
-- Their technical background and experience level
-- What problems they're trying to solve
-- What information they need to succeed
-
-For CodeCut articles, we write for data scientists who:
-
-- Are proficient in Python
-- Need to learn new tools quickly
-- Want practical, working examples
-
-Focus on delivering exactly what they need - no more, no less. Cut any content that doesn't directly help them solve their problem.
-
-
-### Use Action Verbs
-
-Use action verbs instead of passive voice.
-
-❌ Don't:
-```
-SQL operations on DataFrames are provided by DuckDB without server setup.
-```
-
-✅ Do:
-```
-DuckDB provides SQL operations on DataFrames without server setup.
-```
-
 ### Don't Tell, Show
 
 Graphics and code snippets are more effective than text. Whenever possible, use them to explain your points instead of lengthy paragraphs.
@@ -59,6 +28,36 @@ Graphics and code snippets are more effective than text. Whenever possible, use 
 >```
 >
 > This runs a SQL query on a local Parquet file without needing to load it into memory first.
+
+### Use Action Verbs
+
+Use action verbs instead of passive voice.
+
+❌ Don't:
+```
+SQL operations on DataFrames are provided by DuckDB without server setup.
+```
+
+✅ Do:
+```
+DuckDB provides SQL operations on DataFrames without server setup.
+```
+
+### Know Your Audience
+
+Understanding your audience is crucial for effective technical writing. Before writing, consider:
+
+- Their technical background and experience level
+- What problems they're trying to solve
+- What information they need to succeed
+
+For CodeCut articles, we write for data scientists who:
+
+- Are proficient in Python
+- Need to learn new tools quickly
+- Want practical, working examples
+
+Focus on delivering exactly what they need - no more, no less. Cut any content that doesn't directly help them solve their problem.
 
 ### Keep Paragraphs Short
 

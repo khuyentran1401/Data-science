@@ -173,3 +173,9 @@ Write things out. The cost to experts is low and the benefit to beginners is hig
 ✅ Do: Write things out.
 
 "Retrieval-augmented generation"
+
+## About This Guideline
+
+This guideline is written by [Khuyen Tran](https://www.linkedin.com/in/khuyen-tran-1401/), the founder of [CodeCut](https://codecut.ai). She has written hundreds of articles on data science and machine learning.
+
+If you are interested in contributing to CodeCut, please refer to [Contribution Guidelines](contribution.md).

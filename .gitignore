@@ -16,6 +16,7 @@ scraping/ghibli.ipynb
 *-workspace
 .vscode
 .DS_Store
+.cursor
 
 # C extensions
 *.so
